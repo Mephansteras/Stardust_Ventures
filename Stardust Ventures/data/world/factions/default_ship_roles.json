@@ -1,0 +1,85 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+        "sv_stormrunner_stock":4,
+        "sv_stormrunner_escort":3,
+        "sv_stormrunner_assault":3,
+        "sv_horizonchaser_mil":5,
+        "sv_comettail_stock":5,
+        "sv_comettail_support":5,
+        "sv_plasmaburst_stock":4,
+        "sv_plasmaburst_strike":3,
+        "sv_plasmaburst_support":3,
+        
+	},
+	"combatSmall":{
+        "sv_stormrunner_stock":4,
+        "sv_stormrunner_escort":3,
+        "sv_stormrunner_assault":3,
+        "sv_horizonchaser_mil":5,
+        "sv_comettail_stock":5,
+        "sv_comettail_support":5,
+        "sv_plasmaburst_stock":4,
+        "sv_plasmaburst_strike":3,
+        "sv_plasmaburst_support":3,
+	},
+    	"combatMedium":{
+            
+		"sv_starlightguard_stock":4,
+		"sv_starlightguard_flak":3,
+		"sv_starlightguard_close":3,
+        "sv_warpdiver_stock":5,
+        "sv_warpdiver_strike":5,   
+        
+		"sv_starlightguard_pirate_p":10,       
+
+	},
+    "combatLarge":{
+		"sv_voidnomad_mil":10,
+        "sv_stormherald_stock":5,
+        "sv_stormherald_assault":5,
+        "sv_vortexhunter_stock":5,
+        "sv_vortexhunter_brawler":5,
+    },
+    "combatCapital":{
+		"sv_stormbringer_stock":4,
+		"sv_stormbringer_shock":3,
+        "sv_stormbringer_lancer":3,
+	},
+		"civilianRandom":{
+		"sv_horizonchaser_stock":10,
+        "sv_stargazer_stock":5,
+        "sv_stargazer_seeker":5,
+        "sv_sunbeamrider_stock":10,
+	},    
+    # hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+        "sv_ionskimmer_bulk":5,
+        "sv_ionskimmer_stock":5,
+        "sv_stargazer_stock":5,
+        "sv_stargazer_seeker":5,
+	},
+    # freighters and such
+	"freighterSmall":{
+        
+		"sv_sunbeamrider_stock":10,
+	},
+    "combatFreighterMedium":{
+		"sv_warpdiver_blockade":3,
+	},    
+    "combatFreighterLarge":{
+		"sv_voidnomad_stock":10,
+	},
+    # carriers
+    	"carrierMedium":{
+        "sv_cosmicfury_stock":10,
+        "sv_cosmicwind_stock":5,
+        "sv_cosmicwind_assault":5,
+	},
+    "carrierLarge":{
+		"sv_solarflare_assault":5,
+		"sv_solarflare_stock":5,
+	},
+	
+}

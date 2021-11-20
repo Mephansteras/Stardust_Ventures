@@ -1,0 +1,31 @@
+{
+  "variantId": "sv_warpdiver_blockade",
+  "hullId": "sv_warpdiver",
+  "displayName": "Blockade Runner",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "shielded_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gravitonbeam",
+        "WS0002": "mininglaser",
+        "WS0003": "mininglaser",
+        "WS0004": "mininglaser",
+        "WS0005": "mininglaser",
+        "WS0006": "mininglaser",
+        "WS0007": "gravitonbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

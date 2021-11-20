@@ -1,0 +1,29 @@
+{
+  "variantId": "sv_vortexhunter_stock",
+  "hullId": "sv_vortexhunter",
+  "displayName": "Flanker",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 26,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ionpulser",
+        "WS0002": "gauss",
+        "WS0003": "harpoonpod",
+        "WS0004": "typhoon",
+        "WS0005": "vulcan",
+        "WS0006": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

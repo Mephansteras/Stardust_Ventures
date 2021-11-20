@@ -1,0 +1,25 @@
+{
+  "variantId": "sv_plasmaburst_strike",
+  "hullId": "sv_plasmaburst",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sabot_single",
+        "WS0002": "sabot_single",
+        "WS0003": "lightac",
+        "WS0004": "lightac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

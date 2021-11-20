@@ -1,0 +1,30 @@
+{
+  "variantId": "sv_starlightguard_stock",
+  "hullId": "sv_starlightguard",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lrpdlaser",
+        "WS0002": "lrpdlaser",
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualmg",
+        "WS0005": "pulselaser",
+        "WS0006": "salamanderpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
