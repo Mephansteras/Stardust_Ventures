@@ -3,7 +3,7 @@
 	# "CUSTOM"
 
 
-	"SV_TECH":{
+	"stardust_TECH":{
 		"engineColor":[112, 255, 255,255],
 		"engineCampaignColor":[112, 255, 255,255],
 		"contrailParticleSizeMult":4,
@@ -16,7 +16,7 @@
 		"type":"SMOKE" # GLOW or SMOKE
 	},
 	
-	"SV_TECH2":{
+	"stardust_TECH2":{
 		"engineColor":[175, 232, 255,255],
 		"engineCampaignColor":[175, 232, 255,255],
 		"contrailParticleSizeMult":4,

@@ -1,20 +1,20 @@
 {
     "hullFrequency":{
         "hulls":{
-            "sv_starlightguard_pirate":0.75,
-            "sv_cosmicfury":0.75,
+            "stardust_starlightguard_pirate":0.75,
+            "stardust_cosmicfury":0.75,
         },
     },
     "shipsWhenImporting":{
         "hulls":[
-            "sv_starlightguard_pirate",
-            "sv_cosmicfury",
+            "stardust_starlightguard_pirate",
+            "stardust_cosmicfury",
         ],
     },
     "knownShips":{
         "hulls":[
-            "sv_starlightguard_pirate",
-            "sv_cosmicfury",
+            "stardust_starlightguard_pirate",
+            "stardust_cosmicfury",
         ],
     },
 },

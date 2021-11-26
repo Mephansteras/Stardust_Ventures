@@ -1,0 +1,102 @@
+{
+  "hullName": "Hoizon Chaser",
+  "hullId": "stardust_horizonchaser",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/stardust_horizon_chaser.png",
+  "style": "MIDLINE",
+  "height": 107,
+  "width": 63,
+  "center": [37.5, 50],
+  "collisionRadius": 67,
+  "shieldCenter": [3, -0.5],
+  "shieldRadius": 59,
+  "viewOffset": 0,
+  "builtInMods": [
+    "solar_shielding",
+    "surveying_equipment",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-22.5, 27.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-21.5, -14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 0,
+      "locations": [-6.5, 13]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 0,
+      "locations": [-6.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51, 24],
+      "length": 76,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-51.5, -12],
+      "length": 76,
+      "width": 22,
+      "angle": -180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-40.5, 6],
+      "length": 87,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    }
+  ],
+  "bounds": [
+    -49, 27,
+    -45, 27,
+    -36, 36,
+    4, 35,
+    45.5, 22.5,
+    56.5, 12.5,
+    29.5, 16.5,
+    30, -3,
+    56.5, -0,
+    44.5, -10,
+    2.5, -24,
+    -38, -25,
+    -44, -16,
+    -49, -15.5
+  ]
+}

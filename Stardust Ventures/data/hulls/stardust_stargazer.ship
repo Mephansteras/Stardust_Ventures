@@ -1,0 +1,121 @@
+{
+  "hullName": "Stargazer",
+  "hullId": "stardust_stargazer",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/stardust_stargazer.png",
+  "style": "MIDLINE",
+  "height": 209,
+  "width": 160,
+  "center": [79.5, 103.5],
+  "collisionRadius": 126,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 109.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "surveying_equipment",
+    "solar_shielding",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": 0,
+      "locations": [-26, 43.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 35,
+      "angle": -0,
+      "locations": [-26.5, -47]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [-23.5, -0.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-63.5, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-57, 72],
+      "length": 43,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-57.5, -72.5],
+      "length": 43,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-82.5, 28.5],
+      "length": 115.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-82, -29.5],
+      "length": 115,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    }
+  ],
+  "bounds": [
+    107, -1,
+    74.5, -13,
+    -16.5, -29,
+    -15.5, -57.5,
+    0, -58.5,
+    -12, -74.5,
+    -55, -79.5,
+    -56, -66,
+    -38, -38.5,
+    -74.5, -37,
+    -83.5, -17,
+    -103, -8.5,
+    -103, 8.5,
+    -83.5, 17,
+    -74.5, 37,
+    -38, 38.5,
+    -56, 66,
+    -55, 79.5,
+    -12, 74.5,
+    0, 58.5,
+    -15.5, 57.5,
+    -16.5, 29,
+    74.5, 13,
+    107, 1
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "stardust_stargazer_seeker",
+  "hullId": "stardust_stargazer",
+  "displayName": "Stargazer (S)",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "repair_gantry",
+    "hiressensors",
+    "shielded_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "swarmer",
+        "WS0002": "swarmer",
+        "WS0003": "shredder",
+        "WS0004": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

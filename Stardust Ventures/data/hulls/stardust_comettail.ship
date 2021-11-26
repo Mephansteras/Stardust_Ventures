@@ -1,0 +1,103 @@
+{
+  "hullName": "Comet Tail",
+  "hullId": "stardust_comettail",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/stardust_comet_tail.png",
+  "style": "MIDLINE",
+  "height": 113,
+  "width": 81,
+  "center": [38, 53.5],
+  "collisionRadius": 75.5,
+  "shieldCenter": [0, -1],
+  "shieldRadius": 64.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "solar_shielding"
+  ],
+  "builtInWeapons": {
+    "WS0001": "atropos",
+    "WS0002": "sabot"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [24.5, 22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [23.5, -26.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [1.5, 19.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [1, -23.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [29.5, -2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-54, -1],
+      "length": 66.5,
+      "width": 42,
+      "angle": 180,
+      "contrailSize": 42,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    }
+  ],
+  "bounds": [
+    55, -8.5,
+    11, -12.5,
+    11.5, -20,
+    24, -22.5,
+    24, -30,
+    40, -35,
+    -10.5, -39.5,
+    -51, -35,
+    -15.5, -30.5,
+    -19.5, -11,
+    -52.5, -11.5,
+    -52.5, 6.5,
+    -19.5, 6,
+    -15.5, 25.5,
+    -51, 30,
+    -10.5, 34.5,
+    40, 30,
+    24, 25,
+    24, 17.5,
+    11.5, 15,
+    11, 7.5,
+    55, 3.5
+  ]
+}

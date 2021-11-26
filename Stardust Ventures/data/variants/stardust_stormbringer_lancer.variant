@@ -1,0 +1,40 @@
+{
+  "variantId": "stardust_stormbringer_lancer",
+  "hullId": "stardust_stormbringer",
+  "displayName": "Lancer",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "resonatormrm",
+        "WS0002": "squall",
+        "WS0003": "tachyonlance",
+        "WS0004": "tachyonlance",
+        "WS0005": "hveldriver",
+        "WS0006": "hveldriver",
+        "WS0007": "flak",
+        "WS0008": "flak",
+        "WS0009": "ionbeam",
+        "WS0010": "ionbeam",
+        "WS0011": "lightdualmg",
+        "WS0012": "lightdualmg",
+        "WS0013": "lightdualmg",
+        "WS0014": "lightdualmg",
+        "WS0015": "taclaser",
+        "WS0016": "taclaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

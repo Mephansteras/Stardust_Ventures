@@ -1,0 +1,87 @@
+{
+  "hullName": "Ion Skimmer",
+  "hullId": "stardust_ionskimmer",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/stardust_ion_skimmer.png",
+  "style": "MIDLINE",
+  "height": 94,
+  "width": 49,
+  "center": [24, 42],
+  "collisionRadius": 57,
+  "shieldCenter": [1.5, -0],
+  "shieldRadius": 53,
+  "viewOffset": 0,
+  "builtInMods": [
+    "solar_shielding"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, -0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-16.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [15.5, -0.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [32, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35, 12],
+      "length": 38.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-35, -12.5],
+      "length": 37.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    }
+  ],
+  "bounds": [
+    -27, 3,
+    -33, 8,
+    -33, 23,
+    3, 22,
+    50.5, 1,
+    50.5, -2.5,
+    2.5, -23,
+    -33, -23,
+    -33, -9.5,
+    -27, -4
+  ]
+}
