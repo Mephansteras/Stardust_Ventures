@@ -14,31 +14,9 @@
   "builtInMods": [
     "solar_shielding"
   ],
-  "builtInWeapons": {
-    "WS0001": "atropos",
-    "WS0002": "sabot"
-  },
   "weaponSlots": [
     {
       "id": "WS0001",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": 0,
-      "locations": [24.5, 22]
-    },
-    {
-      "id": "WS0002",
-      "size": "SMALL",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": -0,
-      "locations": [23.5, -26.5]
-    },
-    {
-      "id": "WS0003",
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HARDPOINT",
@@ -47,13 +25,31 @@
       "locations": [1.5, 19.5]
     },
     {
-      "id": "WS0004",
+      "id": "WS0002",
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HARDPOINT",
       "arc": 15,
       "angle": -0,
       "locations": [1, -23.5]
+    },
+        {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [24.5, 22]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [23.5, -26.5]
     },
     {
       "id": "WS0005",
