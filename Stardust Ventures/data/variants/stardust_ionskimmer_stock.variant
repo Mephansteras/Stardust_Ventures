@@ -3,8 +3,8 @@
   "hullId": "stardust_ionskimmer",
   "displayName": "Courier",
   "goalVariant": true,
-  "fluxCapacitors": 9,
-  "fluxVents": 10,
+  "fluxCapacitors": 7,
+  "fluxVents": 9,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -16,9 +16,9 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "irpulse",
-        "WS0002": "irpulse",
-        "WS0003": "lightmg",
-        "WS0004": "lightmg"
+        "WS0002": "mininglaser",
+        "WS0003": "stardust_dualproton",
+        "WS0004": "stardust_dualproton"
       }
     }
   ],

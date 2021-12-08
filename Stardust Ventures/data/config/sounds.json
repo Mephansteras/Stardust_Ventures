@@ -1,0 +1,19 @@
+{
+	"stardust_dualproton_fire":[
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.4, "volume":0.40},
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.38, "volume":0.40},
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.36, "volume":0.40},
+        {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.34, "volume":0.42},
+        {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.32, "volume":0.42},
+        {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.30, "volume":0.42}
+	],
+    
+    "stardust_heavyproton_fire":[
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.2, "volume":0.40},
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.18, "volume":0.40},
+		{"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.16, "volume":0.40},
+        {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.14, "volume":0.42},
+        {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.12, "volume":0.42},
+        {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.10, "volume":0.42}
+	],
+}
