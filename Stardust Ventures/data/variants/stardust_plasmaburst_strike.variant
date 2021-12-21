@@ -3,8 +3,8 @@
   "hullId": "stardust_plasmaburst",
   "displayName": "Strike",
   "goalVariant": true,
-  "fluxCapacitors": 6,
-  "fluxVents": 6,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -15,8 +15,8 @@
       "weapons": {
         "WS0001": "sabot_single",
         "WS0002": "sabot_single",
-        "WS0003": "lightac",
-        "WS0004": "lightac"
+        "WS0003": "stardust_felrepeater",
+        "WS0004": "stardust_felrepeater"
       }
     }
   ],

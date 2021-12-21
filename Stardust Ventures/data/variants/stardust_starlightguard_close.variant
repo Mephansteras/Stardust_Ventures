@@ -9,8 +9,7 @@
   "permaMods": [],
   "hullMods": [
     "reinforcedhull",
-    "turretgyros",
-    "magazines"
+    "turretgyros"
   ],
   "weaponGroups": [
     {

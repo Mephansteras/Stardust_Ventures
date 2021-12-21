@@ -1,0 +1,16 @@
+{
+	"id":"stardust_felcannon_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":50.0,
+	"width":20.0,
+	"hitGlowRadius":50,
+	"fadeTime":0.25,
+	"fringeColor":[170,207,215,255],
+	"coreColor":[151,244,244,244],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

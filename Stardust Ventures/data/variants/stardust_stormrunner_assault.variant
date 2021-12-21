@@ -18,8 +18,8 @@
       "weapons": {
         "WS0001": "lightmg",
         "WS0002": "lightmg",
-        "WS0003": "pulselaser",
-        "WS0004": "pulselaser"
+        "WS0003": "stardust_felpulser",
+        "WS0004": "stardust_felpulser"
       }
     }
   ],

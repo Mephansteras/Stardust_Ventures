@@ -3,13 +3,12 @@
   "hullId": "stardust_starlightguard",
   "displayName": "Escort",
   "goalVariant": true,
-  "fluxCapacitors": 20,
+  "fluxCapacitors": 19,
   "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "reinforcedhull",
-    "turretgyros"
+    "reinforcedhull"
   ],
   "weaponGroups": [
     {
