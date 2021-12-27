@@ -24,7 +24,7 @@
       "mount": "HARDPOINT",
       "arc": 35,
       "angle": 0,
-      "locations": [-26, 43.5]
+      "locations": [-12, 41]
     },
     {
       "id": "WS0002",
@@ -33,7 +33,7 @@
       "mount": "HARDPOINT",
       "arc": 35,
       "angle": -0,
-      "locations": [-26.5, -47]
+      "locations": [-12.5, -41.5]
     },
     {
       "id": "WS0003",
@@ -42,7 +42,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -0,
-      "locations": [-23.5, -0.5]
+      "locations": [-25.5, -0]
     },
     {
       "id": "WS0004",
@@ -51,7 +51,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 180,
-      "locations": [-63.5, -0.5]
+      "locations": [-77, -1]
     }
   ],
   "engineSlots": [

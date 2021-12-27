@@ -6,9 +6,9 @@
   "style": "MIDLINE",
   "height": 183,
   "width": 126,
-  "center": [63, 91.5],
+  "center": [63.5, 88],
   "collisionRadius": 105,
-  "shieldCenter": [0, 0],
+  "shieldCenter": [0, -0],
   "shieldRadius": 99.5,
   "viewOffset": 0,
   "builtInMods": [
@@ -25,7 +25,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 0,
-      "locations": [-3, 0.5]
+      "locations": [2.5, 1]
     },
     {
       "id": "WS0002",
@@ -34,7 +34,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -180,
-      "locations": [-71.5, 0.5]
+      "locations": [-67, 1]
     },
     {
       "id": "WS0003",
@@ -43,7 +43,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 45,
-      "locations": [-10.5, 40]
+      "locations": [5, 41.5]
     },
     {
       "id": "WS0004",
@@ -52,7 +52,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -45,
-      "locations": [-10.5, -40]
+      "locations": [5, -40]
     },
     {
       "id": "WS0005",
@@ -61,7 +61,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -115,
-      "locations": [-38, -24]
+      "locations": [-32, -19.5]
     },
     {
       "id": "WS0006",
@@ -70,49 +70,67 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 115,
-      "locations": [-38, 24]
+      "locations": [-32, 20.5]
     },
     {
       "id": "WS0007",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "TURRET",
-      "arc": 180,
+      "mount": "HARDPOINT",
+      "arc": 45,
       "angle": 0,
-      "locations": [33, -0]
+      "locations": [47.5, 0.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-93, -0],
-      "length": 81,
-      "width": 22,
+      "location": [-89.5, 0.5],
+      "length": 61,
+      "width": 14,
       "angle": 180,
-      "contrailSize": 22,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-88, 13],
+      "length": 45.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-88, -12],
+      "length": 45.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
       "style": "CUSTOM",
       "styleId": "stardust_TECH"
     }
   ],
   "bounds": [
-    72.5, -6,
-    41, -18,
-    9, -35,
-    8.5, -48.5,
-    -52.5, -47,
-    -54, -62.5,
-    -62, -62.5,
-    -73, -45,
-    -76.5, -12.5,
-    -88.5, -12,
-    -88.5, 12,
-    -76.5, 12.5,
-    -73, 45,
-    -62, 62.5,
-    -54, 62.5,
-    -52.5, 47,
-    8.5, 48.5,
-    9, 35,
-    41, 18,
-    72.5, 6
+    76, -5.5,
+    44.5, -17.5,
+    12.5, -34.5,
+    12, -48,
+    -49, -46.5,
+    -50.5, -62,
+    -58.5, -62,
+    -69.5, -44.5,
+    -73, -12,
+    -85, -11.5,
+    -85, 12.5,
+    -73, 13,
+    -69.5, 45.5,
+    -58.5, 63,
+    -50.5, 63,
+    -49, 47.5,
+    12, 49,
+    12.5, 35.5,
+    44.5, 18.5,
+    76, 6.5
   ]
 }
