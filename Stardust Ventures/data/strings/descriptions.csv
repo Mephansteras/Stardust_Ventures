@@ -24,3 +24,15 @@ stardust_felpulser,WEAPON,"A larger and more powerful Free-Electron Laser weapon
 The Free-Electron Laser family of weapons uses a stream of electrons accelerated to near the speed of light to damage the target. Easily modified to match a range of wavelengths, the technology is versitile and comes in several varieties. ",,,
 stardust_felcannon,WEAPON,"The largest and most powerful Free-Electron Laser weapon, the cannon does the most damage but at a considerable flux cost. The stream of electrons fired by this weapon can cause considerable damage as well as having an EMP effect on the target. 
 The Free-Electron Laser family of weapons uses a stream of electrons accelerated to near the speed of light to damage the target. Easily modified to match a range of wavelengths, the technology is versitile and comes in several varieties. ",,,
+stardust_cloudburst,WEAPON,"Fires a 2nd-stage spread of warheads that burst into a cloud of charged energy when in range. Designed for multi-purpose Area of Effect, the Cloudburst missiles can wipe out groups of missiles and fighters. Less effective against ships, but the EMP damage done on impacting enemy hull or armor can cripple a vulnerable vessel.
+
+This version is a rack that holds 3 missiles. ",,,
+stardust_cloudburst_pod,WEAPON,"Fires a 2nd-stage spread of warheads that burst into a cloud of charged energy when in range. Designed for multi-purpose Area of Effect, the Cloudburst missiles can wipe out groups of missiles and fighters. Less effective against ships, but the EMP damage done on impacting enemy hull or armor can cripple a vulnerable vessel.
+
+This version is a twin-firing pod that rearms after firing and draws new missiles from an internal stockpile.",,,
+stardust_cloudburst_single,WEAPON,"Fires a 2nd-stage spread of warheads that burst into a cloud of charged energy when in range. Designed for multi-purpose Area of Effect, the Cloudburst missiles can wipe out groups of missiles and fighters. Less effective against ships, but the EMP damage done on impacting enemy hull or armor can cripple a vulnerable vessel.
+
+This version is a rack that holds 2 missiles. ",,,
+stardust_cloudburst_fighter,WEAPON,"Fires a 2nd-stage spread of warheads that burst into a cloud of charged energy when in range. Designed for multi-purpose Area of Effect, the Cloudburst missiles can wipe out groups of missiles and fighters. Less effective against ships, but the EMP damage done on impacting enemy hull or armor can cripple a vulnerable vessel.
+
+This version is a rack that holds a single missile and is designed for use on fighters. ",,,

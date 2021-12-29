@@ -23,7 +23,7 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [48, -2]
+      "locations": [54, -1.5]
     },
     {
       "id": "WS0002",
@@ -32,25 +32,25 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [-54, -1.5]
+      "locations": [-57, -1.5]
     }
   ],
   "engineSlots": [
     {
       "location": [-88, 13.5],
-      "length": 92.5,
-      "width": 23,
+      "length": 81,
+      "width": 40,
       "angle": 180,
-      "contrailSize": 23,
+      "contrailSize": 40,
       "style": "CUSTOM",
       "styleId": "stardust_TECH"
     },
     {
       "location": [-88, -17.5],
-      "length": 92.5,
-      "width": 23,
+      "length": 82,
+      "width": 40,
       "angle": -180,
-      "contrailSize": 23,
+      "contrailSize": 40,
       "style": "CUSTOM",
       "styleId": "stardust_TECH"
     }

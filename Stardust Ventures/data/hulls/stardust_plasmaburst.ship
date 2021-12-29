@@ -15,8 +15,8 @@
     "solar_shielding"
   ],
   "builtInWeapons": {
-    "WS0001": "sabot_single",
-    "WS0002": "sabot_single"
+    "WS0001": "stardust_cloudburst_single",
+    "WS0002": "stardust_cloudburst_single"
   },
   "weaponSlots": [
     {
