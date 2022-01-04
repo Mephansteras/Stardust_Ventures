@@ -40,4 +40,9 @@
 		{"file":"sounds/sfx_wpn_energy/autopulse_laser_fire_01.ogg","pitch":9.80,"volume":0.8},
 		{"file":"sounds/sfx_wpn_energy/autopulse_laser_fire_01.ogg","pitch":0.79,"volume":0.8},
 	],
+    
+	"stardust_cloudburst_fire":
+	[
+		{"file":"sounds/sfx_wpn_missiles/sabot_srm_fire_01_loud.ogg","pitch":0.9,"volume":0.6},
+	],
 }

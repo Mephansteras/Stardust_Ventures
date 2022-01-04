@@ -1,0 +1,23 @@
+{
+  "variantId": "stardust_meteorite_Fighter",
+  "hullId": "stardust_meteorite",
+  "displayName": "Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_lightproton",
+        "WS0002": "stardust_lightproton"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -19,7 +19,7 @@ Storm Herald,stardust_stormherald,Strike Cruiser,Stardust Ventures,maneuveringje
 Cosmic Wind,stardust_cosmicwind,Fast Carrier,Stardust Ventures,targetingfeed,12,5000,650,4500,5400,300,100,2,90,60,40,25,30,700,FRONT,,270,0.5,0.7,,,150,250,75,75,2.7,27,9,120000,3,12,360,0.25,20,20,,,,,,,CARRIER,"midline_bp, merc",,0.5,2,3,,810
 #Astral,astral,Carrier,High Tech,recalldevice,27,10000,900,12000,15000,600,250,6,30,15,10,7,4,3000,FRONT,,360,0.7,0.6,,,450,1000,250,200,10,20,7,400000,3,15,600,0.25,50,50,,,,,,,CARRIER,"rare_bp, merc",,0.6,2,4,,501
 Solar Flare,stardust_solarflare,Carrier,Stardust Ventures,flarelauncher_active,20,7000,750,9000,9000,400,200,4,50,30,20,15,20,2000,FRONT,,360,0.7,0.7,,,400,800,200,250,9,27,8,300000,3,15,600,0.25,50,50,,,,,,,CARRIER,"midline_bp, merc",,0.6,2,4,,811
-Vortex Hunter,stardust_vortexhunter,Light Cruiser,Stardust Ventures,maneuveringjets,12,5000,750,6300,6300,350,125,,90,60,40,25,30,600,FRONT,,270,0.4,0.7,,,90,180,100,140,2.7,51,9,80000,4,12,480,0.25,15,15,,,,,,,,"midline_bp, merc",,0.5,2,3,,812
+Vortex Hunter,stardust_vortexhunter,Light Cruiser,Stardust Ventures,maneuveringjets,12,5000,700,6300,6300,350,125,,90,60,40,25,30,600,FRONT,,270,0.4,0.7,,,90,180,100,140,2.7,51,9,80000,4,12,480,0.25,15,15,,,,,,,,"midline_bp, merc",,0.5,2,3,,812
 #Falcon,falcon,Light Cruiser,Midline,maneuveringjets,12,6000,750,7000,7000,350,125,,75,50,30,20,25,650,FRONT,,270,0.4,0.8,,,100,180,120,100,3,33,9,80000,4,12,480,0.25,15,15,,,,,,,,"midline_bp, merc",,0.5,2,3,,400
 Cosmic Fury,stardust_cosmicfury,Fast Carrier,Pirates,targetingfeed,12,5000,650,5500,6300,300,100,2,85,55,35,20,25,750,FRONT,,270,0.5,1,,,175,250,75,75,3,25,9,120000,3,12,360,0.25,20,20,,,,,,,CARRIER,"midline_bp, merc",,0.5,2,3,,812
 Storm Bringer,stardust_stormbringer,Battlecruiser,Stardust Ventures,maneuveringjets,24,10000,1000,18000,26000,1200,280,,60,30,30,8,12,2200,FRONT,,270,0.4,0.8,,,350,450,250,250,9,27,8,300000,3,15,600,0.25,40,40,,,,,,,,"midline_bp, merc",,0.5,2,4,,813
@@ -30,3 +30,7 @@ Plasma Burst,stardust_plasmaburst,Superfighter,Stardust Ventures,flarelauncher_f
 #Kite,kite,Shuttle,Midline,maneuveringjets,3,900,150,1400,1000,80,25,,140,150,75,45,85,120,OMNI,,150,0.5,0.8,,,2,30,30,15,1,15,9,4000,5,20,180,0.25,2,2,,,,,,,,base_bp,,0.75,2,2,,217
 #Broadsword,broadsword,,Low Tech,flarelauncher_fighter,,750,100,80,,10,0,,200,400,350,90,180,30,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,,,,,,,0,,,,104
 Warp Diver,stardust_warpdiver,Destroyer,Stardust Ventures,emp,10,4500,400,3800,3600,250,60,,90,60,40,30,60,350,FRONT,,300,0.4,0.7,,,50,125,80,80,1.8,44,9,45000,5,12,360,0.25,11,11,,,,,,,,"midline_bp, merc",,0.5,3,3,,816
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Gladius,gladius,,Midline,flarelauncher_single,,500,75,200,,50,0,,300,400,300,150,300,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,,,,0,,,,109
+#Thunder,thunder,,Midline,,,500,75,750,,100,0,,450,600,500,150,300,30,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,,,,,,,0,,,,111
+Meteorite,stardust_meteorite,,Midline,,,450,70,200,,50,0,,400,400,300,150,300,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,,,,0,,,,817

@@ -25,5 +25,5 @@
 				 "blowbackSpread":10.0,
 				 "particleColor":[100,100,100,200]},
 	"projectileSpecId":"stardust_cloudburst_srm",
-	"fireSoundTwo":"sabot_srm_fire",
+	"fireSoundTwo":"stardust_cloudburst_fire",
 }

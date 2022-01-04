@@ -21,7 +21,7 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 260,
-      "angle": 45,
+      "angle": 53.5,
       "locations": [20, 17]
     },
     {
@@ -30,7 +30,7 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 260,
-      "angle": -45,
+      "angle": -53.5,
       "locations": [20, -17]
     },
     {
@@ -40,7 +40,7 @@
       "mount": "TURRET",
       "arc": 260,
       "angle": 45,
-      "locations": [38, 17]
+      "locations": [53.5, 17.5]
     },
     {
       "id": "WS0004",
@@ -49,7 +49,7 @@
       "mount": "TURRET",
       "arc": 260,
       "angle": -45,
-      "locations": [38, -17]
+      "locations": [53.5, -17.5]
     },
     {
       "id": "WS0005",
@@ -57,8 +57,8 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 260,
-      "angle": 45,
-      "locations": [54, 17]
+      "angle": 37,
+      "locations": [87, 18]
     },
     {
       "id": "WS0006",
@@ -66,8 +66,8 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 260,
-      "angle": -45,
-      "locations": [54, -17]
+      "angle": -37,
+      "locations": [87, -18]
     },
     {
       "id": "WS0007",
@@ -94,7 +94,7 @@
       "mount": "HARDPOINT",
       "arc": 45,
       "angle": 0,
-      "locations": [-21, 44]
+      "locations": [-23, 54]
     },
     {
       "id": "WS0010",
@@ -102,8 +102,8 @@
       "type": "MISSILE",
       "mount": "HARDPOINT",
       "arc": 45,
-      "angle": 0,
-      "locations": [-21, -44]
+      "angle": -0,
+      "locations": [-24, -54]
     },
     {
       "id": "WS0011",
@@ -122,6 +122,24 @@
       "arc": 250,
       "angle": -90,
       "locations": [-78, -53]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 0,
+      "locations": [-13, 43]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": -0,
+      "locations": [-12.5, -44]
     }
   ],
   "engineSlots": [
