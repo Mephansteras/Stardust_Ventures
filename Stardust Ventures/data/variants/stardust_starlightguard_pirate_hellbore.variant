@@ -1,0 +1,29 @@
+{
+  "variantId": "stardust_starlightguard_pirate_hellbore",
+  "hullId": "stardust_starlightguard_pirate",
+  "displayName": "Chaser",
+  "goalVariant": false,
+  "fluxCapacitors": 16,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightag",
+        "WS0002": "lightag",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "hellbore"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

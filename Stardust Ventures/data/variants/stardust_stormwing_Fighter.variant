@@ -1,0 +1,24 @@
+{
+  "variantId": "stardust_stormwing_Fighter",
+  "hullId": "stardust_stormwing",
+  "displayName": "Superiority fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_felrepeater_fighter",
+        "WS0002": "stardust_felrepeater_fighter",
+        "WS0003": "stardust_cloudburst_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

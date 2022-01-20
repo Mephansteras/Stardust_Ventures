@@ -5,10 +5,10 @@
   "spriteName": "graphics/ships/stardust_void_nomad.png",
   "style": "MIDLINE",
   "height": 251,
-  "width": 251,
-  "center": [126, 117],
+  "width": 234,
+  "center": [117, 113],
   "collisionRadius": 161.5,
-  "shieldCenter": [0, -0],
+  "shieldCenter": [0, 0],
   "shieldRadius": 141,
   "viewOffset": 0,
   "builtInMods": [
@@ -26,7 +26,7 @@
       "mount": "TURRET",
       "arc": 210,
       "angle": 0,
-      "locations": [-33.5, -1.5]
+      "locations": [-38.5, -0]
     },
     {
       "id": "WS0002",
@@ -35,48 +35,66 @@
       "mount": "TURRET",
       "arc": 210,
       "angle": 0,
-      "locations": [0.5, -1.5]
+      "locations": [0, -0]
     },
     {
       "id": "WS0003",
       "size": "MEDIUM",
       "type": "MISSILE",
-      "mount": "HIDDEN",
+      "mount": "HARDPOINT",
       "arc": 33,
       "angle": 0,
-      "locations": [31.5, 65.5]
+      "locations": [39.5, 65.5]
     },
     {
       "id": "WS0004",
       "size": "MEDIUM",
       "type": "MISSILE",
-      "mount": "HIDDEN",
+      "mount": "HARDPOINT",
       "arc": 33,
       "angle": 0,
-      "locations": [31.5, -66.5]
+      "locations": [38.5, -65]
     },
     {
       "id": "WS0005",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 360,
-      "angle": 0,
-      "locations": [-17.5, 68.5]
+      "arc": 180,
+      "angle": 90,
+      "locations": [-61, 75]
     },
     {
       "id": "WS0006",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 360,
-      "angle": -0,
-      "locations": [-17.5, -71.5]
+      "arc": 180,
+      "angle": -90,
+      "locations": [-61, -74.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 33,
+      "angle": 0,
+      "locations": [85, 43]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 33,
+      "angle": 0,
+      "locations": [86, -43]
     }
   ],
   "engineSlots": [
     {
-      "location": [-120.5, 60.5],
+      "location": [-115.5, 61],
       "length": 88,
       "width": 26,
       "angle": 180,
@@ -85,7 +103,7 @@
       "styleId": "stardust_TECH"
     },
     {
-      "location": [-120.5, -61.5],
+      "location": [-115.5, -61.5],
       "length": 88,
       "width": 26,
       "angle": -180,
@@ -94,7 +112,7 @@
       "styleId": "stardust_TECH"
     },
     {
-      "location": [-78.5, 0.5],
+      "location": [-74.5, 0],
       "length": 142,
       "width": 30,
       "angle": 180,
@@ -104,33 +122,33 @@
     }
   ],
   "bounds": [
-    132.5, -4.5,
-    104, -29.5,
-    86, -46.5,
-    48.5, -49,
-    41.5, -80,
-    22, -84,
-    20, -111.5,
-    -20, -118.5,
-    -40.5, -87.5,
-    -81, -87.5,
-    -112, -76.5,
-    -110, -48,
-    -32, -43.5,
-    -64.5, -20.5,
-    -64.5, 20.5,
-    -32, 43.5,
-    -110, 48,
-    -112, 76.5,
-    -81, 87.5,
-    -40.5, 87.5,
-    -20, 118.5,
-    20, 111.5,
-    22, 84,
-    41.5, 80,
-    48.5, 49,
-    86, 46.5,
-    104, 29.5,
-    132.5, 4.5
+    126, -5,
+    105.5, -18,
+    89, -46,
+    43, -40,
+    43, -78.5,
+    26.5, -83,
+    23, -105,
+    -7.5, -111,
+    -11, -85.5,
+    -73.5, -82,
+    -105.5, -72,
+    -105.5, -49.5,
+    -26.5, -42.5,
+    -60, -10,
+    -60.5, 11.5,
+    -26.5, 44,
+    -106, 49,
+    -106, 75,
+    -72, 84,
+    -9.5, 86,
+    -8.5, 115,
+    24, 102.5,
+    26, 82.5,
+    45.5, 78,
+    45.5, 40.5,
+    86, 48,
+    107, 21.5,
+    125, 3.5
   ]
 }

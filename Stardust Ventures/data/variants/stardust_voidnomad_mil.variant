@@ -3,7 +3,7 @@
   "hullId": "stardust_voidnomad",
   "displayName": "Militarized",
   "goalVariant": true,
-  "fluxCapacitors": 21,
+  "fluxCapacitors": 15,
   "fluxVents": 14,
   "quality": 1,
   "permaMods": [],
@@ -15,12 +15,14 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "phasebeam",
-        "WS0002": "phasebeam",
-        "WS0003": "harpoonpod",
-        "WS0004": "harpoonpod",
-        "WS0005": "lightdualmg",
-        "WS0006": "lightdualmg"
+        "WS0001": "flak",
+        "WS0002": "stardust_felpulser",
+        "WS0003": "stardust_cloudburst_pod",
+        "WS0004": "sabotpod",
+        "WS0005": "stardust_lightproton",
+        "WS0006": "stardust_lightproton",
+        "WS0007": "stardust_felrepeater",
+        "WS0008": "stardust_felrepeater"
       }
     }
   ],

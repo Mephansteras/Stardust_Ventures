@@ -4,7 +4,7 @@
   "displayName": "Hunter",
   "goalVariant": true,
   "fluxCapacitors": 20,
-  "fluxVents": 24,
+  "fluxVents": 22,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -22,13 +22,12 @@
         "WS0005": "stardust_dualproton",
         "WS0006": "stardust_dualproton",
         "WS0007": "stardust_felcannon",
-        "WS0008": "heavymg",
-        "WS0009": "stardust_cloudburst",
-        "WS0010": "harpoon",
-        "WS0011": "pdlaser",
-        "WS0012": "pdlaser",
-        "WS0013": "hammer",
-        "WS0014": "hammer"
+        "WS0009": "hammer",
+        "WS0010": "hammer",
+        "WS0011": "stardust_felpulser",
+        "WS0012": "stardust_felpulser",
+        "WS0013": "stardust_cloudburst",
+        "WS0014": "harpoon"
       }
     }
   ],

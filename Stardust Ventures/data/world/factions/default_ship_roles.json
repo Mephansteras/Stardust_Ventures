@@ -32,7 +32,9 @@
         "stardust_warpdiver_stock":5,
         "stardust_warpdiver_strike":5,   
         
-		"stardust_starlightguard_pirate_p":10,       
+		"stardust_starlightguard_pirate_hellbore":3,    
+        "stardust_starlightguard_pirate_stock":4,
+        "stardust_starlightguard_pirate_devestate":3,
 
 	},
     "combatLarge":{

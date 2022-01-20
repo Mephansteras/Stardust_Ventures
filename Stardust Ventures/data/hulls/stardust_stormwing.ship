@@ -1,0 +1,66 @@
+{
+  "hullName": "Stormwing",
+  "hullId": "stardust_stormwing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/stardust_stormwing.png",
+  "style": "MIDLINE",
+  "height": 49,
+  "width": 66,
+  "center": [33, 24.5],
+  "collisionRadius": 42.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 37.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3.5, -10]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    }
+  ],
+  "bounds": [
+    23, -1.5,
+    3, -7.5,
+    3.5, -31,
+    -14, -8,
+    -22.5, -8,
+    -22.5, 8,
+    -14, 8,
+    3.5, 31,
+    3, 7.5,
+    23, 1.5
+  ]
+}

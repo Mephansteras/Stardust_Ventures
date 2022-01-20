@@ -5,42 +5,39 @@
   "spriteName": "graphics/ships/stardust_starlight_guard_pirate.png",
   "style": "MIDLINE",
   "height": 138,
-  "width": 120,
-  "center": [60.5, 71],
-  "collisionRadius": 82.5,
-  "shieldCenter": [0, 0.5],
-  "shieldRadius": 74,
+  "width": 142,
+  "center": [71, 69.5],
+  "collisionRadius": 84.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 77.5,
   "viewOffset": 0,
-  "builtInMods": [
-    "unstable_injector"
-  ],
   "weaponSlots": [
     {
       "id": "WS0001",
       "size": "SMALL",
       "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 120,
+      "mount": "HARDPOINT",
+      "arc": 33,
       "angle": 0,
-      "locations": [20, 37.5]
+      "locations": [9, 64]
     },
     {
       "id": "WS0002",
       "size": "SMALL",
       "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 120,
+      "mount": "HARDPOINT",
+      "arc": 33,
       "angle": -0,
-      "locations": [18, -36.5]
+      "locations": [8.5, -64]
     },
     {
       "id": "WS0003",
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": -120,
-      "angle": 180,
-      "locations": [-18, 37.5]
+      "arc": 120,
+      "angle": 0,
+      "locations": [-2, 37]
     },
     {
       "id": "WS0004",
@@ -48,8 +45,8 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 120,
-      "angle": -180,
-      "locations": [-18, -36.5]
+      "angle": 0,
+      "locations": [-2.5, -37]
     },
     {
       "id": "WS0005",
@@ -58,65 +55,69 @@
       "mount": "HARDPOINT",
       "arc": 60,
       "angle": 0,
-      "locations": [16, 1]
+      "locations": [10.5, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-41.5, 37],
-      "length": 93.5,
-      "width": 26,
+      "location": [-39.5, 36.5],
+      "length": 58.5,
+      "width": 23,
       "angle": 180,
-      "contrailSize": 26,
+      "contrailSize": 23,
       "style": "LOW_TECH"
     },
     {
-      "location": [-41.5, -37],
-      "length": 93.5,
-      "width": 26,
+      "location": [-39, -37],
+      "length": 56.5,
+      "width": 22,
       "angle": -180,
-      "contrailSize": 26,
+      "contrailSize": 22,
       "style": "LOW_TECH"
     },
     {
-      "location": [-72, 10.5],
-      "length": 93.5,
-      "width": 26,
+      "location": [-69.5, 9.5],
+      "length": 62,
+      "width": 21,
       "angle": 180,
-      "contrailSize": 26,
+      "contrailSize": 21,
       "style": "LOW_TECH"
     },
     {
-      "location": [-72, -10.5],
-      "length": 93.5,
-      "width": 26,
+      "location": [-70.5, -10],
+      "length": 61,
+      "width": 19,
       "angle": -180,
-      "contrailSize": 26,
+      "contrailSize": 19,
       "style": "LOW_TECH"
     }
   ],
   "bounds": [
-    66.5, -3.5,
-    56, -14.5,
-    25, -14.5,
-    21, -22.5,
-    31, -39.5,
-    18.5, -52.5,
-    -37.5, -44,
-    -37.5, -31,
-    -4, -27.5,
-    -9, -13,
-    -68.5, -14.5,
-    -68.5, 14.5,
-    -9, 13,
-    -4, 27.5,
-    -37.5, 31,
-    -37.5, 44,
-    18.5, 52.5,
-    31, 39.5,
-    21, 22.5,
-    25, 14.5,
-    56, 14.5,
-    66.5, 3.5
+    -67.5, 14.5,
+    -67.5, -15,
+    -33, -15,
+    -33, -8,
+    7.5, -12.5,
+    7.5, -23,
+    -36, -31,
+    -36, -42.5,
+    -12, -70,
+    11.5, -70,
+    33, -40,
+    14.5, -12,
+    58.5, -13,
+    67.5, -3,
+    67.5, 5,
+    58.5, 14,
+    12.5, 13,
+    32.5, 34,
+    12, 69.5,
+    -14.5, 69.5,
+    -36.5, 41.5,
+    -36.5, 30,
+    6, 24,
+    7.5, 13,
+    -33.5, 7,
+    -33.5, 14.5
   ]
 }
