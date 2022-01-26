@@ -1,0 +1,100 @@
+{
+  "hullName": "Stormlight",
+  "hullId": "stardust_stormlight",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/stardust_stormlight.png",
+  "style": "MIDLINE",
+  "height": 46,
+  "width": 52,
+  "center": [26, 23],
+  "collisionRadius": 37.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 34.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "stardust_lightproton",
+    "WS0002": "stardust_lightproton",
+    "WS0003": "swarmer",
+    "WS0004": "swarmer",
+    "WS0005": "stardust_felrepeater_fighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-12.5, 20.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-12.5, -20.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6, 12]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-6, -12]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22, 8],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-22, -8],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    }
+  ],
+  "bounds": [
+    22, -4,
+    -7.5, -13,
+    -7.5, -24,
+    -15.5, -24.5,
+    -19, -10,
+    -19, 10,
+    -15.5, 24.5,
+    -7.5, 24,
+    -7.5, 13,
+    22, 4
+  ]
+}

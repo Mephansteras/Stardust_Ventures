@@ -1,0 +1,53 @@
+{
+  "hullName": "Moonbreaker",
+  "hullId": "stardust_moonbreaker",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/stardust_moonbreaker.png",
+  "style": "MIDLINE",
+  "height": 40,
+  "width": 33,
+  "center": [16.5, 20],
+  "collisionRadius": 37,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 31,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7.5, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16.5, 11],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-16.5, -9.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    }
+  ],
+  "bounds": [
+    18, -5,
+    15.5, -15,
+    -12.5, -15,
+    -12.5, 15,
+    15.5, 15,
+    18, 5
+  ]
+}

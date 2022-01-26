@@ -68,8 +68,8 @@
       "id": "WS0001",
       "size": "LARGE",
       "type": "SYNERGY",
-      "mount": "HARDPOINT",
-      "arc": 45,
+      "mount": "TURRET",
+      "arc": 160,
       "angle": 0,
       "locations": [-96, 96.5]
     },
@@ -77,8 +77,8 @@
       "id": "WS0002",
       "size": "LARGE",
       "type": "SYNERGY",
-      "mount": "HARDPOINT",
-      "arc": 45,
+      "mount": "TURRET",
+      "arc": 160,
       "angle": -0,
       "locations": [-95.5, -100.5]
     },

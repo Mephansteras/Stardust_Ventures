@@ -1,0 +1,22 @@
+{
+  "variantId": "stardust_moonbreaker_Bomber",
+  "hullId": "stardust_moonbreaker",
+  "displayName": "Shieldbreaker",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_lithobreaker_single"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
