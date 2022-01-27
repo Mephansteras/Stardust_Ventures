@@ -1,7 +1,7 @@
 {
   "variantId": "stardust_stormlight_Fighter",
   "hullId": "stardust_stormlight",
-  "displayName": "Escort",
+  "displayName": "Assault Gunship",
   "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,

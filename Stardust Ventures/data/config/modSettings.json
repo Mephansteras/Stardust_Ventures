@@ -1,0 +1,14 @@
+{
+    "nexerelin":{
+		"mining_ship_strengths":{
+			"stardust_void_nomad": 5,
+		},
+		"mining_weapon_strengths":{
+			"stardust_lithobreaker": 2,
+			"stardust_lithobreaker_barrage": 18,
+			"stardust_lithobreaker_single": 1,
+            "stardust_lithobreaker_pod": 4,
+		},
+
+    },
+}

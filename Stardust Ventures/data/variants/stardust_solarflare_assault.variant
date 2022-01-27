@@ -3,7 +3,7 @@
   "hullId": "stardust_solarflare",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 35,
+  "fluxCapacitors": 39,
   "fluxVents": 25,
   "quality": 1,
   "permaMods": [],
@@ -17,22 +17,22 @@
         "WS0002": "stardust_felcannon",
         "WS0003": "stardust_felpulser",
         "WS0004": "stardust_felpulser",
-        "WS0005": "typhoon",
-        "WS0006": "annihilatorpod",
-        "WS0007": "lightmortar",
-        "WS0008": "lightmortar",
-        "WS0009": "lightac",
-        "WS0010": "lightac",
-        "WS0011": "stardust_lightproton",
-        "WS0012": "stardust_lightproton"
+        "WS0005": "stardust_lithobreaker_pod",
+        "WS0006": "harpoonpod",
+        "WS0007": "stardust_dualproton",
+        "WS0008": "stardust_dualproton",
+        "WS0009": "stardust_dualproton",
+        "WS0010": "stardust_dualproton",
+        "WS0011": "stardust_dualproton",
+        "WS0012": "stardust_dualproton"
       }
     }
   ],
   "modules": [],
   "wings": [
     "stardust_meteorite_wing",
-    "stardust_meteorite_wing",
-    "stardust_stormwing_wing",
-    "longbow_wing"
+    "stardust_moonbreaker_wing",
+    "stardust_stormlight_wing",
+    "stardust_stormwing_wing"
   ]
 }

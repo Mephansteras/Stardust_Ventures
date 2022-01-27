@@ -12,8 +12,7 @@
   "shieldRadius": 202,
   "viewOffset": 0,
   "builtInMods": [
-    "solar_shielding",
-    "augmentedengines"
+    "solar_shielding"
   ],
   "weaponSlots": [
     {

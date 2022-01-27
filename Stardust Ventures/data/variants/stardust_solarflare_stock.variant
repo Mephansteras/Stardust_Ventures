@@ -1,14 +1,15 @@
 {
   "variantId": "stardust_solarflare_stock",
   "hullId": "stardust_solarflare",
-  "displayName": "Superiority",
+  "displayName": "Rapid Response",
   "goalVariant": true,
   "fluxCapacitors": 15,
-  "fluxVents": 21,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "expanded_deck_crew"
+    "expanded_deck_crew",
+    "augmentedengines"
   ],
   "weaponGroups": [
     {
@@ -16,10 +17,10 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "stardust_stormfront",
-        "WS0002": "squall",
+        "WS0002": "stardust_lithobreaker_barrage",
         "WS0003": "flak",
         "WS0004": "flak",
-        "WS0005": "sabotpod",
+        "WS0005": "salamanderpod",
         "WS0006": "harpoon",
         "WS0007": "stardust_lightproton",
         "WS0008": "stardust_lightproton",
@@ -35,6 +36,6 @@
     "stardust_meteorite_wing",
     "stardust_meteorite_wing",
     "stardust_stormwing_wing",
-    "dagger_wing"
+    "stardust_moonbreaker_wing"
   ]
 }
