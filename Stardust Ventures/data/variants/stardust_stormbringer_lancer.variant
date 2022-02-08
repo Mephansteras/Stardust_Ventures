@@ -4,11 +4,10 @@
   "displayName": "Lancer",
   "goalVariant": true,
   "fluxCapacitors": 25,
-  "fluxVents": 25,
+  "fluxVents": 38,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "targetingunit",
     "advancedoptics"
   ],
   "weaponGroups": [
@@ -24,14 +23,22 @@
         "WS0006": "hveldriver",
         "WS0007": "flak",
         "WS0008": "flak",
-        "WS0009": "ionbeam",
-        "WS0010": "ionbeam",
-        "WS0011": "lightdualmg",
-        "WS0012": "lightdualmg",
-        "WS0013": "lightdualmg",
-        "WS0014": "lightdualmg",
-        "WS0015": "taclaser",
-        "WS0016": "taclaser"
+        "WS0009": "gravitonbeam",
+        "WS0010": "gravitonbeam",
+        "WS0011": "stardust_lightproton",
+        "WS0012": "stardust_lightproton",
+        "WS0013": "pdlaser",
+        "WS0014": "pdlaser",
+        "WS0015": "stardust_lightproton",
+        "WS0016": "stardust_lightproton",
+        "WS0017": "pdlaser",
+        "WS0018": "pdlaser",
+        "WS0019": "stardust_cloudburst",
+        "WS0020": "stardust_cloudburst",
+        "WS0021": "stardust_lithobreaker",
+        "WS0022": "stardust_lithobreaker",
+        "WS0023": "stardust_cloudburst_pod",
+        "WS0024": "breachpod"
       }
     }
   ],

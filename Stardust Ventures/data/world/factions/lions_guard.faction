@@ -1,0 +1,13 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "stardust_plasmaburst":0.1,
+            "stardust_plasmaburst_sindrian":0.9,
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "stardust_plasmaburst_sindrian",
+        ],
+    },
+}

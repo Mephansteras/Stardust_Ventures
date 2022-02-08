@@ -1,7 +1,7 @@
 {
-  "variantId": "stardust_plasmaburst_strike",
+  "variantId": "stardust_plasmaburst_patrol",
   "hullId": "stardust_plasmaburst",
-  "displayName": "Strike",
+  "displayName": "Patrol",
   "goalVariant": true,
   "fluxCapacitors": 5,
   "fluxVents": 5,
@@ -15,8 +15,8 @@
       "weapons": {
         "WS0001": "stardust_cloudburst_single",
         "WS0002": "stardust_cloudburst_single",
-        "WS0003": "stardust_felrepeater",
-        "WS0004": "stardust_felrepeater"
+        "WS0003": "lightag",
+        "WS0004": "lightdualac"
       }
     }
   ],

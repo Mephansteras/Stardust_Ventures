@@ -16,54 +16,6 @@
   ],
   "weaponSlots": [
     {
-      "id": "LB 1",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [
-        -54.5, 14,
-        -20.5, 14.5
-      ]
-    },
-    {
-      "id": "LB 2",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [
-        -57.5, 3,
-        -30, 3
-      ]
-    },
-    {
-      "id": "LB 3",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [
-        -57.5, -7,
-        -40, -7
-      ]
-    },
-    {
-      "id": "LB 4",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [
-        -54, -17.5,
-        -20, -17.5
-      ]
-    },
-    {
       "id": "WS0001",
       "size": "LARGE",
       "type": "SYNERGY",
@@ -170,6 +122,54 @@
       "arc": 160,
       "angle": -90,
       "locations": [74.5, -51.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -51.5, 10.5,
+        -30, 10.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -51.5, -12,
+        -31, -12
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -133.5, 53.5,
+        -147.5, 53.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -134.5, -57.5,
+        -148, -57.5
+      ]
     }
   ],
   "engineSlots": [

@@ -4,7 +4,7 @@
   "displayName": "Skirmisher",
   "goalVariant": true,
   "fluxCapacitors": 5,
-  "fluxVents": 5,
+  "fluxVents": 7,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -13,10 +13,10 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "sabot_single",
-        "WS0002": "sabot_single",
-        "WS0003": "stardust_dualproton",
-        "WS0004": "lightac"
+        "WS0001": "stardust_cloudburst_single",
+        "WS0002": "stardust_cloudburst_single",
+        "WS0003": "stardust_lightproton",
+        "WS0004": "stardust_lightproton"
       }
     }
   ],

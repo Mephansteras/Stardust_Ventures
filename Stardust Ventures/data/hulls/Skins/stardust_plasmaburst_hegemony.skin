@@ -1,0 +1,26 @@
+{
+	"baseHullId":"stardust_plasmaburst",
+	"skinHullId":"stardust_plasmaburst_hegemony",
+	"hullName":"Plasma Burst (Hegemony)",
+	"coversColor":[255,255,255,255],
+	"descriptionId":"stardust_plasmaburst",
+	"descriptionPrefix":"A custom version of the Plasma Burst Superfighter built to the specifications of the Hegemony. This ship has been geared towards core system combat rather than escort of exploration fleets.",
+	"baseValueMult":1.25,
+	"spriteName":"graphics/ships/skins/stardust_plasma_burst_heg.png",
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[solar_shielding], 		# hullmod ids
+	"removeBuiltInWeapons":[
+    "WS0001", 
+    "WS0001"], 		# weapon slot ids
+	"builtInMods":["stabilizedshieldemitter"],
+	"builtInWeapons":{
+        "WS0001": "hammer_single",
+        "WS0002": "hammer_single"
+    },
+    "engineSlotChanges":{
+        "0":{
+			"style": "MIDLINE",
+            "styleId": "",
+		}
+    }
+}

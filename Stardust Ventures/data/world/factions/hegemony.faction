@@ -1,0 +1,13 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "stardust_plasmaburst":0.25,
+            "stardust_plasmaburst_hegemony":0.75,
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "stardust_plasmaburst_hegemony",
+        ],
+    },
+}
