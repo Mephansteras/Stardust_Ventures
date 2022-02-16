@@ -1,0 +1,178 @@
+{
+  "hullName": "Cosmic Horror",
+  "hullId": "stardust_cosmicfury",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/stardust_cosmic_horror.png",
+  "style": "MIDLINE",
+  "height": 265,
+  "width": 152,
+  "center": [76.5, 124.5],
+  "collisionRadius": 165.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 148,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        16, 54,
+        37, 54
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        16, -54,
+        34, -54
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [0.5, 63]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [1.5, -62]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 33,
+      "angle": 0,
+      "locations": [13.5, 1]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-49.5, 36]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-49.5, -36]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [60.5, 21.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [60.5, -21.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [135, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-125.5, 16],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-125.5, -16],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-123.5, 27],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-123.5, -27],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-120.5, 37],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-120.5, -37],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    58, -32,
+    58, -74,
+    -59, -75,
+    -83, -39,
+    -120, -45,
+    -120, 45,
+    -83, 39,
+    -59, 75,
+    58, 74,
+    58, 32,
+    75, 25,
+    139, 8,
+    139, -8,
+    75, -25
+  ]
+}

@@ -17,6 +17,13 @@
         {"file":"sounds/sfx_wpn_guns/mjolnir_fire_05.ogg","pitch":1.10, "volume":0.42}
 	],
     
+	"stardust_autoproton_fire":
+	[
+		{"file":"sounds/sfx_wpn_guns/autocannon_fire_01.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/sfx_wpn_guns/autocannon_fire_01.ogg","pitch":0.925,"volume":1},
+		{"file":"sounds/sfx_wpn_guns/autocannon_fire_01.ogg","pitch":0.95,"volume":1},
+	],
+    
 	"stardust_felrepeater_fire":
 	[
 		{"file":"sounds/sfx_wpn_energy/autopulse_laser_fire_01.ogg","pitch":1.61,"volume":0.6},
@@ -45,4 +52,25 @@
 	[
 		{"file":"sounds/sfx_wpn_missiles/sabot_srm_fire_01_loud.ogg","pitch":0.9,"volume":0.6},
 	],
+    
+    "stardust_plasmacaster_fire":
+	[
+		{"file":"sounds/sfx_wpn_energy/plasma_cannon_fire_01.ogg","pitch":1.3,"volume":0.7},
+		{"file":"sounds/sfx_wpn_energy/plasma_cannon_fire_02.ogg","pitch":1.29,"volume":0.7},
+		{"file":"sounds/sfx_wpn_energy/plasma_cannon_fire_03.ogg","pitch":1.28,"volume":0.7},
+	],	
+    
+    "stardust_hvy_plasmacaster_fire":
+	[
+		{"file":"sounds/sfx_wpn_energy/plasma_cannon_fire_01.ogg","pitch":1.2,"volume":0.7},
+		{"file":"sounds/sfx_wpn_energy/plasma_cannon_fire_02.ogg","pitch":1.19,"volume":0.7},
+		{"file":"sounds/sfx_wpn_energy/plasma_cannon_fire_03.ogg","pitch":1.18,"volume":0.7},
+	],	
+    
+    "stardust_plasmacaster_array_fire":
+	[
+		{"file":"sounds/sfx_wpn_energy/plasma_cannon_fire_01.ogg","pitch":1.17,"volume":0.7},
+		{"file":"sounds/sfx_wpn_energy/plasma_cannon_fire_02.ogg","pitch":1.16,"volume":0.7},
+		{"file":"sounds/sfx_wpn_energy/plasma_cannon_fire_03.ogg","pitch":1.14,"volume":0.7},
+	],	
 }

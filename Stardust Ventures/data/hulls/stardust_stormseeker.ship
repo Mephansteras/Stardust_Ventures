@@ -1,0 +1,154 @@
+{
+  "hullName": "Storm Seeker",
+  "hullId": "stardust_stormseeker",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/stardust_storm_seeker.png",
+  "style": "MIDLINE",
+  "height": 192,
+  "width": 140,
+  "center": [70, 89.5],
+  "collisionRadius": 134.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 123,
+  "viewOffset": 0,
+  "builtInMods": [
+    "solar_shielding"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [-54, 31]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -0,
+      "locations": [-54, -31]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [-43.5, 62.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [-43.5, -62.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [5.5, 26.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [5.5, -26.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -180,
+      "locations": [-66.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-89.5, 11.5],
+      "length": 48,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-88.5, -12.5],
+      "length": 48,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-87, 46],
+      "length": 40,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-87, -46.5],
+      "length": 40,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-89.5, -0.5],
+      "length": 78,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    }
+  ],
+  "bounds": [
+    35, -14.5,
+    79.5, -17,
+    40.5, -38.5,
+    -38.5, -39.5,
+    -40.5, -68,
+    -78, -68.5,
+    -83, -50,
+    -83, 50,
+    -78, 68.5,
+    -40.5, 68,
+    -38.5, 39.5,
+    40.5, 38.5,
+    79.5, 17,
+    35, 14.5
+  ]
+}

@@ -2,7 +2,7 @@
     "hullFrequency":{
         "hulls":{
             "stardust_starlightguard_pirate":0.75,
-            "stardust_cosmicfury":0.75,
+            "stardust_cosmicfury":0.4,
         },
     },
     "shipsWhenImporting":{

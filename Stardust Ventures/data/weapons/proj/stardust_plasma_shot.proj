@@ -1,0 +1,12 @@
+{
+	"id":"stardust_plasma_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":45.0,
+	"fadeTime":0.5,
+	"fringeColor":[63,227,180,255],
+	"coreColor":[51,181,204,255],
+	"passThroughMissiles":true,	
+}
