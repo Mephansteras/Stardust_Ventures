@@ -3,7 +3,7 @@
   "hullId": "stardust_stormrunner",
   "displayName": "Pressure",
   "goalVariant": true,
-  "fluxCapacitors": 5,
+  "fluxCapacitors": 7,
   "fluxVents": 6,
   "quality": 1,
   "permaMods": [],
@@ -19,8 +19,8 @@
       "weapons": {
         "WS0001": "stardust_dualproton",
         "WS0002": "stardust_dualproton",
-        "WS0003": "amblaster",
-        "WS0004": "amblaster"
+        "WS0003": "stardust_hvy_plasmacaster",
+        "WS0004": "stardust_hvy_plasmacaster"
       }
     }
   ],

@@ -1,10 +1,10 @@
 {
-  "variantId": "stardust_stormseeker_attack",
+  "variantId": "stardust_stormseeker_strike",
   "hullId": "stardust_stormseeker",
-  "displayName": "Attack",
+  "displayName": "Strike",
   "goalVariant": true,
   "fluxCapacitors": 10,
-  "fluxVents": 14,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -15,13 +15,13 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "stardust_felpulser",
-        "WS0002": "stardust_felpulser",
+        "WS0001": "stardust_hvy_plasmacaster",
+        "WS0002": "stardust_hvy_plasmacaster",
         "WS0003": "stardust_lithobreaker",
-        "WS0004": "harpoon",
-        "WS0005": "stardust_dualproton",
-        "WS0006": "stardust_dualproton",
-        "WS0007": "stardust_autoproton",
+        "WS0004": "stardust_cloudburst",
+        "WS0005": "stardust_plasmacaster",
+        "WS0006": "stardust_plasmacaster",
+        "WS0007": "gauss",
         "WS0008": "stardust_lightproton"
       }
     }

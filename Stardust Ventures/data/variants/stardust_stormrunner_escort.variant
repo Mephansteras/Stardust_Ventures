@@ -4,7 +4,7 @@
   "displayName": "Escort",
   "goalVariant": true,
   "fluxCapacitors": 7,
-  "fluxVents": 9,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -18,7 +18,7 @@
         "WS0001": "lightdualac",
         "WS0002": "lightag",
         "WS0003": "heavyburst",
-        "WS0004": "pulselaser"
+        "WS0004": "gravitonbeam"
       }
     }
   ],

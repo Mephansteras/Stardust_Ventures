@@ -3,25 +3,26 @@
   "hullId": "stardust_starlightguard_pirate",
   "displayName": "Brawler",
   "goalVariant": false,
-  "fluxCapacitors": 13,
-  "fluxVents": 20,
+  "fluxCapacitors": 10,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "auxiliarythrusters",
     "reinforcedhull",
-    "ballistic_rangefinder"
+    "ballistic_rangefinder",
+    "armoredweapons"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "lightdualac",
+        "WS0001": "lightag",
         "WS0002": "lightdualac",
-        "WS0003": "stardust_dualproton",
-        "WS0004": "stardust_dualproton",
-        "WS0005": "chaingun"
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualmg",
+        "WS0005": "stardust_walloper"
       }
     }
   ],

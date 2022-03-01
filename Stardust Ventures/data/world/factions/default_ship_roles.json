@@ -41,7 +41,9 @@
 		"stardust_starlightguard_close":3,
         "stardust_warpdiver_stock":5,
         "stardust_warpdiver_strike":5,  
-        "stardust_stormseeker_attack":10,
+        "stardust_stormseeker_stock":4,
+        "stardust_stormseeker_attack":3,
+        "stardust_stormseeker_strike":3,
         
 		"stardust_starlightguard_pirate_hellbore":3,    
         "stardust_starlightguard_pirate_stock":4,
@@ -50,8 +52,9 @@
 	},
     "combatLarge":{
 		"stardust_voidnomad_mil":10,
-        "stardust_stormherald_stock":5,
-        "stardust_stormherald_assault":5,
+        "stardust_stormherald_stock":4,
+        "stardust_stormherald_assault":3,
+        "stardust_stormherald_patrol":3,
         "stardust_vortexhunter_stock":5,
         "stardust_vortexhunter_brawler":5,
     },
@@ -86,7 +89,8 @@
 	},
     # carriers
     	"carrierMedium":{
-        "stardust_cosmicfury_stock":10,
+        "stardust_cosmicfury_stock":5,
+        "stardust_cosmicfury_assault":5,
         "stardust_cosmicwind_stock":5,
         "stardust_cosmicwind_assault":5,
 	},

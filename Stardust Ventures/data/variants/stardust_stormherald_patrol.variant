@@ -1,14 +1,15 @@
 {
-  "variantId": "stardust_stormherald_stock",
+  "variantId": "stardust_stormherald_patrol",
   "hullId": "stardust_stormherald",
-  "displayName": "Hunter",
+  "displayName": "Patrol",
   "goalVariant": true,
-  "fluxCapacitors": 20,
+  "fluxCapacitors": 16,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "targetingunit"
+    "targetingunit",
+    "hiressensors"
   ],
   "weaponGroups": [
     {
@@ -21,11 +22,11 @@
         "WS0004": "stardust_dualproton",
         "WS0005": "stardust_dualproton",
         "WS0006": "stardust_dualproton",
-        "WS0007": "stardust_felcannon",
+        "WS0007": "stardust_autoproton",
         "WS0009": "stardust_lithobreaker",
         "WS0010": "stardust_lithobreaker",
-        "WS0011": "stardust_felpulser",
-        "WS0012": "stardust_felpulser",
+        "WS0011": "stardust_hvy_plasmacaster",
+        "WS0012": "stardust_hvy_plasmacaster",
         "WS0013": "stardust_cloudburst",
         "WS0014": "harpoon"
       }
