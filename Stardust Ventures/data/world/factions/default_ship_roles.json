@@ -88,9 +88,13 @@
 		"stardust_voidnomad_stock":10,
 	},
     # carriers
+	"carrierSmall":{
+		"stardust_stormseeker_c_stock":3,
+		"stardust_stormseeker_c_support":3,
+	},    
     	"carrierMedium":{
-        "stardust_cosmicfury_stock":5,
-        "stardust_cosmicfury_assault":5,
+        "stardust_cosmicfury_stock":4,
+        "stardust_cosmicfury_assault":4,
         "stardust_cosmicwind_stock":5,
         "stardust_cosmicwind_assault":5,
 	},

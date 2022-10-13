@@ -33,7 +33,7 @@
       "angle": -0,
       "locations": [1, -23.5]
     },
-        {
+    {
       "id": "WS0003",
       "size": "SMALL",
       "type": "MISSILE",
@@ -63,7 +63,7 @@
   ],
   "engineSlots": [
     {
-      "location": [-54, -1],
+      "location": [-53.5, -2.5],
       "length": 66.5,
       "width": 42,
       "angle": 180,

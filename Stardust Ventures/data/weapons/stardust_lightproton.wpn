@@ -11,12 +11,12 @@
 	"hardpointGunSprite":"graphics/weapons/stardust_lt_proton_gun_hardpoint_recoil.png",
     "hardpointGlowSprite":"graphics/weapons/stardust_lt_proton_gun_hardpoint_glow.png",
 	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
-	"turretOffsets":[12, -2, 12, 2],
-	"turretAngleOffsets":[0, 0],
-	"hardpointOffsets":[17, -2, 17, 2],
-	"hardpointAngleOffsets":[0, 0],
+	"turretOffsets":[12, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[17, 0],
+	"hardpointAngleOffsets":[0],
 	"renderHints":[RENDER_BARREL_BELOW],
-	"barrelMode":"ALTERNATING_BURST", # or LINKED.  whether barrels fire at the same time or alternate.
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
 	"animationType":"GLOW_AND_FLASH",
 	"muzzleFlashSpec":{"length":20.0,   # only used if animationType = MUZZLE_FLASH
 					   "spread":6.0,

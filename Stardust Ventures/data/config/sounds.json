@@ -118,4 +118,25 @@
 		{"file":"sounds/sfx_wpn_guns/vulcan_cannon_fire_01_06.ogg","pitch":0.74,"volume":0.5},
 		{"file":"sounds/sfx_wpn_guns/vulcan_cannon_fire_01_06.ogg","pitch":0.75,"volume":0.5},
 	],	
+    
+    "dianadart_fire":
+	[
+		{"file":"sounds/sfx_wpn_guns/rail_gun_fire_01.ogg","pitch":0.95,"volume":0.5},
+        {"file":"sounds/sfx_wpn_guns/rail_gun_fire_01.ogg","pitch":0.94,"volume":0.5},
+        {"file":"sounds/sfx_wpn_guns/rail_gun_fire_01.ogg","pitch":0.93,"volume":0.5},
+	],
+
+    "dianaarrow_fire":
+	[
+		{"file":"sounds/sfx_wpn_guns/rail_gun_fire_01.ogg","pitch":0.85,"volume":0.55},
+        {"file":"sounds/sfx_wpn_guns/rail_gun_fire_01.ogg","pitch":0.84,"volume":0.55},
+        {"file":"sounds/sfx_wpn_guns/rail_gun_fire_01.ogg","pitch":0.83,"volume":0.55},
+	],   
+
+    "dianaspear_fire":
+	[
+		{"file":"sounds/sfx_wpn_guns/rail_gun_fire_01.ogg","pitch":0.75,"volume":0.6},
+        {"file":"sounds/sfx_wpn_guns/rail_gun_fire_01.ogg","pitch":0.74,"volume":0.6},
+        {"file":"sounds/sfx_wpn_guns/rail_gun_fire_01.ogg","pitch":0.73,"volume":0.6},
+	],     
 }
