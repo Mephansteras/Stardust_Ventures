@@ -5,11 +5,11 @@
   "spriteName": "graphics/ships/stardust_horizon_chaser.png",
   "style": "MIDLINE",
   "height": 107,
-  "width": 63,
-  "center": [37.5, 50],
+  "width": 91,
+  "center": [45.5, 50.5],
   "collisionRadius": 67,
-  "shieldCenter": [3, -0.5],
-  "shieldRadius": 59,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 65.5,
   "viewOffset": 0,
   "builtInMods": [
     "solar_shielding",
@@ -24,7 +24,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 0,
-      "locations": [-22.5, 27.5]
+      "locations": [-18.5, 34.5]
     },
     {
       "id": "WS0002",
@@ -33,7 +33,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 0,
-      "locations": [-21.5, -14]
+      "locations": [-18.5, -34.5]
     },
     {
       "id": "WS0003",
@@ -42,7 +42,7 @@
       "mount": "HARDPOINT",
       "arc": 45,
       "angle": 0,
-      "locations": [-6.5, 13]
+      "locations": [5, 15.5]
     },
     {
       "id": "WS0004",
@@ -51,12 +51,12 @@
       "mount": "HARDPOINT",
       "arc": 45,
       "angle": 0,
-      "locations": [-6.5, -0]
+      "locations": [5, -15.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-51, 24],
+      "location": [-49, 31.5],
       "length": 76,
       "width": 22,
       "angle": 180,
@@ -65,7 +65,7 @@
       "styleId": "stardust_TECH"
     },
     {
-      "location": [-51.5, -12],
+      "location": [-49, -31.5],
       "length": 76,
       "width": 22,
       "angle": -180,
@@ -74,7 +74,7 @@
       "styleId": "stardust_TECH"
     },
     {
-      "location": [-40.5, 6],
+      "location": [-38, -0],
       "length": 87,
       "width": 19,
       "angle": 180,
@@ -84,19 +84,29 @@
     }
   ],
   "bounds": [
-    -49, 27,
-    -45, 27,
-    -36, 36,
-    4, 35,
-    45.5, 22.5,
-    56.5, 12.5,
-    29.5, 16.5,
-    30, -3,
-    56.5, -0,
-    44.5, -10,
-    2.5, -24,
-    -38, -25,
-    -44, -16,
-    -49, -15.5
+    38, -0.5,
+    5, -7.5,
+    7.5, -26,
+    37.5, -24.5,
+    56, -20.5,
+    50.5, -26.5,
+    25, -38,
+    -9, -44,
+    -36.5, -44,
+    -45.5, -35.5,
+    -49, -35.5,
+    -36, -19,
+    -36, 19,
+    -49, 35.5,
+    -45.5, 35.5,
+    -36.5, 44,
+    -9, 44,
+    25, 38,
+    50.5, 26.5,
+    56, 20.5,
+    37.5, 24.5,
+    7.5, 26,
+    5, 7.5,
+    38, 0.5
   ]
 }

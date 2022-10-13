@@ -3,7 +3,7 @@
   "hullId": "stardust_stargazer",
   "displayName": "Stargazer (S)",
   "goalVariant": true,
-  "fluxCapacitors": 16,
+  "fluxCapacitors": 14,
   "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
@@ -17,9 +17,27 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "swarmer",
-        "WS0002": "swarmer",
-        "WS0003": "shredder",
+        "WS0003": "stardust_hvy_plasmacaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_lithobreaker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0004": "flak"
       }
     }

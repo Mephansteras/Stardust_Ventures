@@ -10,4 +10,16 @@
             "stardust_plasmaburst_merc",
         ],
     },
+	"knownFighters":{
+		"fighters":[
+			"stardust_stormlight_wing",
+		],
+	},
+	"knownWeapons":{
+		"weapons":[
+			"stardust_cloudburst_pod",
+			"stardust_stormfront",
+
+		],
+	},
 }

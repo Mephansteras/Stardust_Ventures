@@ -1,0 +1,50 @@
+{
+  "variantId": "stardust_oorttraveler_armor_brawler",
+  "hullId": "stardust_oorttraveler_armor",
+  "displayName": "Brawler",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "stardust_felpulser",
+        "WS0007": "stardust_felpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "stardust_heavyproton",
+        "WS0009": "stardust_heavyproton"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "stardust_lithobreaker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_lightproton",
+        "WS0002": "stardust_lightproton",
+        "WS0003": "stardust_lightproton",
+        "WS0004": "stardust_lightproton"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "stardust_meteorite_wing"
+  ]
+}

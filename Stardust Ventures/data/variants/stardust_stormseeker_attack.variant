@@ -15,13 +15,37 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "stardust_felpulser",
-        "WS0002": "stardust_felpulser",
-        "WS0003": "stardust_lithobreaker",
-        "WS0004": "harpoon",
+        "WS0007": "stardust_autoproton"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_hvy_plasmacaster",
+        "WS0002": "stardust_hvy_plasmacaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "stardust_lithobreaker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0005": "stardust_dualproton",
         "WS0006": "stardust_dualproton",
-        "WS0007": "stardust_autoproton",
         "WS0008": "stardust_lightproton"
       }
     }

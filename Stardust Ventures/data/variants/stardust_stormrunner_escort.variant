@@ -16,8 +16,20 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "lightdualac",
-        "WS0002": "lightag",
-        "WS0003": "heavyburst",
+        "WS0002": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0004": "gravitonbeam"
       }
     }

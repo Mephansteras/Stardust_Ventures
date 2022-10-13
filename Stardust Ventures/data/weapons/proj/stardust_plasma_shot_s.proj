@@ -1,0 +1,13 @@
+{
+	"id":"stardust_plasma_shot_s",
+	"specClass":"projectile",
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.DisintegratorEffect",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":25.0,
+	"fadeTime":0.5,
+	"fringeColor":[65,219,219,255],
+	"coreColor":[62,150,216,255],
+	"passThroughMissiles":false,	
+}

@@ -34,7 +34,7 @@
 					},
 				    "width":2.0,
 				    "length":6.0,
-				    "angle":180.0}]
+				    "angle":180.0}],
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
 					"range":25,
 					#"vsMissileRange":100,

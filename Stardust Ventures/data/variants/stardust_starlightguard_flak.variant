@@ -16,11 +16,29 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "stardust_dualproton",
-        "WS0002": "stardust_dualproton",
+        "WS0002": "stardust_dualproton"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0003": "stardust_dualproton",
-        "WS0004": "stardust_dualproton",
-        "WS0005": "dualflak",
+        "WS0004": "stardust_dualproton"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0006": "stardust_cloudburst_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "dualflak"
       }
     }
   ],

@@ -3,20 +3,34 @@
   "hullId": "stardust_horizonchaser",
   "displayName": "Horizon Chaser",
   "goalVariant": true,
-  "fluxCapacitors": 19,
-  "fluxVents": 20,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "reinforcedhull",
-    "advancedshieldemitter"
+    "advancedshieldemitter",
+    "auxiliarythrusters"
   ],
   "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_dualproton",
+        "WS0002": "stardust_dualproton"
+      }
+    },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "heatseeker",
+        "WS0003": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0004": "heatseeker"
       }
     }

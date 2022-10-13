@@ -15,16 +15,39 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "resonatormrm",
-        "WS0002": "squall",
         "WS0003": "tachyonlance",
         "WS0004": "tachyonlance",
+        "WS0009": "gravitonbeam",
+        "WS0010": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0005": "hveldriver",
-        "WS0006": "hveldriver",
+        "WS0006": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "resonatormrm",
+        "WS0002": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0007": "flak",
         "WS0008": "flak",
-        "WS0009": "gravitonbeam",
-        "WS0010": "gravitonbeam",
         "WS0011": "stardust_lightproton",
         "WS0012": "stardust_lightproton",
         "WS0013": "pdlaser",
@@ -32,13 +55,25 @@
         "WS0015": "stardust_lightproton",
         "WS0016": "stardust_lightproton",
         "WS0017": "pdlaser",
-        "WS0018": "pdlaser",
+        "WS0018": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0019": "stardust_cloudburst",
         "WS0020": "stardust_cloudburst",
-        "WS0021": "stardust_lithobreaker",
-        "WS0022": "stardust_lithobreaker",
         "WS0023": "stardust_cloudburst_pod",
         "WS0024": "breachpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "stardust_lithobreaker",
+        "WS0022": "stardust_lithobreaker"
       }
     }
   ],

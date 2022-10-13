@@ -10,4 +10,10 @@
             "stardust_plasmaburst_hegemony",
         ],
     },
+	"knownWeapons":{
+		"weapons":[
+			"stardust_cloudburst_pod",
+			"stardust_stormfront",
+		],
+	},
 }

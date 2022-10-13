@@ -16,9 +16,27 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "harpoon",
-        "WS0002": "harpoon",
-        "WS0003": "phasebeam",
+        "WS0003": "stardust_felrepeater_linked"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "stardust_cloudburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0004": "dualflak"
       }
     }

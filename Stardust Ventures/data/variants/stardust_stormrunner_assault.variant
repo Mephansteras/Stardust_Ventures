@@ -16,10 +16,16 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0003": "stardust_felrepeater_linked",
+        "WS0004": "stardust_felrepeater_linked"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0001": "lightmg",
-        "WS0002": "lightmg",
-        "WS0003": "stardust_felpulser",
-        "WS0004": "stardust_felpulser"
+        "WS0002": "lightmg"
       }
     }
   ],

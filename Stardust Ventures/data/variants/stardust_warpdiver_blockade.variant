@@ -17,12 +17,18 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "gravitonbeam",
+        "WS0007": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0002": "mininglaser",
         "WS0003": "mininglaser",
         "WS0004": "mininglaser",
         "WS0005": "mininglaser",
-        "WS0006": "mininglaser",
-        "WS0007": "gravitonbeam"
+        "WS0006": "mininglaser"
       }
     }
   ],

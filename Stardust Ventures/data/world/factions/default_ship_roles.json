@@ -52,9 +52,10 @@
 	},
     "combatLarge":{
 		"stardust_voidnomad_mil":10,
-        "stardust_stormherald_stock":4,
+        "stardust_stormherald_stock":3,
         "stardust_stormherald_assault":3,
         "stardust_stormherald_patrol":3,
+		"stardust_stormherald_overdrive":1,
         "stardust_vortexhunter_stock":5,
         "stardust_vortexhunter_brawler":5,
     },
@@ -79,13 +80,19 @@
     # freighters and such
 	"freighterSmall":{
         
-		"stardust_sunbeamrider_stock":10,
+		"stardust_sunbeamrider_stock":8,
+	},
+	"freighterMedium":{
+		"stardust_oorttraveler_stock":8,
 	},
     "combatFreighterMedium":{
 		"stardust_warpdiver_blockade":3,
 	},    
     "combatFreighterLarge":{
-		"stardust_voidnomad_stock":10,
+		"stardust_voidnomad_stock":4,
+		"stardust_voidnomad_mil":4,
+		"stardust_oorttraveler_armor_stock":4,
+		"stardust_oorttraveler_armor_brawler":4,
 	},
     # carriers
 	"carrierSmall":{

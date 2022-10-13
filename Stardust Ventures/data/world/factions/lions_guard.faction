@@ -10,4 +10,25 @@
             "stardust_plasmaburst_sindrian",
         ],
     },
+	"knownFighters":{
+		"fighters":[
+			"stardust_stormlight_wing",
+		],
+	},
+	"knownWeapons":{
+		"weapons":[
+			"stardust_dianaspear_f",
+			"stardust_dianaspear_he",
+			"stardust_dianaspear_k",
+			"stardust_dianaarrow_f",
+			"stardust_dianaarrow_he",
+			"stardust_dianaarrow_k",
+			"stardust_dianadart_f",
+			"stardust_dianadart_he",
+			"stardust_dianadart_k",
+			"stardust_cloudburst_pod",
+			"stardust_stormfront",
+
+		],
+	},
 }

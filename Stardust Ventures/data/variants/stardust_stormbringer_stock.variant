@@ -3,7 +3,7 @@
   "hullId": "stardust_stormbringer",
   "displayName": "Vanguard",
   "goalVariant": true,
-  "fluxCapacitors": 26,
+  "fluxCapacitors": 30,
   "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
@@ -13,30 +13,66 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "stardust_lithobreaker_barrage",
-        "WS0002": "stardust_stormfront",
         "WS0003": "stardust_felcannon",
-        "WS0004": "stardust_felcannon",
+        "WS0004": "stardust_felcannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0005": "mark9",
-        "WS0006": "mark9",
+        "WS0006": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_lithobreaker_barrage",
+        "WS0002": "stardust_stormfront"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0007": "stardust_heavyproton",
         "WS0008": "stardust_heavyproton",
-        "WS0009": "stardust_felpulser",
-        "WS0010": "stardust_felpulser",
-        "WS0011": "stardust_dualproton",
-        "WS0012": "stardust_dualproton",
+        "WS0009": "stardust_hvy_plasmacaster",
+        "WS0010": "stardust_hvy_plasmacaster",
         "WS0013": "stardust_felrepeater",
         "WS0014": "stardust_felrepeater",
-        "WS0015": "stardust_dualproton",
-        "WS0016": "stardust_dualproton",
         "WS0017": "stardust_felrepeater",
-        "WS0018": "stardust_felrepeater",
+        "WS0018": "stardust_felrepeater"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0019": "swarmer_fighter",
         "WS0020": "swarmer_fighter",
+        "WS0024": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0021": "reaper",
         "WS0022": "reaper",
-        "WS0023": "harpoonpod",
-        "WS0024": "annihilatorpod"
+        "WS0023": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "stardust_dualproton",
+        "WS0012": "stardust_dualproton",
+        "WS0015": "stardust_dualproton",
+        "WS0016": "stardust_dualproton"
       }
     }
   ],

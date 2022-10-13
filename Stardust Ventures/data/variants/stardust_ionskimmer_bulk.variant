@@ -17,7 +17,13 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "taclaser",
-        "WS0002": "taclaser",
+        "WS0002": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0003": "vulcan",
         "WS0004": "vulcan"
       }
