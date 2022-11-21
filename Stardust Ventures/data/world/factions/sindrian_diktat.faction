@@ -1,16 +1,28 @@
 {
     "hullFrequency":{
+		"tags":{
+			"stardust_core_bp":0.6,
+			"stardust_mil_bp":0.4,
+		},
         "hulls":{
             "stardust_plasmaburst":0.5,
             "stardust_plasmaburst_sindrian":0.5,
         },
     },
     "knownShips":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
         "hulls":[
             "stardust_plasmaburst_sindrian",
         ],
     },
+	"shipsWhenImporting":{
+		"tags":["stardust_core_bp"],
+	},
+	"knownFighters":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
+	},
 	"knownWeapons":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
 		"weapons":[
 			"stardust_dianaspear_f",
 			"stardust_dianaspear_he",

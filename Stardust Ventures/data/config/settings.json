@@ -1,0 +1,15 @@
+{
+ "graphics":{
+	
+		"blueprint_packages":{
+			"stardust_core_package":"graphics/icons/cargo/stardust_package_core.png",
+			"stardust_mil_package":"graphics/icons/cargo/stardust_package_mil.png",
+		},	
+	
+	},
+
+	"designTypeColors":{
+		"Stardust Ventures":[155, 233, 233,255],
+	},
+	
+}

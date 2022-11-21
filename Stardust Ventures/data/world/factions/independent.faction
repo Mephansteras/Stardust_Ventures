@@ -1,0 +1,23 @@
+{
+    "hullFrequency":{
+		"tags":{
+			"stardust_core_bp":1,
+			"stardust_mil_bp":1,
+		},
+    },
+    "knownShips":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
+    },
+	"shipsWhenImporting":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
+	},
+	"knownFighters":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"fighters":[
+			"stardust_stormlight_wing",
+		],
+	},
+	"knownWeapons":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
+	},
+}

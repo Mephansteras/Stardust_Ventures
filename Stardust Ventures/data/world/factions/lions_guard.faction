@@ -11,11 +11,13 @@
         ],
     },
 	"knownFighters":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
 		"fighters":[
 			"stardust_stormlight_wing",
 		],
 	},
 	"knownWeapons":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
 		"weapons":[
 			"stardust_dianaspear_f",
 			"stardust_dianaspear_he",

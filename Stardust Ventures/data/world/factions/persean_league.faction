@@ -1,21 +1,31 @@
 {
     "hullFrequency":{
+		"tags":{
+			"stardust_core_bp":0.75,
+			"stardust_mil_bp":0.5,
+		},
         "hulls":{
             "stardust_plasmaburst":0.25,
             "stardust_plasmaburst_persean":0.75,
         },
     },
     "knownShips":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
         "hulls":[
             "stardust_plasmaburst_persean",
         ],
     },
+	"shipsWhenImporting":{
+		"tags":["stardust_core_bp"],
+	},
 	"knownFighters":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
 		"fighters":[
 			"stardust_stormlight_wing",
 		],
 	},
 	"knownWeapons":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
 		"weapons":[
 			"stardust_cloudburst_pod",
 			"stardust_stormfront",
