@@ -14,8 +14,19 @@
 
     "jars":["jars/Stardust_Ventures.jar"],
 
-    "modPlugin":"plugins.stardust_ModPlugin"
+    "modPlugin":"plugins.stardust_ModPlugin",
 	
-	"ddUrl": "https://github.com/Mephansteras/Stardust_Ventures/releases/download/Starsector/Stardust.Ventures.zip" 
+	"ddUrl": "https://github.com/Mephansteras/Stardust_Ventures/releases/download/Starsector/Stardust.Ventures.zip", 
+	
+	"dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib"
+        },
+		{
+			"id": "MagicLib",
+            "name": "MagicLib"
+		}
+    ],
 
 }
