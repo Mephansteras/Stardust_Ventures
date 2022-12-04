@@ -22,4 +22,9 @@
 
 		],
 	},
+	"knownHullMods":{
+		"hullMods":[
+			"stardust_enhancedengines",
+		],
+	},
 }

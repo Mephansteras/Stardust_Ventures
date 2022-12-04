@@ -2,7 +2,7 @@
   "variantId": "stardust_starlightguard_pirate_stock",
   "hullId": "stardust_starlightguard_pirate",
   "displayName": "Brawler",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 10,
   "fluxVents": 15,
   "quality": 1,

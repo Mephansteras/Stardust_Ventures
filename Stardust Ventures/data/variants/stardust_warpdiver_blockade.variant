@@ -4,7 +4,7 @@
   "displayName": "Blockade Runner",
   "goalVariant": true,
   "fluxCapacitors": 8,
-  "fluxVents": 8,
+  "fluxVents": 9,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -24,11 +24,17 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "mininglaser",
         "WS0003": "mininglaser",
         "WS0004": "mininglaser",
         "WS0005": "mininglaser",
         "WS0006": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavyburst"
       }
     }
   ],

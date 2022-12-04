@@ -35,4 +35,9 @@
 			"stardust_dianadart_k",
 		],
 	},
+	"knownHullMods":{
+		"hullMods":[
+			"stardust_enhancedengines",
+		],
+	},	
 }

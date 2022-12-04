@@ -24,5 +24,5 @@
 	"interruptibleBurst":false,
 	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
 	"projectileSpecId":"stardust_felrepeater_shot",  # projectile that will be fired
-	"fireSoundTwo":"stardust_felrepeater_shot",
+	"fireSoundTwo":"stardust_felrepeater_fire",
 }

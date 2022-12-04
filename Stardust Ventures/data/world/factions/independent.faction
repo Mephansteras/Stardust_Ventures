@@ -20,4 +20,9 @@
 	"knownWeapons":{
 		"tags":["stardust_core_bp", "stardust_mil_bp"],
 	},
+	"knownHullMods":{
+		"hullMods":[
+			"stardust_enhancedengines",
+		],
+	},	
 }

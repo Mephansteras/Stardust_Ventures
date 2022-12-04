@@ -2,7 +2,7 @@
   "variantId": "stardust_starlightguard_pirate_devestate",
   "hullId": "stardust_starlightguard_pirate",
   "displayName": "Exploder",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 15,
   "fluxVents": 20,
   "quality": 1,

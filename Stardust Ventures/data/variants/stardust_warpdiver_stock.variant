@@ -3,8 +3,8 @@
   "hullId": "stardust_warpdiver",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 10,
-  "fluxVents": 11,
+  "fluxCapacitors": 12,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -36,8 +36,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "mininglaser",
-        "WS0006": "mininglaser"
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser"
       }
     }
   ],

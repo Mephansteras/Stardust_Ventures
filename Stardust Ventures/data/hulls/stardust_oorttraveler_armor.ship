@@ -12,7 +12,7 @@
   "shieldRadius": 183,
   "viewOffset": 0,
   "builtInMods": [
-    "solar_shielding",
+    "stardust_StardustCore",
     "civgrade"
   ],
   "weaponSlots": [
@@ -21,7 +21,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 180,
+      "arc": 245,
       "angle": 90,
       "locations": [-95, 93]
     },
@@ -30,7 +30,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 180,
+      "arc": 245,
       "angle": -90,
       "locations": [-95, -93]
     },
@@ -84,7 +84,7 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 160,
+      "arc": 210,
       "angle": 90,
       "locations": [-18, 30]
     },
@@ -93,7 +93,7 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 160,
+      "arc": 210,
       "angle": -90,
       "locations": [-18, -30]
     },

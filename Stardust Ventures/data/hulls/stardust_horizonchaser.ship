@@ -12,7 +12,7 @@
   "shieldRadius": 65.5,
   "viewOffset": 0,
   "builtInMods": [
-    "solar_shielding",
+    "stardust_StardustCore",
     "surveying_equipment",
     "civgrade"
   ],

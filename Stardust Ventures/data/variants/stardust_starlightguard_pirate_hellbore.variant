@@ -2,7 +2,7 @@
   "variantId": "stardust_starlightguard_pirate_hellbore",
   "hullId": "stardust_starlightguard_pirate",
   "displayName": "Chaser",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 16,
   "fluxVents": 20,
   "quality": 1,
