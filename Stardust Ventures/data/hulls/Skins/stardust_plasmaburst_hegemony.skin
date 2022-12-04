@@ -8,7 +8,7 @@
 	"baseValueMult":1.25,
 	"spriteName":"graphics/ships/skins/stardust_plasma_burst_heg.png",
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
-	"removeBuiltInMods":[solar_shielding], 		# hullmod ids
+	"removeBuiltInMods":[stardust_StardustCore], 		# hullmod ids
 	"removeBuiltInWeapons":[
     "WS0001", 
     "WS0001"], 		# weapon slot ids

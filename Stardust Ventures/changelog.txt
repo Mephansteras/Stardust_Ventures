@@ -1,0 +1,68 @@
+v0.1.1 = Initial upload
+v0.1.2 = Vortex Hunter takes over the Light Cruiser role from the Storm Herald, which is now more in line with the Eagle.
+           Various rebalancing to make the ships more consistent with things like shield effectiveness and fuel efficiency.
+           Added the new pirate hull the Cosmic Fury.
+v0.1.3 = Additional balancing of various hulls
+             Added the Storm Bringer battlecruiser, Warp Diver Electronic Warfare destroyer, Comet Tail missile frigate, and Plasma Burst superfighter.
+             Bumped up the size of the Solar Flare's sprite & bound box to be more appropriate for its hull size
+v0.2.0 = Renamed the tags for all files from sv_ to stardust_ (this will break saves!)
+              Art pass on all of the Frigates
+              Some minor balance tweaks
+v02.1 =  Swapped out the carrier decks as requested
+v0.2.2 = Added two new weapons, the dual proton gun and heavy proton gun.
+              Added the new weapons to some variants
+              Small modifications to the Ion Skimmer and Comet Tail sprites     
+v0.2.3 = Compatible with 0.95.1a-RC6
+              Art rework of the Starlight Guard
+              Stats rebalance of the Starlight Guard   
+              Added three new pulse laser weapons, the Fel Repeater, Fel Pulsar, and Fel Cannon. Longer ranger than the vanilla Pulse weapons but do a bit less
+damage.
+v0.2.4 = Art rework of the Warp Diver, Stargazer, and Sunbeam Rider
+              Added a new missile type, the Cloudburst. A mirv weapon like the Sabot that does wide AOE designed to take out groups of missiles and fighters. 
+v0.3.1 = Added in a new fighter, the Meteorite
+              Added a new proton gun, the single-barrel light proton gun
+              Added a Large mount Cloudbust weapon, the Stormfront launcher
+              Art rework on the Vortex Hunter and Cosmic Wind ships
+              Art rework on the Fel Pulsar and Fel Cannon to make them more distinct from vanilla energy weapons.
+v0.4.1 = REQUIRES A NEW SAVE
+              Added in a new fighter, the Stormwing
+              Art rework on the Storm Herald, Void Nomad, and Starlight Raider ships
+              Rebalance of abilities on the Starlight Raider and the weapon mounts on the Storm Herald and Void Nomad
+v0.4.2 = Art rework of the Solar Flare
+              Rebalance  of hull mods and stats on the Solar Flare
+              Added in Moonbreaker bomber wing and Stormlight gunship wing
+              Added in Lithobreaker torpedoes and double, pod, and barrage versions(s/m/l)
+              Added in nex mining capabilities to the Void Nomad and Lithobreaker torpedoes
+v0.4.3 = Art replacement of the Storm Bringer
+             Major rebalancing of the Storm Bringer
+             Added custom faction skins for the Plasma Burst - Persean League, Hegemony, Sindrian Diktat, Mercenaries           
+v0.5.0 = MAY BREAK SAVES
+             Added in a new Destroyer, the Storm Seeker
+             Reworked the Cosmic Fury into the Cosmic Horror with new art and some big stats/hardpoint adjustments
+             Added in a new weapon type, the Plasma Caster with Small, Medium, and Large slot versions
+             Added in a new Large proton gun, the Proton Autocannon
+             Added in a new Large version of the Thumper, the Walloper
+v0.5.1 = Added in a new variant of the Storm Seeker that swaps the large mount for a fighter bay
+             Added in a new set of weapons, Diana's Dart/Arrow/Spear with Frag, HE, and Kinetic versions of each
+v0.5.2 = Bugfix to prevent issues on Linux systems
+v0.5.3 = Added the Oort Traveler, twin-linked fel repeater, and quad-linked fel repeater
+             Updated the sprites for a few ships
+             Adjusted the stats on a few ships to improve balance
+             Fel weapon shots are now a bit more blue looking
+             Moved the Diana's Dart/Arrow/Spear to being Sindrian Diktat and merc only, and actually gave some factions access to the Cloudburst pod, Stormfront launcher, and Stormlight gunship.
+v0.6.0 = BIG CHANGES - MAY MAKE SAVES WONKY
+			 NOW REQUIRES LazyLib and MagicLib
+			 Solar Shielding swapped out for Stardust Core Drive, which has slightly weaker effects but also adds a fleetwide boost to campaign map agility, up to 50% improvement for all-SV fleets
+			 Added in Stardust Engine Enhancements hullmod, which gives +1 burn, +10% combat speed, and +20% maneuverability. 
+			 Cosmic Wind is now cheaper to deploy and maintain
+			 Warp Diver has more OP and better flux stats but costs more to deploy and maintain
+			 Adjusted some loadouts and ship variants, particularly for the Warp Diver
+			 Stardust Venture blueprints have been split out of the midline pack and into two packs, one for civilian and one for military
+			 Did some rebalancing of which factions get access to what bps
+			 Added Industrial Evolution integration for reverse engineering and ship duplication
+			 Fixed a sound issue with the linked fel and fel battery weapons
+			 Added versioning support and direct download for SMOL			 
+			 Various bugfixes
+			 Various minor art tweaks
+
+			 
