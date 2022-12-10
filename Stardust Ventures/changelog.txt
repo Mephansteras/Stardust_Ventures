@@ -64,5 +64,6 @@ v0.6.0 = BIG CHANGES - MAY MAKE SAVES WONKY
 			 Added versioning support and direct download for SMOL			 
 			 Various bugfixes
 			 Various minor art tweaks
-
+v0.6.1 = Bugfix
+			  Fixed an issue with the version checking files
 			 

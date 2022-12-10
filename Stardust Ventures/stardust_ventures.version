@@ -1,12 +1,12 @@
 {
-    "masterVersionFile":"https://github.com/Mephansteras/Stardust_Ventures/blob/main/stardust_ventures.version",
+    "masterVersionFile":"https://raw.githubusercontent.com/Mephansteras/Stardust_Ventures/main/Stardust%20Ventures/stardust_ventures.version",
     "modName":"Stardust Ventures",
     "modThreadId":22966,
     "modVersion":
     {
         "major":0,
         "minor":6,
-        "patch":"0"
+        "patch":"1"
     },
 }
 
