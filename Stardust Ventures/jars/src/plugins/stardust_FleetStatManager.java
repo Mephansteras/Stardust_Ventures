@@ -104,7 +104,7 @@ public class stardust_FleetStatManager implements EveryFrameScript
         PersonAPI commander = fleet.getCommander();
         MutableCharacterStatsAPI commanderStats = commander.getFleetCommanderStats();
 
-        float currentNavPenalty = commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).getModifiedValue();
+        //float currentNavPenalty = commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).getModifiedValue();
 
         FleetDataAPI fleetData = fleet.getFleetData();
         MutableFleetStatsAPI fleetStats = fleetData.getFleet().getStats();
@@ -121,14 +121,14 @@ public class stardust_FleetStatManager implements EveryFrameScript
         if (hasHarmonics == false && hasHarmonicMod == true)
         {
             commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).modifyFlat(HARMONIC_ID,
-                    -0.01f * stardust_WarpHarmonicResonator.NAVIGATION_PENALTY_REDUCTION);
+                    -1.00f * stardust_WarpHarmonicResonator.NAVIGATION_PENALTY_REDUCTION);
             MutableStat fleetChecked = new MutableStat(0.0F);
             fleetStats.addTemporaryModMult(365f, HARMONIC_ID, HARMONIC_DESC, 1f, fleetChecked);
         }
         else if (hasHarmonics == true && hasHarmonicMod == false)
         {
             commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).modifyFlat(HARMONIC_ID,
-                    0.01f * stardust_WarpHarmonicResonator.NAVIGATION_PENALTY_REDUCTION);
+                    1.00f * stardust_WarpHarmonicResonator.NAVIGATION_PENALTY_REDUCTION);
             fleetStats.removeTemporaryMod(HARMONIC_ID);
         }
 

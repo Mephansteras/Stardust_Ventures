@@ -5,7 +5,7 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
-import data.scripts.util.MagicIncompatibleHullmods;
+import org.magiclib.util.MagicIncompatibleHullmods;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -13,7 +13,7 @@ import java.util.Set;
 public class stardust_StardustCore extends BaseHullMod {
 
     public static final float CORONA_EFFECT_REDUCTION = 0.3f;
-    public static final float ACCELERATION_BONUS = 0.5f;
+    public static final float ACCELERATION_BONUS = 1.0f;
     public static final float ENERGY_DAMAGE_REDUCTION = 0.85f;
 
     private static final Set<String> BLOCKED_HULLMODS = new HashSet<>(1);

@@ -1,7 +1,7 @@
 {
     "hullFrequency":{
 		"tags":{
-			"stardust_core_bp":0.25,
+			"stardust_core_bp":0.20,
 			"stardust_mil_bp":0.25,
 		},
 		"hulls":{

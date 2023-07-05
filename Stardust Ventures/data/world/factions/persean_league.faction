@@ -1,12 +1,12 @@
 {
     "hullFrequency":{
 		"tags":{
-			"stardust_core_bp":0.75,
-			"stardust_mil_bp":0.5,
+			"stardust_core_bp":0.33,
+			"stardust_mil_bp":0.4,
 		},
         "hulls":{
-            "stardust_plasmaburst":0.25,
-            "stardust_plasmaburst_persean":0.75,
+            "stardust_plasmaburst":0.2,
+            "stardust_plasmaburst_persean":0.6,
         },
     },
     "knownShips":{
@@ -25,11 +25,19 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
 		"weapons":[
-			"stardust_cloudburst_pod",
-			"stardust_stormfront",
-
+			"stardust_lightproton",
+			"stardust_dualproton",
+			"stardust_heavyproton",
+			"stardust_autoproton",
+			"stardust_felrepeater",
+			"stardust_felrepeater_linked",
+			"stardust_felrepeater_battery",
+			"stardust_felpulser",
+			"stardust_felcannon",
+			"stardust_plasmacaster",
+			"stardust_hvy_plasmacaster",
+			"stardust_plasmacaster_array",
 		],
 	},
 	"knownHullMods":{

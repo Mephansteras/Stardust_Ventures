@@ -1,0 +1,75 @@
+{
+  "hullName": "Gamma Racer",
+  "hullId": "stardust_gammaracer",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/stardust_gammaracer.png",
+  "style": "MIDLINE",
+  "height": 40,
+  "width": 40,
+  "center": [20, 20],
+  "collisionRadius": 30,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 26.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, 11],
+      "length": 38.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH2"
+    },
+    {
+      "location": [-9.5, -11],
+      "length": 38.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH2"
+    },
+    {
+      "location": [-9, 7.5],
+      "length": 38.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH2"
+    },
+    {
+      "location": [-9, -7.5],
+      "length": 38.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH2"
+    }
+  ],
+  "bounds": [
+    16.5, -3.5,
+    8.5, -12.5,
+    16.5, -13.5,
+    -18.5, -19.5,
+    -9, -8.5,
+    -9, 8.5,
+    -18.5, 19.5,
+    16.5, 13.5,
+    8.5, 12.5,
+    16.5, 3.5
+  ]
+}

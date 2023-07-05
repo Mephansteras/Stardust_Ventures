@@ -14,7 +14,8 @@
   "builtInMods": [
     "stardust_StardustCore",
     "civgrade",
-    "stardust_WarpHarmonicResonator"
+    "stardust_WarpHarmonicResonator",
+	"drive_field_stabilizer",
   ],
   "weaponSlots": [
     {

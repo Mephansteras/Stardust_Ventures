@@ -1,0 +1,22 @@
+{
+  "variantId": "stardust_gammaracer_Fighter",
+  "hullId": "stardust_gammaracer",
+  "displayName": "Gamma Racer",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_felpds"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

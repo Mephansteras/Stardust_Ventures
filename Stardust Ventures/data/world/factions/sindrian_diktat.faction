@@ -1,8 +1,8 @@
 {
     "hullFrequency":{
 		"tags":{
-			"stardust_core_bp":0.6,
-			"stardust_mil_bp":0.4,
+			"stardust_core_bp":0.5,
+			"stardust_mil_bp":0.3,
 		},
         "hulls":{
             "stardust_plasmaburst":0.5,
