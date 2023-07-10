@@ -4,7 +4,7 @@
   "displayName": "Strike",
   "goalVariant": true,
   "fluxCapacitors": 10,
-  "fluxVents": 14,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

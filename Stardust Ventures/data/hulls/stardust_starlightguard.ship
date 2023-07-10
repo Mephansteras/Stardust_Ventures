@@ -14,6 +14,11 @@
   "builtInMods": [
     "stardust_StardustCore"
   ],
+  "builtInWeapons": {
+    "WS0007": "starlight_guard_lfl",
+    "WS0008": "starlight_guard_rfl",
+    "WS0009": "starlight_guard_core"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -68,6 +73,33 @@
       "arc": 33,
       "angle": -0,
       "locations": [54.5, -0.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 33,
+      "angle": -0,
+      "locations": [27.5, 16]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 33,
+      "angle": 0,
+      "locations": [28, -17]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-66, -0.5]
     }
   ],
   "engineSlots": [

@@ -4,7 +4,7 @@
   "displayName": "Support",
   "goalVariant": true,
   "fluxCapacitors": 12,
-  "fluxVents": 15,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -14,6 +14,8 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "stardust_hvy_plasmacaster",
+        "WS0005": "stardust_felpds",
+        "WS0006": "stardust_felpds",
         "WS0007": "stardust_hvy_plasmacaster"
       }
     },
@@ -35,10 +37,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0005": "pdlaser",
-        "WS0006": "pdlaser"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

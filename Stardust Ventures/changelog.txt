@@ -65,5 +65,11 @@ v0.6.0 = BIG CHANGES - MAY MAKE SAVES WONKY
 			 Various bugfixes
 			 Various minor art tweaks
 v0.6.1 = Bugfix
-			  Fixed an issue with the version checking files
-			 
+			 Fixed an issue with the version checking files
+v0.7.0 = Starsector 0.96 Update
+			 Updated code to handle MagicLib changes
+			 Added new ship, the Celestial Guide 
+			 Added new fighter, the Gamma Racer
+			 Added new weapon, the FEL pds
+			 Updated graphics for the Starlight Guard
+			 Upped Stardust Core fleet agility boost to 100% max bonus from 50%

@@ -69,6 +69,7 @@
         "stardust_stargazer_stock":5,
         "stardust_stargazer_seeker":5,
         "stardust_sunbeamrider_stock":10,
+		"stardust_celestialguide_stock":0.5,
 	},    
     # hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall":{

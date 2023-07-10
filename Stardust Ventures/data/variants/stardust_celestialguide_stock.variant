@@ -1,0 +1,24 @@
+{
+  "variantId": "stardust_celestialguide_stock",
+  "hullId": "stardust_celestialguide",
+  "displayName": "Stock",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "nav_relay"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

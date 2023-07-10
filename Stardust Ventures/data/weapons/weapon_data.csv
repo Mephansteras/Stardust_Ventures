@@ -45,4 +45,9 @@ Diana's Dart (F),stardust_dianadart_f,2,0.2,1000,800,,40,,5,50,8,,,,FRAGMENTATIO
 Diana's Dart (HE),stardust_dianadart_he,2,0.2,1000,800,,40,,5,50,8,,,,HIGH_EXPLOSIVE,20,,1,0,4,0.1,0,5,1,15,,600,,,100,,,GUIDED_POOR,"he9, rare_bp, merc",,Stardust Ventures,,Anti Armor,Fast,Good,,,,,,,,800.32
 Diana's Dart (K),stardust_dianadart_k,2,0.2,1000,800,,40,,5,50,8,,,,KINETIC,20,,1,0,4,0.1,0,5,1,15,,600,,,100,,,GUIDED_POOR,"kinetic9, rare_bp, merc",,Stardust Ventures,,Anti Shield,Fast,Good,,,,,,,,800.33
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Stormseeker Cover,stormseeker_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.23
+Stormseeker Cover,stormseeker_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.201
+Starlight Guard Core,starlight_guard_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.202
+Starlight Guard Left light,starlight_guard_lfl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.203
+Starlight Guard Right light,starlight_guard_rfl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.204
+Celestial Guide Blinker Blue,celestialguide_blinker_blue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.205
+Celestial Guide Core,celestial_guide_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.206

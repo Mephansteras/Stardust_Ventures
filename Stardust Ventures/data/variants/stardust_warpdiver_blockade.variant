@@ -17,6 +17,8 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "gravitonbeam",
+        "WS0003": "stardust_felpds",
+        "WS0004": "stardust_felpds",
         "WS0007": "gravitonbeam"
       }
     },
@@ -24,8 +26,6 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "mininglaser",
-        "WS0004": "mininglaser",
         "WS0005": "mininglaser",
         "WS0006": "mininglaser"
       }

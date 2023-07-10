@@ -15,8 +15,15 @@
     "stardust_StardustCore",
     "civgrade",
     "stardust_WarpHarmonicResonator",
-	"drive_field_stabilizer",
+    "drive_field_stabilizer"
   ],
+  "builtInWeapons": {
+    "WS0002": "celestialguide_blinker_blue",
+    "WS0003": "celestialguide_blinker_blue",
+    "WS0004": "celestial_guide_core",
+    "WS0005": "celestialguide_blinker_blue",
+    "WS0006": "celestialguide_blinker_blue"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -24,8 +31,53 @@
       "type": "HYBRID",
       "mount": "TURRET",
       "arc": 359,
-      "angle": 0,
+      "angle": 180,
       "locations": [-5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 359,
+      "angle": 180,
+      "locations": [51.5, 61.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 359,
+      "angle": -180,
+      "locations": [51.5, -61.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 359,
+      "angle": 180,
+      "locations": [-20, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 359,
+      "angle": 180,
+      "locations": [-25, 113.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 359,
+      "angle": -180,
+      "locations": [-25.5, -113.5]
     }
   ],
   "engineSlots": [
