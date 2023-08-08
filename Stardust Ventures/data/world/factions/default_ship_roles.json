@@ -64,13 +64,20 @@
 		"stardust_stormbringer_shock":3,
         "stardust_stormbringer_lancer":3,
 	},
-		"civilianRandom":{
+	"civilianRandom":{
 		"stardust_horizonchaser_stock":10,
         "stardust_stargazer_stock":5,
         "stardust_stargazer_seeker":5,
         "stardust_sunbeamrider_stock":10,
-		"stardust_celestialguide_stock":0.5,
+		"stardust_celestialguide_stock":0.75,
 	},    
+	# utility ships
+	"tug":{
+		"stardust_celestialguide_stock":5,
+	},
+	"utility":{
+		"stardust_celestialguide_stock":2,
+	},
     # hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall":{
         "stardust_ionskimmer_bulk":5,

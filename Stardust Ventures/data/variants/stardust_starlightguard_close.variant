@@ -4,7 +4,7 @@
   "displayName": "Close Assault",
   "goalVariant": true,
   "fluxCapacitors": 20,
-  "fluxVents": 18,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -16,15 +16,14 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "stardust_heavyproton"
+        "WS0005": "stardust_heavyproton",
+        "WS0006": "stardust_stream_mrm_crimson_pod"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0006": "sabotpod"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

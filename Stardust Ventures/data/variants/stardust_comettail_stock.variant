@@ -8,39 +8,36 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "auxiliarythrusters",
     "eccm",
-    "advancedshieldemitter"
+    "missleracks",
+    "extendedshieldemitter"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "amblaster"
+        "WS0001": "stardust_streak_mrm_crimson",
+        "WS0002": "stardust_streak_mrm_violet",
+        "WS0003": "stardust_streak_mrm_azure",
+        "WS0004": "stardust_streak_mrm_amber",
+        "WS0005": "stardust_felrepeater"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "atropos"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0002": "sabot"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0003": "harpoon",
-        "WS0004": "harpoon"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

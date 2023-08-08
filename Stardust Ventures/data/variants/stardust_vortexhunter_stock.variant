@@ -3,7 +3,7 @@
   "hullId": "stardust_vortexhunter",
   "displayName": "Flanker",
   "goalVariant": true,
-  "fluxCapacitors": 21,
+  "fluxCapacitors": 23,
   "fluxVents": 25,
   "quality": 1,
   "permaMods": [],
@@ -15,7 +15,11 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "stardust_felcannon"
+        "WS0002": "stardust_felcannon",
+        "WS0003": "stardust_stream_mrm_azure_pod",
+        "WS0004": "stardust_stream_mrm_violet_pod",
+        "WS0007": "lightdualac",
+        "WS0008": "lightdualac"
       }
     },
     {
@@ -28,24 +32,17 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0003": "stardust_cloudburst_pod"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0004": "typhoon"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0007": "lightac",
-        "WS0008": "lightac"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

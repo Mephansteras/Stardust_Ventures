@@ -15,6 +15,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0004": "stardust_streak_mrm_violet",
         "WS0007": "stardust_autoproton"
       }
     },
@@ -36,9 +37,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0004": "harpoon"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

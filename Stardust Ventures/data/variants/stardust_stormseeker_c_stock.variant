@@ -4,7 +4,7 @@
   "displayName": "Escort",
   "goalVariant": true,
   "fluxCapacitors": 15,
-  "fluxVents": 15,
+  "fluxVents": 16,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -17,7 +17,10 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "stardust_felpulser",
-        "WS0002": "stardust_felpulser"
+        "WS0002": "stardust_felpulser",
+        "WS0005": "stardust_felpds",
+        "WS0006": "stardust_felpds",
+        "WS0008": "stardust_mistpds"
       }
     },
     {
@@ -37,11 +40,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0005": "vulcan",
-        "WS0006": "vulcan",
-        "WS0008": "vulcan"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

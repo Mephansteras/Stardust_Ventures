@@ -8,7 +8,7 @@ import com.fs.starfarer.api.combat.BaseHullMod;
 
 public class stardust_WarpHarmonicResonator extends BaseHullMod  {
 
-    public static final float NAVIGATION_PENALTY_REDUCTION = 0.5f; //50f;
+    public static final float NAVIGATION_PENALTY_REDUCTION = 30f; //50f;
     public static final float ACCELERATION_BONUS = 0.5f;
 
     public String getDescriptionParam(int index, ShipAPI.HullSize hullSize) {
