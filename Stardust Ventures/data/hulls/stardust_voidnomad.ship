@@ -16,7 +16,8 @@
     "hiressensors",
     "repair_gantry",
     "surveying_equipment",
-    "stardust_StardustCore"
+    "stardust_StardustCore",
+    "stardust_EnvironmentalShielding"
   ],
   "weaponSlots": [
     {

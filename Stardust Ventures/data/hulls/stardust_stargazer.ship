@@ -14,7 +14,8 @@
   "builtInMods": [
     "surveying_equipment",
     "stardust_StardustCore",
-    "civgrade"
+    "civgrade",
+    "stardust_EnvironmentalShielding"
   ],
   "weaponSlots": [
     {
