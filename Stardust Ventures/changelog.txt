@@ -75,3 +75,11 @@ v0.7.0 = Starsector 0.96 Update
 			 Upped Stardust Core fleet agility boost to 100% max bonus from 50%
 			 Tweaks to various variant loadouts
 			 Tweaked Faction usage of SV ships/equipment to better fit new lore
+v0.7.1 = Added Environmental Shielding hullmod
+		 Added Mist PDS
+		 Added Amber, Azure, Crimson, and Violet Streak MRMs (in small/med/large mount sizes)
+		 Fixed Celestial Guide not showing up as often as it should
+		 Fixed Celestial Guide not giving the intended 30% nav penalty reduction
+		 Updated the Gamma Racer to also use a Mist PDS
+		 Updated some variant loadouts to include the new weapons
+		 Updated the Exploration ships to include built-in Environmental Shielding (Horizon Chaser, Stargazer, and Void Nomad)
