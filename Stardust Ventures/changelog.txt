@@ -83,3 +83,4 @@ v0.7.1 = Added Environmental Shielding hullmod
 		 Updated the Gamma Racer to also use a Mist PDS
 		 Updated some variant loadouts to include the new weapons
 		 Updated the Exploration ships to include built-in Environmental Shielding (Horizon Chaser, Stargazer, and Void Nomad)
+v0.7.2 = HOTFIX for Celestial Guide related crashes		 

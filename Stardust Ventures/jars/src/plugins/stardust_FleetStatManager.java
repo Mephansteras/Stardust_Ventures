@@ -17,6 +17,7 @@ import com.fs.starfarer.api.characters.MutableCharacterStatsAPI;
 import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.combat.MutableStat;
 
+import com.fs.starfarer.campaign.CharacterStats;
 import data.hullmods.stardust_StardustCore;
 import data.hullmods.stardust_WarpHarmonicResonator;
 
@@ -103,14 +104,39 @@ public class stardust_FleetStatManager implements EveryFrameScript
     private static void applyHarmonics(CampaignFleetAPI fleet)
     {
         PersonAPI commander = fleet.getCommander();
-        MutableCharacterStatsAPI commanderStats = commander.getFleetCommanderStats();
+        //PersonAPI commander = member.getFleetCommanderForStats    Would need to get the flagship?
+
+        MutableCharacterStatsAPI commanderStats;
+        if (commander == null)
+        {
+            commander = Global.getFactory().createPerson();
+            fleet.setCommander(commander);
+        }
+
         if (fleet.isPlayerFleet())
         {
             commanderStats = Global.getSector().getPlayerStats();
         }
+        else
+        {
+            commanderStats = fleet.getCommanderStats();
+        }
 
+        if (commanderStats == null)
+        {
+            commander.setStats(new CharacterStats());
+        }
 
-        //float currentNavPenalty = commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).getModifiedValue();
+        // Most fleets should have 1.0
+        // Ensure we can't have a penalty mult below 0
+        float currentNavPenalty = commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).getModifiedValue();
+        float penaltyReduction = -0.01f * stardust_WarpHarmonicResonator.NAVIGATION_PENALTY_REDUCTION;
+        if ( (currentNavPenalty + penaltyReduction) < 0.0)
+        {
+            float diff = currentNavPenalty + penaltyReduction;
+            penaltyReduction = penaltyReduction - diff;
+        }
+
 
         FleetDataAPI fleetData = fleet.getFleetData();
         MutableFleetStatsAPI fleetStats = fleetData.getFleet().getStats();
@@ -127,8 +153,8 @@ public class stardust_FleetStatManager implements EveryFrameScript
 
         if (hasHarmonics == false && hasHarmonicMod == true)
         {
-            commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).modifyFlat(HARMONIC_ID,
-                    -0.01f * stardust_WarpHarmonicResonator.NAVIGATION_PENALTY_REDUCTION);
+                 commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).modifyFlat(HARMONIC_ID,
+                         penaltyReduction);
             MutableStat fleetChecked = new MutableStat(0.0F);
             fleetStats.addTemporaryModMult(365f, HARMONIC_ID, HARMONIC_DESC, 1f, fleetChecked);
         }
