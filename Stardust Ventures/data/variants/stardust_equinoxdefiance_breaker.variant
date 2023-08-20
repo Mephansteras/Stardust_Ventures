@@ -1,0 +1,72 @@
+{
+  "variantId": "stardust_equinoxdefiance_breaker",
+  "hullId": "stardust_equinoxdefiance",
+  "displayName": "Breaker",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "stardust_lithobreaker_barrage"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "sabotpod",
+        "WS0010": "stardust_streak_mrm_azure_int",
+        "WS0012": "stardust_streak_mrm_crimson_int"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "annihilatorpod",
+        "WS0013": "stardust_streak_mrm_violet_int"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "stardust_streak_mrm_amber_int"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "swarmer_fighter",
+        "WS0005": "stardust_cloudburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "stardust_hvy_plasmacaster",
+        "WS0007": "stardust_hvy_plasmacaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "stardust_felpds",
+        "WS0009": "stardust_felpds"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

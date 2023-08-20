@@ -1,0 +1,221 @@
+{
+  "hullName": "Equinox Defiance",
+  "hullId": "stardust_equinoxdefiance",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/stardust_exquinoxdefiance.png",
+  "style": "MIDLINE",
+  "height": 331,
+  "width": 188,
+  "center": [93.5, 153],
+  "collisionRadius": 187,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 179,
+  "viewOffset": 0,
+  "builtInMods": [
+    "stardust_StardustCore",
+    "missleracks"
+  ],
+  "builtInWeapons": {
+    "WS0010": "stardust_streak_mrm_azure_int",
+    "WS0011": "stardust_streak_mrm_amber_int",
+    "WS0012": "stardust_streak_mrm_crimson_int",
+    "WS0013": "stardust_streak_mrm_violet_int",
+    "WS0014": "equinox_defiance_core"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [10.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [22, 42]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [22, -42]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-36, 77.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-36, -77.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 24.5,
+      "locations": [-35.5, 42.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -24.5,
+      "locations": [-35.5, -42.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 179.5,
+      "locations": [-111.5, 41.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-111.5, -41.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [69.5, 13.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [69.5, -13.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [90.5, 13]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [90.5, -13]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-97.5, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-153.5, 78],
+      "length": 68,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-153.5, -78],
+      "length": 68,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-139.5, 42.5],
+      "length": 68,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-139.5, -42.5],
+      "length": 68,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    }
+  ],
+  "bounds": [
+    175.5, -8,
+    -26, -31.5,
+    25, -35.5,
+    24, -49.5,
+    -48, -53.5,
+    -66, -67.5,
+    -38, -70.5,
+    -36.5, -84.5,
+    -144, -86.5,
+    -150.5, -83,
+    -151, -72,
+    -138, -68.5,
+    -138, -33.5,
+    -118.5, -31,
+    -118.5, 31,
+    -138, 33.5,
+    -138, 68.5,
+    -151, 72,
+    -150.5, 83,
+    -144, 86.5,
+    -36.5, 84.5,
+    -38, 70.5,
+    -66, 67.5,
+    -48, 53.5,
+    24, 49.5,
+    25, 35.5,
+    -26, 31.5,
+    175.5, 8
+  ]
+}

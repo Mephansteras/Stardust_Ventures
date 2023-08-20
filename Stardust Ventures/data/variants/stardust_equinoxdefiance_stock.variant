@@ -1,0 +1,72 @@
+{
+  "variantId": "stardust_equinoxdefiance_stock",
+  "hullId": "stardust_equinoxdefiance",
+  "displayName": "Patrol",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "stardust_stream_mrm_crimson_barrage"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "stardust_stream_mrm_azure_pod",
+        "WS0004": "stardust_streak_mrm_azure",
+        "WS0010": "stardust_streak_mrm_azure_int"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "stardust_stream_mrm_violet_pod",
+        "WS0013": "stardust_streak_mrm_violet_int"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "stardust_streak_mrm_amber_int"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "stardust_streak_mrm_crimson",
+        "WS0012": "stardust_streak_mrm_crimson_int"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "stardust_felpulser",
+        "WS0007": "stardust_felpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "stardust_felpds",
+        "WS0009": "stardust_felpds"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

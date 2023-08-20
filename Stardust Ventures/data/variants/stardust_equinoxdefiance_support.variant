@@ -1,0 +1,73 @@
+{
+  "variantId": "stardust_equinoxdefiance_support",
+  "hullId": "stardust_equinoxdefiance",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "stardust_stormfront"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pilum",
+        "WS0003": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "stardust_lithobreaker",
+        "WS0010": "stardust_streak_mrm_azure_int",
+        "WS0012": "stardust_streak_mrm_crimson_int"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "stardust_streak_mrm_amber_int",
+        "WS0013": "stardust_streak_mrm_violet_int"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "gravitonbeam",
+        "WS0007": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "stardust_mistpds",
+        "WS0009": "stardust_mistpds"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
