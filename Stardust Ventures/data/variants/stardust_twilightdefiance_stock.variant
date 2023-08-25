@@ -1,14 +1,15 @@
 {
-  "variantId": "stardust_equinoxdefiance_stock",
-  "hullId": "stardust_equinoxdefiance",
+  "variantId": "stardust_twilightdefiance_stock",
+  "hullId": "stardust_twilightdefiance",
   "displayName": "Patrol",
   "goalVariant": true,
-  "fluxCapacitors": 16,
-  "fluxVents": 18,
+  "fluxCapacitors": 19,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "missleracks"
+    "missleracks",
+    "eccm"
   ],
   "weaponGroups": [
     {

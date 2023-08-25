@@ -112,7 +112,7 @@ public class stardust_FleetStatManager implements EveryFrameScript
             commander = Global.getFactory().createPerson();
             fleet.setCommander(commander);
         }
-        commanderStats = commander.getFleetCommanderStats()
+        commanderStats = commander.getFleetCommanderStats();
 
         if (fleet.isPlayerFleet())
         {

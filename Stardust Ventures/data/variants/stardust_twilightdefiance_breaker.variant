@@ -1,14 +1,15 @@
 {
-  "variantId": "stardust_equinoxdefiance_breaker",
-  "hullId": "stardust_equinoxdefiance",
+  "variantId": "stardust_twilightdefiance_breaker",
+  "hullId": "stardust_twilightdefiance",
   "displayName": "Breaker",
   "goalVariant": true,
-  "fluxCapacitors": 15,
-  "fluxVents": 15,
+  "fluxCapacitors": 18,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "missleracks"
+    "missleracks",
+    "dedicated_targeting_core"
   ],
   "weaponGroups": [
     {

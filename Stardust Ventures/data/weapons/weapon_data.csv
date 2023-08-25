@@ -72,4 +72,7 @@ Starlight Guard Left light,starlight_guard_lfl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SY
 Starlight Guard Right light,starlight_guard_rfl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.204
 Celestial Guide Blinker Blue,celestialguide_blinker_blue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.205
 Celestial Guide Core,celestial_guide_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.206
-Equinox Defiance Core,equinox_defiance_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Twilight Defiance Core,twilight_defiance_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.207
+Twilight Defiance Lights1,twilight_defiance_lights_1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.208
+Twilight Defiance Lights2,twilight_defiance_lights_2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.209
+Twilight Defiance Lights3,twilight_defiance_lights_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.211

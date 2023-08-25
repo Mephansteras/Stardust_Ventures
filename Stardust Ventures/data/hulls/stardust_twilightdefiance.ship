@@ -1,12 +1,12 @@
 {
-  "hullName": "Equinox Defiance",
-  "hullId": "stardust_equinoxdefiance",
+  "hullName": "Twilight Defiance",
+  "hullId": "stardust_twilightdefiance",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/stardust_exquinoxdefiance.png",
+  "spriteName": "graphics/ships/stardust_twilightdefiance.png",
   "style": "MIDLINE",
   "height": 331,
-  "width": 188,
-  "center": [93.5, 153],
+  "width": 202,
+  "center": [100.5, 152.5],
   "collisionRadius": 187,
   "shieldCenter": [0, -0],
   "shieldRadius": 179,
@@ -20,7 +20,10 @@
     "WS0011": "stardust_streak_mrm_amber_int",
     "WS0012": "stardust_streak_mrm_crimson_int",
     "WS0013": "stardust_streak_mrm_violet_int",
-    "WS0014": "equinox_defiance_core"
+    "WS0014": "twilight_defiance_core",
+    "WS0015": "twilight_defiance_lights_1",
+    "WS0016": "twilight_defiance_lights_2",
+    "WS0017": "twilight_defiance_lights_3"
   },
   "weaponSlots": [
     {
@@ -30,7 +33,7 @@
       "mount": "TURRET",
       "arc": 240,
       "angle": 0,
-      "locations": [10.5, -0]
+      "locations": [11.5, 0]
     },
     {
       "id": "WS0002",
@@ -39,7 +42,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 0,
-      "locations": [22, 42]
+      "locations": [23, 42]
     },
     {
       "id": "WS0003",
@@ -48,7 +51,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": -0,
-      "locations": [22, -42]
+      "locations": [24.5, -42.5]
     },
     {
       "id": "WS0004",
@@ -57,7 +60,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 0,
-      "locations": [-36, 77.5]
+      "locations": [-35, 77.5]
     },
     {
       "id": "WS0005",
@@ -66,7 +69,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": -0,
-      "locations": [-36, -77.5]
+      "locations": [-35, -77.5]
     },
     {
       "id": "WS0006",
@@ -75,7 +78,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 24.5,
-      "locations": [-35.5, 42.5]
+      "locations": [-34.5, 41]
     },
     {
       "id": "WS0007",
@@ -84,7 +87,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -24.5,
-      "locations": [-35.5, -42.5]
+      "locations": [-34.5, -42.5]
     },
     {
       "id": "WS0008",
@@ -102,7 +105,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 180,
-      "locations": [-111.5, -41.5]
+      "locations": [-111.5, -42.5]
     },
     {
       "id": "WS0010",
@@ -111,7 +114,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 90,
-      "locations": [69.5, 13.5]
+      "locations": [70.5, 13.5]
     },
     {
       "id": "WS0011",
@@ -120,7 +123,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -90,
-      "locations": [69.5, -13.5]
+      "locations": [70.5, -13.5]
     },
     {
       "id": "WS0012",
@@ -129,7 +132,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 90,
-      "locations": [90.5, 13]
+      "locations": [91.5, 13]
     },
     {
       "id": "WS0013",
@@ -138,7 +141,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -90,
-      "locations": [90.5, -13]
+      "locations": [91.5, -13]
     },
     {
       "id": "WS0014",
@@ -147,7 +150,34 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 0,
-      "locations": [-97.5, -0.5]
+      "locations": [-96.5, -0.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [139, -0.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [82, -0.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [44.5, -0.5]
     }
   ],
   "engineSlots": [

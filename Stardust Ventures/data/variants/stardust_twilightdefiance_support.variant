@@ -1,15 +1,16 @@
 {
-  "variantId": "stardust_equinoxdefiance_support",
-  "hullId": "stardust_equinoxdefiance",
+  "variantId": "stardust_twilightdefiance_support",
+  "hullId": "stardust_twilightdefiance",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 12,
+  "fluxCapacitors": 14,
   "fluxVents": 13,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "missleracks",
-    "eccm"
+    "eccm",
+    "ecm"
   ],
   "weaponGroups": [
     {

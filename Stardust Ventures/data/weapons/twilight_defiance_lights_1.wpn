@@ -1,14 +1,18 @@
 {
-	"id":"equinox_defiance_core",  # this id must match what's in the spreadsheet
+	"id":"twilight_defiance_lights_1",  # this id must match what's in the spreadsheet
 	"specClass":"beam",
 	"type":"DECORATIVE",
 	"size":"SMALL",
-	"everyFrameEffect":"com.fs.starfarer.api.impl.combat.LightsEffect",
+	"everyFrameEffect":"data.scripts.everyframe.ThreeStageLights_One",
+	#"everyFrameEffect":"com.fs.starfarer.api.impl.combat.BlinkerEffect",
+	#"numFrames":2,
+	#"frameRate":1,
+	"alwaysAnimate":"false",
 	"showDamageWhenDecorative":false,
 	"renderBelowAllWeapons":true,
 	"renderHints":["RENDER_ADDITIVE"],	
-	"turretSprite":"graphics/ships/Covers/equinox_defiance_core.png",
-	"hardpointSprite":"graphics/ships/Covers/equinox_defiance_core.png",
+	"turretSprite":"graphics/ships/Covers/twilight_lights_1.png",
+	"hardpointSprite":"graphics/ships/Covers/twilight_lights_1.png",
 	"turretOffsets":[0, 0],
 	"turretAngleOffsets":[0],
 	"hardpointOffsets":[0, 0],
