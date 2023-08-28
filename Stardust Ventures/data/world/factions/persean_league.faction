@@ -39,11 +39,13 @@
 			"stardust_plasmacaster",
 			"stardust_hvy_plasmacaster",
 			"stardust_plasmacaster_array",
+			"stardust_mistpds",
 		],
 	},
 	"knownHullMods":{
 		"hullMods":[
 			"stardust_enhancedengines",
+			"stardust_EnvironmentalShielding",
 		],
 	},	
 }

@@ -6,17 +6,17 @@
 
     "author": "Mephansteras",
 
-    "version": "0.7.2 Alpha",
+    "version": "0.7.3 Alpha",
 
     "description": "A set of ships focused on exploration, surveying, and living outside the core worlds.",
 
-    "gameVersion": "0.96a",
+    "gameVersion": "0.96a-RC10",
 
     "jars":["jars/Stardust_Ventures.jar"],
 
     "modPlugin":"plugins.stardust_ModPlugin",
 	
-	"ddUrl": "https://github.com/Mephansteras/Stardust_Ventures/releases/download/Starsector/Stardust.Ventures.zip", 
+	"ddUrl": "https://github.com/Mephansteras/Stardust_Ventures/releases/download/stardust_ventures_v0.7.3/Stardust.Ventures.zip", 
 	
 	"dependencies": [
         {

@@ -84,3 +84,9 @@ v0.7.1 = Added Environmental Shielding hullmod
 		 Updated some variant loadouts to include the new weapons
 		 Updated the Exploration ships to include built-in Environmental Shielding (Horizon Chaser, Stargazer, and Void Nomad)
 v0.7.2 = HOTFIX for Celestial Guide related crashes		 
+v0.7.3 = Added Twilight Defiance missile cruiser
+		 Fixed Environmental Shielding not showing up as often as it should
+		 Updated engines to have a little less smoke in the contrail
+		 Adjusted Inependents to use SDV ships a little less often
+		 Adjusted some decriptions
+		 Added S-Mod bonus for engine mod

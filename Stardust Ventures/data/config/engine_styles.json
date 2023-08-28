@@ -6,9 +6,9 @@
 	"stardust_TECH":{
 		"engineColor":[112, 255, 255,255],
 		"engineCampaignColor":[112, 255, 255,255],
-		"contrailParticleSizeMult":4,
-		"contrailParticleDuration":3,
-		"contrailParticleFinalSizeMult":2.5,
+		"contrailParticleSizeMult":3,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":1.25,
 		"contrailMaxSpeedMult":0.5,
 		"contrailAngularVelocityMult":0,
 		"contrailColor":[168, 255, 238,25],

@@ -20,7 +20,7 @@ public class stardust_WarpHarmonicResonator extends BaseHullMod  {
             {
                 return ("0% (in mission mode)");
             }
-        if (index == 1 || index == 2) return "" + (int) Math.round((1f - NAVIGATION_PENALTY_REDUCTION) * 100f) + "%";
+        if (index == 1 || index == 2) return "" + (int) NAVIGATION_PENALTY_REDUCTION + "%";
         return null;
     }
 

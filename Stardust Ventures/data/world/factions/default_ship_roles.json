@@ -58,9 +58,9 @@
 		"stardust_stormherald_overdrive":1,
         "stardust_vortexhunter_stock":5,
         "stardust_vortexhunter_brawler":5,
-		"stardust_twilightdefiance_stock":4,
+		"stardust_twilightdefiance_stock":3,
         "stardust_twilightdefiance_breaker":3,
-        "stardust_twilightdefiance_support":3,
+        "stardust_twilightdefiance_support":1,
     },
     "combatCapital":{
 		"stardust_stormbringer_stock":4,
