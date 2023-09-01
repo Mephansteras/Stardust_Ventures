@@ -4,6 +4,10 @@
 			"stardust_core_bp":0.75,
 			"stardust_mil_bp":0.75,
 		},
+		"hulls":{
+            "stardust_plasmaburst":0.6,
+            "stardust_plasmaburst_merc":0.1,
+        },
     },
     "knownShips":{
 		"tags":["stardust_core_bp", "stardust_mil_bp"],

@@ -1,6 +1,6 @@
 {
 	"baseHullId":"stardust_plasmaburst",
-	"skinHullId":"stardust_plasmaburst_merc",
+	"skinHullId":"stardust_plasmaburst_merc_dep",
 	"hullName":"Plasma Burst (Elite)",
 	"coversColor":[255,255,255,255],
 	"descriptionId":"stardust_plasmaburst",

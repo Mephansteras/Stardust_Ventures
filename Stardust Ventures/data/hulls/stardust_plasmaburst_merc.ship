@@ -1,0 +1,87 @@
+{
+  "hullName": "Plasma Burst (Elite)",
+  "hullId": "stardust_plasmaburst_merc",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/skins/stardust_plasma_burst_merc.png",
+  "style": "MIDLINE",
+  "height": 57,
+  "width": 86,
+  "center": [42.5, 24.5],
+  "collisionRadius": 50,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 46.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "adaptiveshields",
+	"efficiency_overhaul"
+  ],
+  "builtInWeapons": {
+    "WS0001": "swarmer_fighter",
+    "WS0002": "swarmer_fighter"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9.5, 23.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": 0,
+      "locations": [0, 15.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 45,
+      "angle": -0,
+      "locations": [0.5, -16]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23.5, -0.5],
+      "length": 30.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "MIDLINE",
+      "styleId": ""
+    }
+  ],
+  "bounds": [
+    -22, 9.5,
+    -22, -9.5,
+    -11.5, -9.5,
+    -13.5, -42,
+    8, -28.5,
+    14.5, -6,
+    24, -6,
+    32, -1,
+    32, 0.5,
+    24, 5.5,
+    13, 5.5,
+    6.5, 28.5,
+    -13, 42.5,
+    -12, 9.5
+  ]
+}

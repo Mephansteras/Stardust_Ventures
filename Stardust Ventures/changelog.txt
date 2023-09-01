@@ -87,6 +87,10 @@ v0.7.2 = HOTFIX for Celestial Guide related crashes
 v0.7.3 = Added Twilight Defiance missile cruiser
 		 Fixed Environmental Shielding not showing up as often as it should
 		 Updated engines to have a little less smoke in the contrail
-		 Adjusted Inependents to use SDV ships a little less often
-		 Adjusted some decriptions
+		 Adjusted Independents to use SDV ships a little less often
+		 Adjusted some descriptions
 		 Added S-Mod bonus for engine mod
+v0.7.4 = Added Fel Defender and Guardian
+         Added Proton Gun Battery and Heavy Proton Battery
+		 Art update for Plasma Burst
+		 Updated various weapon stats
