@@ -12,12 +12,13 @@
   "shieldRadius": 46.5,
   "viewOffset": 0,
   "builtInMods": [
-    "adaptiveshields",
-	"efficiency_overhaul"
+    "advancedshieldemitter",
+    "efficiency_overhaul"
   ],
   "builtInWeapons": {
     "WS0001": "swarmer_fighter",
-    "WS0002": "swarmer_fighter"
+    "WS0002": "swarmer_fighter",
+    "WS0005": "plasma_burst_elite_light"
   },
   "weaponSlots": [
     {
@@ -55,6 +56,15 @@
       "arc": 45,
       "angle": -0,
       "locations": [0.5, -16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [-8.5, -0.5]
     }
   ],
   "engineSlots": [
@@ -64,8 +74,7 @@
       "width": 7,
       "angle": -180,
       "contrailSize": 7,
-      "style": "MIDLINE",
-      "styleId": ""
+      "style": "MIDLINE"
     }
   ],
   "bounds": [

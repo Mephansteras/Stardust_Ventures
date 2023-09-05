@@ -11,7 +11,8 @@
 	"removeBuiltInMods":[stardust_StardustCore], 		# hullmod ids
 	"removeBuiltInWeapons":[
     "WS0001", 
-    "WS0001"], 		# weapon slot ids
+    "WS0002",
+	"WS0005"], 		# weapon slot ids
 	"builtInMods":["solar_shielding"],
 	"builtInWeapons":{
         "WS0001": "hammer_single",

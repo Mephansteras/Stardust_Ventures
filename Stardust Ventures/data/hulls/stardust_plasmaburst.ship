@@ -16,7 +16,8 @@
   ],
   "builtInWeapons": {
     "WS0001": "stardust_cloudburst_single",
-    "WS0002": "stardust_cloudburst_single"
+    "WS0002": "stardust_cloudburst_single",
+    "WS0005": "plasma_burst_core"
   },
   "weaponSlots": [
     {
@@ -54,6 +55,15 @@
       "arc": 45,
       "angle": -0,
       "locations": [0.5, -16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [1, -0.5]
     }
   ],
   "engineSlots": [
