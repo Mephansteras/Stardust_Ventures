@@ -14,6 +14,9 @@
   "builtInMods": [
     "stardust_StardustCore"
   ],
+  "builtInWeapons": {
+    "WS0007": "storm_seeker_core"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -89,6 +92,15 @@
         24.5, 1,
         45, 1
       ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [7, -0.5]
     }
   ],
   "engineSlots": [

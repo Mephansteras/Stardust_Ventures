@@ -71,6 +71,7 @@ Violet Streak MRM,stardust_streak_mrm_violet_int,1,0.5,200,2500,,500,,15,45,4,4,
 Crimson Streak MRM,stardust_streak_mrm_crimson_int,1,0.5,200,2500,,200,800,15,45,4,4,,,ENERGY,0,,0,1,1,,0,0,0,,,600,200,10,150,,,"DO_NOT_AIM, SYSTEM","missile6, strike1",,Stardust Ventures,,Strike,Very Fast,Excellent,,,"When impacting shields, a resonator unit activates to increase the base damage by %s.",150,,,TRUE,800.372
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Stormseeker Cover,stormseeker_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.201
+Storm Seeker Core,storm_seeker_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.212
 Starlight Guard Core,starlight_guard_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.202
 Starlight Guard Left light,starlight_guard_lfl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.203
 Starlight Guard Right light,starlight_guard_rfl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.204
@@ -80,5 +81,7 @@ Twilight Defiance Core,twilight_defiance_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYS
 Twilight Defiance Lights1,twilight_defiance_lights_1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.208
 Twilight Defiance Lights2,twilight_defiance_lights_2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.209
 Twilight Defiance Lights3,twilight_defiance_lights_3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.211
-Plasma Burst Core,plasma_burst_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Elite Plasma Burst Lights,plasma_burst_elite_light,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Plasma Burst Core,plasma_burst_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.213
+Elite Plasma Burst Lights,plasma_burst_elite_light,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.214
+Vortex Hunter Cover,vortex_hunter_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.215
+Vortex Hunter Core,vortex_hunter_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.216

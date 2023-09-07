@@ -15,6 +15,7 @@
     "stardust_StardustCore"
   ],
   "builtInWeapons": {
+    "WS0009": "storm_seeker_core",
     "WS0010": "stormseeker_cover"
   },
   "weaponSlots": [
@@ -98,6 +99,15 @@
       "arc": 160,
       "angle": -180,
       "locations": [-66.5, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [5.5, -0.5]
     }
   ],
   "engineSlots": [
