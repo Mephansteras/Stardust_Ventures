@@ -14,6 +14,10 @@
   "builtInMods": [
     "stardust_StardustCore"
   ],
+  "builtInWeapons": {
+    "WS0008": "vortex_hunter_core",
+    "WS0009": "vortex_hunter_cover"
+  },
   "weaponSlots": [
     {
       "id": "LB 1",
@@ -44,9 +48,9 @@
       "size": "MEDIUM",
       "type": "SYNERGY",
       "mount": "HARDPOINT",
-      "arc": 33,
+      "arc": 0,
       "angle": 0,
-      "locations": [111.5, -1.5]
+      "locations": [109.5, -1.5]
     },
     {
       "id": "WS0003",
@@ -55,7 +59,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -133.5,
-      "locations": [-49.5, -74.5]
+      "locations": [-38, -60.5]
     },
     {
       "id": "WS0004",
@@ -64,7 +68,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 133.5,
-      "locations": [-49, 72]
+      "locations": [-38, 58]
     },
     {
       "id": "WS0005",
@@ -101,6 +105,24 @@
       "arc": 180,
       "angle": -45,
       "locations": [36.5, -24]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-35, -1]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 33,
+      "angle": 0,
+      "locations": [103, -1]
     }
   ],
   "engineSlots": [
