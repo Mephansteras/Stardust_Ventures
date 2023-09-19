@@ -29,6 +29,17 @@
 		"type":"SMOKE" # GLOW or SMOKE
 	},
 
-
+	"stardust_GOLD":{
+		"engineColor":[255, 229, 102, 255],
+		"engineCampaignColor":[255, 229, 102, 255],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":3,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[255, 242, 181, 50],
+		"contrailCampaignColor":[255, 242, 181, 75],
+		"type":"SMOKE" # GLOW or SMOKE
+	},
 }
 

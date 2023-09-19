@@ -1,0 +1,12 @@
+{
+	"starts":[
+		{
+			"id":"stardust_GoldenTicketStart",
+			"name":"A Golden Ticket",
+			"difficulty":"Normal",
+			"desc":"On a whim you bought a ticket for a promotional raffle. And not just any raffle, but one for a brand new, VIP specc'd, Luxury Destroyer. Having any ship would change your life, but this thing makes a statement!\n\nTo your great surprise, you won! From humble crewmember to Captain of your own ship, complete with a stack of credits and complementary blueprint packages for Stardust Ventures.\n\nFrom here, what to do is up to you. The Sector is now your oyster, handed to you on an ivory and gold platter. Go forth, and make the most of it!",
+			"className":"data.scripts.campaign.customstart.stardust_GoldenTicketStart",
+		},
+
+	],
+}

@@ -4,9 +4,9 @@
   "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/stardust_storm_seeker_c.png",
   "style": "MIDLINE",
-  "height": 210,
-  "width": 159,
-  "center": [79, 98],
+  "height": 191,
+  "width": 140,
+  "center": [70, 92],
   "collisionRadius": 134.5,
   "shieldCenter": [0, -0],
   "shieldRadius": 123,
@@ -25,7 +25,7 @@
       "mount": "TURRET",
       "arc": 160,
       "angle": 0,
-      "locations": [-51.5, 31]
+      "locations": [-58, 30.5]
     },
     {
       "id": "WS0002",
@@ -34,7 +34,7 @@
       "mount": "TURRET",
       "arc": 160,
       "angle": -0,
-      "locations": [-51.5, -31]
+      "locations": [-58, -30.5]
     },
     {
       "id": "WS0003",
@@ -43,7 +43,7 @@
       "mount": "HARDPOINT",
       "arc": 15,
       "angle": 0,
-      "locations": [-41, 62.5]
+      "locations": [-47, 63]
     },
     {
       "id": "WS0004",
@@ -52,7 +52,7 @@
       "mount": "HARDPOINT",
       "arc": 15,
       "angle": -0,
-      "locations": [-41, -62.5]
+      "locations": [-47, -62]
     },
     {
       "id": "WS0005",
@@ -61,7 +61,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 90,
-      "locations": [8, 26.5]
+      "locations": [2, 27]
     },
     {
       "id": "WS0006",
@@ -70,7 +70,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": -90,
-      "locations": [8, -26.5]
+      "locations": [2, -26]
     },
     {
       "id": "WS0008",
@@ -79,7 +79,7 @@
       "mount": "TURRET",
       "arc": 160,
       "angle": -180,
-      "locations": [-64, 0]
+      "locations": [-71, -0]
     },
     {
       "id": "LB 1",
@@ -89,8 +89,8 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        24.5, 1,
-        45, 1
+        30.5, -8,
+        51, -8
       ]
     },
     {
@@ -100,12 +100,12 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 0,
-      "locations": [7, -0.5]
+      "locations": [1, 0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-86, 12],
+      "location": [-92, 12],
       "length": 48,
       "width": 14,
       "angle": 180,
@@ -114,7 +114,7 @@
       "styleId": "stardust_TECH"
     },
     {
-      "location": [-85, -12],
+      "location": [-91, -12],
       "length": 48,
       "width": 14,
       "angle": -180,
@@ -123,7 +123,7 @@
       "styleId": "stardust_TECH"
     },
     {
-      "location": [-83.5, 46.5],
+      "location": [-89.5, 46.5],
       "length": 40,
       "width": 7,
       "angle": -180,
@@ -132,7 +132,7 @@
       "styleId": "stardust_TECH"
     },
     {
-      "location": [-83.5, -46],
+      "location": [-89.5, -46],
       "length": 40,
       "width": 7,
       "angle": 180,
@@ -141,7 +141,7 @@
       "styleId": "stardust_TECH"
     },
     {
-      "location": [-86, 0],
+      "location": [-92, 0],
       "length": 78,
       "width": 16,
       "angle": 180,
@@ -151,19 +151,19 @@
     }
   ],
   "bounds": [
-    62, -8.5,
-    82, -16.5,
-    43, -38,
-    -36, -39,
-    -38, -67.5,
-    -75.5, -68,
-    -80.5, -49.5,
-    -80.5, 50.5,
-    -75.5, 69,
-    -38, 68.5,
-    -36, 40,
-    43, 39,
-    82, 17.5,
-    62, 9.5
+    56.5, -9,
+    76.5, -17,
+    37.5, -38.5,
+    -41.5, -39.5,
+    -43.5, -68,
+    -81, -68.5,
+    -86, -50,
+    -86, 50,
+    -81, 68.5,
+    -43.5, 68,
+    -41.5, 39.5,
+    37.5, 38.5,
+    76.5, 17,
+    56.5, 9
   ]
 }

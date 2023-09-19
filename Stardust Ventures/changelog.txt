@@ -92,7 +92,12 @@ v0.7.3 = Added Twilight Defiance missile cruiser
 		 Added S-Mod bonus for engine mod
 v0.7.4 = Added Fel Defender and Guardian
          Added Proton Gun Battery and Heavy Proton Battery
-		 Art update for Plasma Burst
+		 Art update for Plasma Burst, Storm Seeker, Vortex Hunter, and Cosmic Wind
 		 Updated various weapon stats
+		 Updated Storm Runner stats (slightly tankier, slightly slower, better flux dsp.)
 		 Mercenaries get their elite Plasma Burst
 		 Color shift for Proton weapons and Fel PDS based weapons
+		 (Linux) Fixed a capitialization issue that could cause crashes
+		 Added VIP version of the Storm Seeker (c) as a rare blueprints
+		 Added a Custom Nex start using the VIP ship that includes the two base Stardust Ventures blueprint packages
+		 

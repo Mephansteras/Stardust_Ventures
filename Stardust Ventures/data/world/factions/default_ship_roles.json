@@ -43,7 +43,7 @@
         "stardust_warpdiver_strike":5,  
         "stardust_stormseeker_stock":4,
         "stardust_stormseeker_attack":3,
-        "stardust_stormseeker_strike":3,
+        "stardust_stormseeker_strike":3,		
         
 		"stardust_starlightguard_pirate_hellbore":3,    
         "stardust_starlightguard_pirate_stock":4,
@@ -109,6 +109,7 @@
 	"carrierSmall":{
 		"stardust_stormseeker_c_stock":3,
 		"stardust_stormseeker_c_support":3,
+		"stardust_stormseeker_c_ig_stock":0.5,
 	},    
     	"carrierMedium":{
         "stardust_cosmicfury_stock":4,
