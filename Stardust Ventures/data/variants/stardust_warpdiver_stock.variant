@@ -3,7 +3,7 @@
   "hullId": "stardust_warpdiver",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 12,
+  "fluxCapacitors": 13,
   "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
@@ -14,8 +14,6 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "stardust_hvy_plasmacaster",
-        "WS0005": "stardust_felpds",
-        "WS0006": "stardust_felpds",
         "WS0007": "stardust_hvy_plasmacaster"
       }
     },
@@ -23,7 +21,15 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "heavyburst"
+        "WS0002": "stardust_feldefense"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "stardust_felpds",
+        "WS0006": "stardust_felpds"
       }
     },
     {
@@ -33,11 +39,6 @@
         "WS0003": "stardust_plasmacaster",
         "WS0004": "stardust_plasmacaster"
       }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {}
     }
   ],
   "modules": [],

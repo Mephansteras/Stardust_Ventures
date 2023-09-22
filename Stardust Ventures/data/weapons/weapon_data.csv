@@ -9,6 +9,7 @@ Heavy Proton Battery,stardust_heavyproton_battery,2,0.9,6000,700,,75,30,5,40,18,
 Proton Autocannon,stardust_autoproton,2,,6000,900,,75,30,5,20,18,,,,ENERGY,90,,0,0.4,4,0.2,0,10,2,15,,800,,,100,,,,"energy15, he14, kinetic14, stardust_mil_bp, merc",,Stardust Ventures,,General,,,,,,,,,,800.17
 #IR Pulse Laser,irpulse,1,,250,500,,50,,0,50,5,,,,ENERGY,40,,0.33,0,,,,,,,,1000,,,,,,,"energy8, hightech_bp, merc",,,,General,,,,,,,,,,19.25
 Fel PDS,stardust_felpds,2,,250,300,,20,5,0,75,4,,,,ENERGY,1,,0,0.05,1,,0,15,1,15,,800,,,10,,,PD,"pd8, energy8, stardust_core_bp, merc",,Stardust Ventures,,Point Defense,,,,,,,,,,800.304
+Fel PDS,stardust_felpds_ig,2,0.1,500,300,,20,5,0,75,4,,,,ENERGY,1,,0,0.05,1,,0,15,1,15,,800,,,10,,,PD,"pd8, energy8, rare_bp",,Stardust Ventures,,Point Defense,,,,,,,,,,800.304
 Fel Defender,stardust_feldefense,2,0.9,1200,300,,22,5,0,75,8,,,,ENERGY,2,,0,0.05,2,,0,15,1,15,,800,,,10,,,PD,"pd11, energy11, stardust_core_bp, merc",,Stardust Ventures,,Point Defense,,,,,,,,,,800.305
 Fel Guardian,stardust_felguardian,2,0.9,4000,300,,25,5,0,75,16,,,,ENERGY,4,,0,0.05,4,,0,15,1,15,,800,,,10,,,PD,"pd18, energy14, stardust_mil_bp, merc",,Stardust Ventures,,Point Defense,,,,,,,,,,800.305
 Fel Repeater,stardust_felrepeater,2,,350,700,,40,10,0,50,5,30,2,,ENERGY,40,,0.05,0.05,1,,0,10,1,5,,1000,,,,,,,"energy8, stardust_core_bp, merc",,Stardust Ventures,,General,,,,,,,,,,800.3
@@ -17,6 +18,7 @@ Linked Fel Repeaters,stardust_felrepeater_linked,2,,1500,700,,40,10,0,25,10,90,5
 Fel Repeater Battery,stardust_felrepeater_battery,2,,5000,700,,40,10,0,20,20,200,12,,ENERGY,38,,0.05,0.05,4,,0,10,1,5,,1000,,,,,,,"energy17, stardust_mil_bp, merc",,Stardust Ventures,,General,,,,,,,,,,800.303
 #Pulse Laser,pulselaser,1,,1200,600,,100,,0,20,10,,,,ENERGY,80,,0.333333,0,,,,,,,,1000,,,,,,,"energy13, hightech_bp, merc",,,,General,,,,,,,,,,22
 Fel Pulser,stardust_felpulser,2,,1500,800,,80,20,0,20,10,30,2,,ENERGY,80,,0.05,0.05,1,,0,10,1,5,,1000,,,,,,,"energy13, stardust_core_bp, merc",,Stardust Ventures,,General,,,,,,,,,,800.4
+Fel Pulser,stardust_felpulser_ig,2,0.1,2000,800,,80,20,0,20,10,30,2,,ENERGY,80,,0.05,0.05,1,,0,10,1,5,,1000,,,,,,,"energy13, rare_bp",,Stardust Ventures,,General,,,,,,,,,,800.4
 #Autopulse Laser,autopulse,1,,4500,700,,150,,0,20,20,30,2,,ENERGY,125,,0.05,0.05,1,,0,10,1,5,,1000,,,,,,,"energy18, hightech_bp, merc",,,,General,,,,,,,,,,25
 Fel Cannon,stardust_felcannon,2,0.9,5000,800,,120,30,0,20,20,30,2,,ENERGY,125,,0.05,0.05,1,,0,10,1,5,,1000,,,,,,,"energy18, stardust_mil_bp, merc",,Stardust Ventures,,General,,,,,,,,,,800.5
 #Sabot SRM,sabot,1,,200,1200,,100,,15,30,4,3,,,KINETIC,0,,0,1,1,,0,0,0,0,,150,50,8,300,,,GUIDED_POOR,"missile8, strike2, missile_bp, merc",,,,Anti Shield,Slow,Poor,,,"Submunition hits on hull or armor have a %s chance to arc to weapons and engines, dealing %s EMP damage.",25% | 200,,,TRUE,11.75
@@ -37,7 +39,7 @@ Plasma Caster,stardust_plasmacaster,2,0.9,800,500,,125,,,40,4,,,,ENERGY,100,,0.3
 Heavy Plasma Caster,stardust_hvy_plasmacaster,2,0.9,1600,600,,250,,,25,8,,,,ENERGY,200,,0.33,1.01,1,,0,0,0,0,,750,,,500,,,"STRIKE, USE_VS_FRIGATES","energy12, stardust_mil_bp, merc",,Stardust Ventures,,Strike,,,,,,,,,,800.19
 Plasma Caster Array,stardust_plasmacaster_array,2,0.9,5400,700,,250,,,25,16,,,,ENERGY,200,,0.33,1.01,2,,0,0,0,0,,750,,,500,,,"STRIKE, USE_VS_FRIGATES","energy17, stardust_mil_bp, merc",,Stardust Ventures,,Strike,,,,,,,,,,800.21
 Plasma Arc Thrower,stardust_plasmaarc,2,0.2,800,500,,30,,,50,4,,,,ENERGY,20,,0.25,0.75,1,,0,5,5,15,,750,,,500,,,PD_ALSO,"energy5, rare_bp, merc",,Stardust Ventures,,Strike,,,,,,,,,,800.181
-Walloper,stardust_walloper,0,,1400,800,,100,,1,20,14,120,10,40,FRAGMENTATION,30,,0,0.55,40,0.05,0,7,1,20,,800,,,30,,,,"kinetic14, pirate_bp",,Pirate,,General,,,,,,,,,,800.22
+Walloper,stardust_walloper,0,,1400,800,,100,,1,20,14,120,10,40,FRAGMENTATION,30,,0,0.55,40,0.05,0,7,1,20,,800,,,30,,,,"kinetic14, pirate_bp, pirates",,Pirate,,General,,,,,,,,,,800.22
 #Hellbore Cannon,hellbore,0,,3000,900,,750,,200,5,16,,,,HIGH_EXPLOSIVE,750,,0,3,4,,0,10,5,10,,500,,,400,,,,"he18, lowtech_bp, merc",,,,Anti Armor,,,,,,,,,,8
 Diana's Spear (F),stardust_dianaspear_f,2,0.2,6000,1000,,125,,100,10,22,,,,FRAGMENTATION,50,,1,0,4,0.1,0,5,1,15,,600,,,400,,,"PD_ALSO, GUIDED_POOR","kinetic17, rare_bp, merc",,Stardust Ventures,,Anti Hull,Fast,Good,,,,,,,,800.24
 Diana's Spear (HE),stardust_dianaspear_he,2,0.2,6000,1000,,125,,100,10,22,,,,HIGH_EXPLOSIVE,75,,1,0,4,0.1,0,5,1,15,,600,,,400,,,GUIDED_POOR,"he18, rare_bp, merc",,Stardust Ventures,,Anti Armor,Fast,Good,,,,,,,,800.25
@@ -69,6 +71,8 @@ Azure Streak MRM,stardust_streak_mrm_azure_int,1,0.5,200,2500,,500,,15,45,4,4,,,
 Amber Streak MRM,stardust_streak_mrm_amber_int,1,0.4,200,2500,,800,,15,45,4,4,,,FRAGMENTATION,0,,0,1,1,,0,0,0,,,600,200,10,150,,,"DO_NOT_AIM, SYSTEM","missile6, strike1",,Stardust Ventures,,Strike,Very Fast,Excellent,,,,,,,TRUE,800.369
 Violet Streak MRM,stardust_streak_mrm_violet_int,1,0.5,200,2500,,500,,15,45,4,4,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,600,200,10,150,,,"DO_NOT_AIM, SYSTEM","missile6, strike1",,Stardust Ventures,,Anti Armor,Very Fast,Excellent,,,,,,,TRUE,800.371
 Crimson Streak MRM,stardust_streak_mrm_crimson_int,1,0.5,200,2500,,200,800,15,45,4,4,,,ENERGY,0,,0,1,1,,0,0,0,,,600,200,10,150,,,"DO_NOT_AIM, SYSTEM","missile6, strike1",,Stardust Ventures,,Strike,Very Fast,Excellent,,,"When impacting shields, a resonator unit activates to increase the base damage by %s.",150,,,TRUE,800.372
+Azure Streak MRM,stardust_streak_mrm_azure_ig,1,0.1,400,2500,,500,,15,45,4,4,,,KINETIC,0,,0,1,1,,0,0,0,,,600,200,10,150,,,DO_NOT_AIM,"missile6, strike1, rare_bp",,Stardust Ventures,,Anti Shield,Very Fast,Excellent,,,,,,,TRUE,800.352
+Violet Streak MRM,stardust_streak_mrm_violet_ig,1,0.1,400,2500,,500,,15,45,4,4,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,600,200,10,150,,,DO_NOT_AIM,"missile6, strike1, rare_bp",,Stardust Ventures,,Anti Armor,Very Fast,Excellent,,,,,,,TRUE,800.361
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Stormseeker Cover,stormseeker_cover,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.201
 Storm Seeker Core,storm_seeker_core,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,800.212

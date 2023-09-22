@@ -1,0 +1,47 @@
+{
+  "variantId": "stardust_starlightguard_escort",
+  "hullId": "stardust_starlightguard",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "stardust_EnvironmentalShielding",
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_dualproton",
+        "WS0002": "stardust_dualproton",
+        "WS0005": "stardust_quadproton"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "stardust_stream_mrm_azure_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "stardust_lightproton",
+        "WS0004": "stardust_lightproton"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

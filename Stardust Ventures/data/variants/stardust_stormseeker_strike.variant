@@ -3,21 +3,19 @@
   "hullId": "stardust_stormseeker",
   "displayName": "Strike",
   "goalVariant": true,
-  "fluxCapacitors": 10,
-  "fluxVents": 15,
+  "fluxCapacitors": 16,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "hardened_subsystems"
+    "hardenedshieldemitter"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "stardust_streak_mrm_crimson",
-        "WS0004": "stardust_streak_mrm_azure",
-        "WS0007": "gauss"
+        "WS0007": "hellbore"
       }
     },
     {
@@ -33,18 +31,22 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0003": "stardust_streak_mrm_crimson"
+      }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0004": "stardust_streak_mrm_azure"
+      }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "stardust_lightproton"
+        "WS0008": "stardust_felpds"
       }
     },
     {

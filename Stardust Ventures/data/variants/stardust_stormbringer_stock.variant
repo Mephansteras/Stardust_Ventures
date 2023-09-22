@@ -17,8 +17,12 @@
         "WS0004": "stardust_felcannon",
         "WS0005": "stardust_autoproton",
         "WS0006": "stardust_autoproton",
-        "WS0021": "harpoon_single",
-        "WS0022": "harpoon_single"
+        "WS0007": "stardust_quadproton",
+        "WS0008": "stardust_quadproton",
+        "WS0021": "stardust_streak_mrm_amber",
+        "WS0022": "stardust_streak_mrm_azure",
+        "WS0023": "stardust_stream_mrm_crimson_pod",
+        "WS0024": "stardust_stream_mrm_violet_pod"
       }
     },
     {
@@ -38,8 +42,6 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "stardust_heavyproton",
-        "WS0008": "stardust_heavyproton",
         "WS0009": "stardust_hvy_plasmacaster",
         "WS0010": "stardust_hvy_plasmacaster",
         "WS0013": "stardust_felrepeater",
@@ -53,16 +55,13 @@
       "mode": "LINKED",
       "weapons": {
         "WS0019": "swarmer_fighter",
-        "WS0020": "swarmer_fighter",
-        "WS0024": "annihilatorpod"
+        "WS0020": "swarmer_fighter"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0023": "harpoonpod"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

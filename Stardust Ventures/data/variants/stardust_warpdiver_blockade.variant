@@ -4,7 +4,7 @@
   "displayName": "Blockade Runner",
   "goalVariant": true,
   "fluxCapacitors": 8,
-  "fluxVents": 9,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -17,8 +17,6 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "gravitonbeam",
-        "WS0003": "stardust_felpds",
-        "WS0004": "stardust_felpds",
         "WS0007": "gravitonbeam"
       }
     },
@@ -26,15 +24,17 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "mininglaser",
-        "WS0006": "mininglaser"
+        "WS0002": "stardust_feldefense"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "heavyburst"
+        "WS0003": "stardust_felpds",
+        "WS0004": "stardust_felpds",
+        "WS0005": "stardust_mistpds",
+        "WS0006": "stardust_mistpds"
       }
     }
   ],

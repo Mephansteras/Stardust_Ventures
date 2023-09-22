@@ -28,9 +28,13 @@
 		"weapons":[
 			"stardust_lightproton",
 			"stardust_dualproton",
+			"stardust_quadproton",
 			"stardust_heavyproton",
+			"stardust_heavyproton_battery",
 			"stardust_autoproton",
 			"stardust_felpds",
+			"stardust_feldefense",
+			"stardust_felguardian",
 			"stardust_felrepeater",
 			"stardust_felrepeater_linked",
 			"stardust_felrepeater_battery",

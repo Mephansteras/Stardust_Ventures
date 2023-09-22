@@ -3,8 +3,8 @@
   "hullId": "stardust_stormbringer",
   "displayName": "Lancer",
   "goalVariant": true,
-  "fluxCapacitors": 25,
-  "fluxVents": 38,
+  "fluxCapacitors": 27,
+  "fluxVents": 40,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -15,11 +15,14 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "hydra",
+        "WS0001": "stardust_stream_mrm_azure_barrage",
+        "WS0002": "stardust_stream_mrm_violet_barrage",
         "WS0003": "stardust_plasmacaster_array",
         "WS0004": "stardust_plasmacaster_array",
-        "WS0005": "mjolnir",
-        "WS0006": "mjolnir",
+        "WS0005": "stardust_heavyproton_battery",
+        "WS0006": "stardust_heavyproton_battery",
+        "WS0007": "stardust_heavyproton",
+        "WS0008": "stardust_heavyproton",
         "WS0009": "gravitonbeam",
         "WS0010": "gravitonbeam",
         "WS0013": "stardust_mistpds",
@@ -27,7 +30,10 @@
         "WS0015": "stardust_dualproton",
         "WS0016": "stardust_dualproton",
         "WS0017": "stardust_mistpds",
-        "WS0018": "stardust_mistpds"
+        "WS0018": "stardust_mistpds",
+        "WS0021": "stardust_streak_mrm_crimson",
+        "WS0022": "stardust_streak_mrm_crimson",
+        "WS0024": "stardust_lithobreaker_pod"
       }
     },
     {
@@ -38,9 +44,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0002": "squall"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
@@ -51,8 +55,6 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "flak",
-        "WS0008": "flak",
         "WS0011": "stardust_lightproton",
         "WS0012": "stardust_lightproton"
       }
@@ -63,17 +65,13 @@
       "weapons": {
         "WS0019": "stardust_cloudburst",
         "WS0020": "stardust_cloudburst",
-        "WS0023": "stardust_cloudburst_pod",
-        "WS0024": "breachpod"
+        "WS0023": "stardust_cloudburst_pod"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0021": "stardust_lithobreaker",
-        "WS0022": "stardust_lithobreaker"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

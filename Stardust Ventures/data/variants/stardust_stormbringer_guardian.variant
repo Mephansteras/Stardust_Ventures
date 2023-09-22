@@ -1,0 +1,81 @@
+{
+  "variantId": "stardust_stormbringer_guardian",
+  "hullId": "stardust_stormbringer",
+  "displayName": "Guardian",
+  "goalVariant": true,
+  "fluxCapacitors": 35,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavymortar",
+        "WS0008": "heavymortar",
+        "WS0009": "stardust_felpulser",
+        "WS0010": "stardust_felpulser",
+        "WS0013": "stardust_felrepeater",
+        "WS0014": "stardust_felrepeater",
+        "WS0015": "stardust_dualproton",
+        "WS0016": "stardust_dualproton",
+        "WS0017": "stardust_felrepeater",
+        "WS0018": "stardust_felrepeater"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "stardust_stream_mrm_azure_barrage",
+        "WS0022": "stardust_lithobreaker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0019": "stardust_streak_mrm_amber",
+        "WS0020": "gazer",
+        "WS0023": "stardust_stream_mrm_violet_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "stardust_stormfront"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0021": "atropos",
+        "WS0024": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "stardust_felguardian",
+        "WS0004": "stardust_felguardian",
+        "WS0005": "devastator",
+        "WS0006": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "vulcan",
+        "WS0012": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

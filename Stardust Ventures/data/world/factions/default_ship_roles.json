@@ -36,14 +36,16 @@
 	},
     	"combatMedium":{
             
-		"stardust_starlightguard_stock":4,
-		"stardust_starlightguard_flak":3,
-		"stardust_starlightguard_close":3,
+		"stardust_starlightguard_stock":3,
+		"stardust_starlightguard_flak":2,
+		"stardust_starlightguard_close":2,
+		"stardust_starlightguard_escort":3,
         "stardust_warpdiver_stock":5,
         "stardust_warpdiver_strike":5,  
-        "stardust_stormseeker_stock":4,
+        "stardust_stormseeker_stock":3,
         "stardust_stormseeker_attack":3,
-        "stardust_stormseeker_strike":3,		
+        "stardust_stormseeker_strike":2,
+		"stardust_stormseeker_picket":2,		
         
 		"stardust_starlightguard_pirate_hellbore":3,    
         "stardust_starlightguard_pirate_stock":4,
@@ -63,9 +65,10 @@
         "stardust_twilightdefiance_support":1,
     },
     "combatCapital":{
-		"stardust_stormbringer_stock":4,
-		"stardust_stormbringer_shock":3,
+		"stardust_stormbringer_stock":3,
+		"stardust_stormbringer_shock":2,
         "stardust_stormbringer_lancer":3,
+		"stardust_stormbringer_guardian":2,
 	},
 	"civilianRandom":{
 		"stardust_horizonchaser_stock":10,
@@ -103,7 +106,8 @@
 		"stardust_voidnomad_stock":4,
 		"stardust_voidnomad_mil":4,
 		"stardust_oorttraveler_armor_stock":4,
-		"stardust_oorttraveler_armor_brawler":4,
+		"stardust_oorttraveler_armor_brawler":3,
+		"stardust_oorttraveler_armor_patrol":3,
 	},
     # carriers
 	"carrierSmall":{

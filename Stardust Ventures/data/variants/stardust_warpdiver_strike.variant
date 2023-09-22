@@ -31,8 +31,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "mininglaser",
-        "WS0006": "mininglaser"
+        "WS0005": "stardust_mistpds",
+        "WS0006": "stardust_mistpds"
       }
     },
     {
