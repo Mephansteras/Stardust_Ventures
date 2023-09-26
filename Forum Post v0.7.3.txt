@@ -1,0 +1,219 @@
+[center][img]https://i.imgur.com/cDS0X5C.png[/img][/center]
+
+[center][b][size=24pt]Stardust Ventures[/size][/b]
+
+
+[b][size=20pt][url=https://github.com/Mephansteras/Stardust_Ventures/releases/download/stardust_ventures_v0.7.3/Stardust.Ventures.zip]Download Mod[/url][/size][/b]
+[/center]
+[center][size=8pt]Requires [url=https://fractalsoftworks.com/forum/index.php?topic=13718.0]MagicLib[/url] [/size] [/center]
+[center][size=8pt]Requires [url=https://fractalsoftworks.com/forum/index.php?topic=5444.0]LazyLib[/url] [/size] [/center]
+
+[b][i]A ship pack centered around light, fast Midline ships that excel at long distance exploration missions. All of them have extended fuel range, larger than normal fuel tanks, and built in resistance to hyperspace hazards. While they integrate well with any midline or high-tech fleet, the Stardust Ventures ships are designed to work best as a cohesive fleet. In fact, the more of them in your fleet the higher a bonus to agility you get for the entire fleet in hyperspace![/i][/b]
+
+
+[spoiler=Ships]
+[b][u]Battlecruiser[/u][/b]
+[img]https://i.imgur.com/Ceq6aVp.png[/img]
+                     [b][i]Storm Bringer[/i][/b]   
+
+[b][u]Combat Cruisers[/u][/b]
+[img]https://i.imgur.com/ZuoyoAG.png[/img]           [img]https://i.imgur.com/UZR8TK5.png[/img]            [img]https://i.imgur.com/ulqf63o.png[/img]
+[b][i]Storm Herald[/i][/b]                                  [b][i]Vortex Hunter[/i][/b]                              [b][i]Twilight Defiance[/i][/b]     
+
+[b][u]Carriers[/u][/b]
+[img]https://i.imgur.com/8pp2wJ9.png[/img]       [img]https://i.imgur.com/JhTcP3i.png[/img]           [url=https://imgur.com/maikNos][img]http://i.imgur.com/maikNos.png[/img][/url]
+[b][i]Cosmic Wind[/i][/b]                                                 [b][i]Solar Flare[/i][/b]                                  [b][i]Storm Seeker (Carrier)[/i][/b]
+
+
+[b][u]Combat Destroyers[/u][/b]
+[img]https://i.imgur.com/3lczTpO.png[/img]      [img]https://i.imgur.com/j0LV156.png[/img]           [img]https://i.imgur.com/EJWGMVk.png[/img]
+[b][i]Starlight Guard[/i][/b]           [b][i]Warp Diver[/i][/b]                      [b][i]Storm Seeker[/i][/b]
+
+
+[b][u]Combat Frigates[/u][/b]
+[img]https://i.imgur.com/j2N1Ch8.png[/img]            [img]https://i.imgur.com/K6ptd2u.png[/img]                   [img]https://i.imgur.com/Izn8nJf.png[/img]
+[b][i]Storm Runner[/i][/b]          [b][i]Ion Skimmer[/i][/b]             [b][i]Comet Tail[/i][/b]
+
+
+[b][u]Superfighter[/u][/b]
+[img]https://i.imgur.com/gH3fb51.png[/img]
+[b][i]Plasma Burst[/i][/b]
+
+
+[b][u]Exploration Ships[/u][/b]
+[img]https://i.imgur.com/va5UJev.png[/img]              [img]https://i.imgur.com/zbve4Sr.png[/img]              [img]https://i.imgur.com/9zjkaDp.png[/img]
+[b][i]Horizon Chaser[/i][/b]                [b][i]Stargazer[/i][/b]                                           [b][i]Void Nomad[/i][/b]
+
+
+[b][u]Logistics[/u][/b]
+[img]https://i.imgur.com/zenx6KZ.png[/img]        [img]https://i.imgur.com/tpelSgr.png[/img]            [img]https://i.imgur.com/ThZ15tz.png[/img]           [img]https://i.imgur.com/4XMVeoq.png[/img]
+[b][i]Sunbeam Rider[/i][/b]                            [b][i]Oort Traveler[/i][/b]                              [b][i]Oort Traveler (Armored)[/i][/b]                         Celestial Guide
+
+
+[b][u]Pirate Hulls[/u][/b]
+[img]https://i.imgur.com/Cko8YkL.png[/img]          [img]https://i.imgur.com/jOZXYlC.png[/img]
+[b][i]Starlight Raider[/i][/b]                    [b][i]Cosmic Horror[/i][/b]
+[/spoiler]
+
+[spoiler=Wings]
+[u][b]Fighters[/b][/u]
+  [img]https://i.imgur.com/WhYMAn0.png[/img]            [img]https://i.imgur.com/KXe1ghQ.png[/img]               [img]https://i.imgur.com/yvnQd0W.png[/img]
+Meteorite        Stormwing         Gamma Racer
+
+[b][u]Bombers[/u][/b]
+[img]https://i.imgur.com/lMnSFwV.png[/img]
+Moonbreaker
+
+[b][u]Gunships[/u][/b]
+[img]https://i.imgur.com/DnqOend.png[/img]
+Stormlight
+
+[/spoiler]
+
+[spoiler=Weapons]
+Proton Guns - Ballistic shell weapons that do Energy damage and EMP 
+      [img]https://i.imgur.com/z4RRMjo.png[/img]                              [img]https://i.imgur.com/0U4IidV.png[/img]                              [img]https://i.imgur.com/ApHzG9M.png[/img]                            [img]https://i.imgur.com/rP1tZR4.png[/img]
+Light Proton Gun        Dual Proton Gun        Heavy Proton Gun        Proton Autocannon
+
+Diana's Darts, Arrows, and Spears - Fires out bursts of self-guided shells that home in on the targeted ship. Comes in Fragmentation, High Explosive, and Kinetic varieties for all three sizes. Currently only found on mercenary and Sindrian ships.
+        [url=https://imgur.com/DMXSbEd][img]http://i.imgur.com/DMXSbEd.png[/img][/url]                  [url=https://imgur.com/mUaSwi6][img]http://i.imgur.com/mUaSwi6.png[/img][/url]                [url=https://imgur.com/H4w8O8U][img]http://i.imgur.com/H4w8O8U.png[/img][/url]
+Diana's Dart    Diana's Arrow    Diana's Spear
+
+Fel Weapons (Free-Electron Lasers) - Pulse energy weapons with longer range than vanilla pulse lasers, lower damage, with a bit of EMP thrown in. 
+        [img]https://i.imgur.com/O2NK3bh.png[/img]                 [img]https://i.imgur.com/w98liLX.png[/img]                 [img]https://i.imgur.com/FXnUdlY.png[/img]                       [img]https://i.imgur.com/dkL0aaG.png[/img]                                  [img]https://i.imgur.com/wKNsbOU.png[/img]                         [img]https://i.imgur.com/Vhw1AVv.png[/img]
+Fel Repeater       Fel Pulsar      Fel Cannon      Twin-linked Fel Repeater      Quad-linked Fel Repeater      Fel PDS
+
+Plasma casters - Good damage against both hull and armor with a fairly low OP and flux cost, the plasma casters only real drawback is their slow fire rate and mediocre ability to take down shields on their own. 
+          [img]https://i.imgur.com/RgLsiKM.png[/img]                          [img]https://i.imgur.com/jlD2MEt.png[/img]                               [img]https://i.imgur.com/DWIrN4l.png[/img]
+Plasma Caster        Heavy Plasma Caster        Plasma Caster Array
+
+Mist Point Defense System - Slow firing but very cost effective energy based PD
+[img]https://i.imgur.com/6PH2np1.png[/img]
+
+Cloudburst missile launchers - Fires a guided missile that splits apart near the target into multiple warheads. These warheads explode into large clouds of charged energy. Effective both as area of effect defense against missiles and fighters and for finishing off damaged ships, the Cloudburst makes for a good multi-purpose combat missile. 
+[img]https://i.imgur.com/fhfcL4s.png[/img]         [img]https://i.imgur.com/5dbXnHw.png[/img]       [img]https://i.imgur.com/1jfY6eV.png[/img]                [img]https://i.imgur.com/SigPK4e.png[/img]
+Single    Triple        Pod            Stormfront launcher
+
+Lithobreaker Torpedo launchers - Fires a guided torpedo that releases a high powered kinetic shot at the target when in range. Useful in both mining and warfare.
+[img]https://i.imgur.com/iGHoCUq.png[/img]         [img]https://i.imgur.com/pMJnVhM.png[/img]      [img]https://i.imgur.com/90YgZ1s.png[/img]
+Rack      Pod      Barrage
+
+Streak MRMs - Very fast guided missiles with fairly low payloads. Excellent for taking out smaller vessels. Comes in Amber (frag), Azure (kinetic), Crimson (energy) and Violet (HE). Has small, medium, and large mount versions. 
+[img]https://i.imgur.com/HdY6Npl.png[/img]
+
+
+Pirate Weapon - The Walloper, two Thumpers strapped together for twice the fun! Makes for a really cheap large slot weapon, and can prove surprisingly effective in the right situations
+
+[img]https://i.imgur.com/DtrFB0f.png[/img]
+Walloper
+[/spoiler]
+
+
+
+[b][i]NOTE: This mod is still in development, so expect a good bit of change as things get tested, balanced, cleaned up, and generally tweaked.[/i][/b]
+
+Thanks to theDragn for help with campaign map movement modding and the Unofficial Discord folks in general for help with all of this!
+
+
+[spoiler=EVE Copyright stuff]
+"Non-commercial sites may use content and resources from the official EVE Online website under the condition that the copyright notice below is displayed prominently on each page where those items appear. When using materials or content that was originally published elsewhere, proper credit must be given to the original author and used only by permission. When using content, including forum posts or blog entries, from the official EVE Online site, please include the name of the contributor and a link to the post or location of the content you're using."
+
+[b]Thanks[/b] to [i]celestis[/i] for the old Eve ships mod which I plundered as part of the kitbashing to make these ships originally.
+Everything is pretty much new and only inspired by the EVE stuff, now, but keeping this in anyway.[/spoiler]
+
+
+[spoiler=Change log]
+v0.1.1 = Initial upload
+v0.1.2 = Vortex Hunter takes over the Light Cruiser role from the Storm Herald, which is now more in line with the Eagle.
+           Various rebalancing to make the ships more consistent with things like shield effectiveness and fuel efficiency.
+           Added the new pirate hull the Cosmic Fury.
+v0.1.3 = Additional balancing of various hulls
+             Added the Storm Bringer battlecruiser, Warp Diver Electronic Warfare destroyer, Comet Tail missile frigate, and Plasma Burst superfighter.
+             Bumped up the size of the Solar Flare's sprite & bound box to be more appropriate for its hull size
+v0.2.0 = Renamed the tags for all files from sv_ to stardust_ (this will break saves!)
+              Art pass on all of the Frigates
+              Some minor balance tweaks
+v02.1 =  Swapped out the carrier decks as requested
+v0.2.2 = Added two new weapons, the dual proton gun and heavy proton gun. 
+              Added the new weapons to some variants
+              Small modifications to the Ion Skimmer and Comet Tail sprites     
+v0.2.3 = Compatible with 0.95.1a-RC6
+              Art rework of the Starlight Guard
+              Stats rebalance of the Starlight Guard    
+              Added three new pulse laser weapons, the Fel Repeater, Fel Pulsar, and Fel Cannon. Longer ranger than the vanilla Pulse weapons but do a bit less 
+damage. 
+v0.2.4 = Art rework of the Warp Diver, Stargazer, and Sunbeam Rider
+              Added a new missile type, the Cloudburst. A mirv weapon like the Sabot that does wide AOE designed to take out groups of missiles and fighters.  
+v0.3.1 = Added in a new fighter, the Meteorite
+              Added a new proton gun, the single-barrel light proton gun
+              Added a Large mount Cloudbust weapon, the Stormfront launcher
+              Art rework on the Vortex Hunter and Cosmic Wind ships
+              Art rework on the Fel Pulsar and Fel Cannon to make them more distinct from vanilla energy weapons.
+v0.4.1 = REQUIRES A NEW SAVE
+              Added in a new fighter, the Stormwing
+              Art rework on the Storm Herald, Void Nomad, and Starlight Raider ships
+              Rebalance of abilities on the Starlight Raider and the weapon mounts on the Storm Herald and Void Nomad
+v0.4.2 = Art rework of the Solar Flare
+              Rebalance  of hull mods and stats on the Solar Flare
+              Added in Moonbreaker bomber wing and Stormlight gunship wing
+              Added in Lithobreaker torpedoes and double, pod, and barrage versions(s/m/l)
+              Added in nex mining capabilities to the Void Nomad and Lithobreaker torpedoes
+v0.4.3 = Art replacement of the Storm Bringer
+             Major rebalancing of the Storm Bringer
+             Added custom faction skins for the Plasma Burst - Persean League, Hegemony, Sindrian Diktat, Mercenaries           
+v0.5.0 = MAY BREAK SAVES
+             Added in a new Destroyer, the Storm Seeker
+             Reworked the Cosmic Fury into the Cosmic Horror with new art and some big stats/hardpoint adjustments
+             Added in a new weapon type, the Plasma Caster with Small, Medium, and Large slot versions
+             Added in a new Large proton gun, the Proton Autocannon
+             Added in a new Large version of the Thumper, the Walloper
+v0.5.1 = Added in a new variant of the Storm Seeker that swaps the large mount for a fighter bay
+             Added in a new set of weapons, Diana's Dart/Arrow/Spear with Frag, HE, and Kinetic versions of each
+v0.5.2 = Bugfix to prevent issues on Linux systems
+v0.5.3 = Added the Oort Traveler, twin-linked fel repeater, and quad-linked fel repeater
+             Updated the sprites for a few ships
+             Adjusted the stats on a few ships to improve balance
+             Fel weapon shots are now a bit more blue looking
+             Moved the Diana's Dart/Arrow/Spear to being Sindrian Diktat and merc only, and actually gave some factions access to the Cloudburst pod, Stormfront launcher, and Stormlight gunship
+v0.6.0 = BIG CHANGES - MAY MAKE SAVES WONKY
+			 NOW REQUIRES LazyLib and MagicLib
+			 Solar Shielding swapped out for Stardust Core Drive, which has slightly weaker effects but also adds a fleetwide boost to campaign map agility, up to 50% improvement for all-SV fleets
+			 Added in Stardust Engine Enhancements hullmod, which gives +1 burn, +10% combat speed, and +20% maneuverability. 
+			 Cosmic Wind is now cheaper to deploy and maintain
+			 Warp Diver has more OP and better flux stats but costs more to deploy and maintain
+			 Adjusted some loadouts and ship variants, particularly for the Warp Diver
+			 Stardust Venture blueprints have been split out of the midline pack and into two packs, one for civilian and one for military
+			 Did some rebalancing of which factions get access to what bps
+			 Added Industrial Evolution integration for reverse engineering and ship duplication
+			 Fixed a sound issue with the linked fel and fel battery weapons
+			 Added versioning support and direct download for SMOL			 
+			 Various bugfixes
+			 Various minor art tweaks		
+v0.6.1 = Bugfix
+			  Fixed an issue with the version checking files	 
+v0.7.0 = Starsector 0.96 Update
+			 Updated code to handle MagicLib changes
+			 Added new ship, the Celestial Guide 
+			 Added new fighter, the Gamma Racer
+			 Added new weapon, the FEL pds
+			 Updated graphics for the Starlight Guard
+			 Upped Stardust Core fleet agility boost to 100% max bonus from 50%
+			 Tweaks to various variant loadouts
+			 Tweaked Faction usage of SV ships/equipment to better fit new lore
+v0.7.1 = Added Environmental Shielding hullmod
+		 Added Mist PDS
+		 Added Amber, Azure, Crimson, and Violet Streak MRMs (in small/med/large mount sizes)
+		 Fixed Celestial Guide not showing up as often as it should
+		 Fixed Celestial Guide not giving the intended 30% nav penalty reduction
+		 Updated the Gamma Racer to also use a Mist PDS
+		 Updated some variant loadouts to include the new weapons
+		 Updated the Exploration ships to include built-in Environmental Shielding (Horizon Chaser, Stargazer, and Void Nomad)
+v0.7.2 = HOTFIX for the Celestial Guide harmonics crash
+v0.7.3 = Added Twilight Defiance missile cruiser
+		 Fixed Environmental Shielding not showing up as often as it should
+		 Updated engines to have a little less smoke in the contrail
+		 Adjusted Independents to use SDV ships a little less often
+		 Adjusted some descriptions
+		 Added S-Mod bonus for engine mod
+[/spoiler]
+
