@@ -1,0 +1,247 @@
+{
+	id:"stardust_ventures_shop",
+	"color":[189,255,255,255],
+	"secondaryUIColor":[56,153,153,255],
+	        "secondarySegments":4,
+	"displayName":"Stardust Ventures",
+	"displayNameWithArticle":"Stardust Ventures",
+	"displayNameLong":"Stardust Ventures Company",
+	"displayNameLongWithArticle":"the Stardust Ventures Company",
+	"logo":"graphics/factions/stardust_ventures_flag.png",
+	"crest":"graphics/factions/stardust_ventures_crest.png",
+	"showInIntelTab":false,
+	"shipNamePrefix":"SDV",
+
+	"shipNameSources":{
+		"NORDIC":1,
+		"GREEK":1,
+		"CELTIC":1,
+		"BEASTS":2,
+		"MERCANTILE":2,
+		"SPACE":3,
+		"GENERAL":2,
+	},
+	"description":"One of the premier developers of heavy weapons in the vast galactic polity that had once been called the Domain. The Collapse and two wars, brought about the apparent demise of that golden age, along with the majority of the companies infrastructure.",
+	"names":{
+		"modern":1,
+		"world":1,
+		"future":2,
+		"myth":1,
+	},
+	"hullFrequency":{
+			"hulls":
+			{
+			  "stardust_stormseeker_c_ig":0.05,
+			},
+	},
+	"knownShips":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"hulls":[	
+			"stardust_stormseeker_c_ig",
+			],
+	},
+	"shipsWhenImporting":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"hulls":[
+
+		],
+	},
+	"knownFighters":{
+		"tags":["stardust_core_bp","stardust_mil_bp"],
+			"fighters":[
+			"stardust_stormlight_wing",
+			],
+	},
+	"knownWeapons":{
+		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"weapons":[
+			"stardust_felpds_ig",
+			"stardust_felpulser_ig",
+			"stardust_dianaspear_f",
+			"stardust_dianaspear_k",
+			"stardust_dianaarrow_f",
+			"stardust_dianaarrow_he",
+			"stardust_dianaarrow_k",
+			"stardust_dianaspear_he",
+			"stardust_dianadart_f",
+			"stardust_dianadart_he",
+			"stardust_dianadart_k",
+			"stardust_streak_mrm_violet_ig",
+			"stardust_streak_mrm_azure_ig",
+		],
+	},
+
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+    "priorityShips":{
+        "tags":[],
+        "hulls":[],
+    },
+	"knownHullMods":{
+		"tags":["standard", "ind", "independent"],
+		"hullMods":[
+			"stardust_enhancedengines",
+			"stardust_EnvironmentalShielding",
+		],
+	},
+	"weaponSellFrequency":{
+		"stardust_felpds_ig":0.1,
+		"stardust_felpulser_ig":0.1,
+		"stardust_streak_mrm_violet_ig":0.1,
+		"stardust_streak_mrm_azure_ig":0.1,
+		"stardust_dianaspear_f":0.5,
+		"stardust_dianaspear_k":0.5,
+		"stardust_dianaarrow_f":0.5,
+		"stardust_dianaarrow_he":0.5,
+		"stardust_dianaarrow_k":0.5,
+		"stardust_dianaspear_he":0.5,
+		"stardust_dianadart_f":0.5,
+		"stardust_dianadart_he":0.5,
+		"stardust_dianadart_k":0.5,
+	},
+	"fighterSellFrequency":{
+		"stardust_meteorite_Fighter":5,
+		"stardust_stormwing_Fighter":5,
+		"stardust_gammaracer_Fighter":5,
+		"stardust_moonbreaker_Bomber":2,
+		"stardust_stormlight_wing":0.5,
+	},
+	"hullmodSellFrequency":{
+		"stardust_enhancedengines":5,
+		"stardust_EnvironmentalShielding":5,
+		"surveying_equipment":5,
+	},	
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":3,
+		"phaseShips":1,
+
+		"officerQuality":2,
+		"shipQuality":3,
+		"numShips":2,
+
+		"shipSize":3,
+
+		"aggression":3,
+
+		"combatFreighterProbability":0.33,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.33,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.33,# as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"tactical_drills",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+	],
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_mercenary01.png",
+			"graphics/portraits/portrait_mercenary03.png",
+			"graphics/portraits/portrait_mercenary04.png",
+			"graphics/portraits/portrait_mercenary06.png",
+			"graphics/portraits/portrait_mercenary08.png",
+			"graphics/portraits/portrait12.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait15.png",
+			"graphics/portraits/portrait17.png",
+			"graphics/portraits/portrait18.png",
+			"graphics/portraits/portrait20.png",
+			"graphics/portraits/portrait25.png",
+			"graphics/portraits/portrait26.png",
+			"graphics/portraits/portrait30.png",
+			"graphics/portraits/portrait31.png",
+			"graphics/portraits/portrait33.png",
+			"graphics/portraits/portrait35.png",
+			"graphics/portraits/portrait36.png",
+			"graphics/portraits/portrait40.png",
+			"graphics/portraits/portrait43.png",	
+			"graphics/portraits/portrait44.png",
+			"graphics/portraits/portrait47.png",	
+			"graphics/portraits/portrait48.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait_mercenary05.png",
+			"graphics/portraits/portrait_mercenary07.png",
+			"graphics/portraits/portrait14.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait21.png",
+			"graphics/portraits/portrait22.png",
+			"graphics/portraits/portrait27.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait29.png",
+			"graphics/portraits/portrait32.png",
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/portrait37.png",
+			"graphics/portraits/portrait39.png",
+			"graphics/portraits/portrait41.png",		
+			"graphics/portraits/portrait42.png",	
+			"graphics/portraits/portrait45.png",	
+			"graphics/portraits/portrait46.png",	
+		],
+	},
+	"voices":{
+		"LOW":{
+			"soldier":5,
+			"spacer":10,
+		},
+		"MEDIUM":{
+			"soldier":5,
+			"official":5,
+			"business":10,
+		},
+		"HIGH":{
+			"soldier":5,
+			"official":10,
+			"business":10,
+		},
+	},	
+	"custom":{
+		"decentralized":false,
+		"allowsTransponderOffTrade":true,
+		"offersCommissions":false,
+		"engagesInHostilities":false,
+		"buysAICores":true,
+		"AICoreValueMult":1.5,
+		"AICoreRepMult":1.5,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Mercantile Convoy",
+		"tradeLiner":"Liner Convoy",
+		"tradeSmuggler":"Smuggler",
+		"smallTrader":"Trader",
+		
+		"patrolSmall":"Fast Picket",
+		"patrolMedium":"Patrol",
+		"patrolLarge":"Detachment",
+		
+		"inspectionFleet":"Inspection Fleet",
+		"taskForce":"Task Force",
+		
+		"foodReliefFleet":"Relief Convoy",
+	},
+},

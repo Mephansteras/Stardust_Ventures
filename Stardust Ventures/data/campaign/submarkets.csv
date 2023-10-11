@@ -1,0 +1,5 @@
+id,name,faction,desc,script,icon,order
+stardust_market,"Stardust
+Ventures",stardust_ventures,"Trade with Stardust Ventures Shipyard.
+
+While available throughout the sector, specific Stardust Ventures equipment can be challenging to find. As a result, SDV has set up a few dedicated market outlets to help connect to customers.",data.scripts.campaign.submarkets.stardust_subMarketPlugin,graphics/factions/stardust_ventures_flag.png,800.101

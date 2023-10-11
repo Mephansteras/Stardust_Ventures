@@ -1,0 +1,28 @@
+{
+    "hullFrequency":{
+		"tags":{
+			"stardust_core_bp":0.15,
+		},
+		"hulls":{
+        },
+    },
+    "knownShips":{
+		"tags":["stardust_core_bp"],
+    },
+	"shipsWhenImporting":{
+		"tags":["stardust_core_bp"],
+	},
+	"knownFighters":{
+		"tags":["stardust_core_bp"],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["stardust_core_bp"],
+	},
+	"knownHullMods":{
+		"hullMods":[
+
+		],
+	},	
+}

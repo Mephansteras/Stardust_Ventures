@@ -11,7 +11,7 @@ Proton Autocannon,stardust_autoproton,2,,6000,900,,75,30,5,20,18,,,,ENERGY,90,,0
 Fel PDS,stardust_felpds,2,,250,300,,20,5,0,75,4,,,,ENERGY,1,,0,0.05,1,,0,15,1,15,,800,,,10,,,PD,"pd8, energy8, stardust_core_bp, merc",,Stardust Ventures,,Point Defense,,,,,,,,,,800.304
 Fel PDS,stardust_felpds_ig,2,0.1,500,300,,20,5,0,75,4,,,,ENERGY,1,,0,0.05,1,,0,15,1,15,,800,,,10,,,PD,"pd8, energy8, rare_bp",,Stardust Ventures,,Point Defense,,,,,,,,,,800.304
 Fel Defender,stardust_feldefense,2,0.9,1200,300,,22,5,0,75,8,,,,ENERGY,2,,0,0.05,2,,0,15,1,15,,800,,,10,,,PD,"pd11, energy11, stardust_core_bp, merc",,Stardust Ventures,,Point Defense,,,,,,,,,,800.305
-Fel Guardian,stardust_felguardian,2,0.9,4000,300,,25,5,0,75,16,,,,ENERGY,4,,0,0.05,4,,0,15,1,15,,800,,,10,,,PD,"pd18, energy14, stardust_mil_bp, merc",,Stardust Ventures,,Point Defense,,,,,,,,,,800.305
+Fel Guardian,stardust_felguardian,2,0.9,4000,400,,25,5,0,75,16,,,,ENERGY,4,,0,0.05,4,,0,15,1,15,,800,,,10,,,PD,"pd18, energy14, stardust_mil_bp, merc",,Stardust Ventures,,Point Defense,,,,,,,,,,800.305
 Fel Repeater,stardust_felrepeater,2,,350,700,,40,10,0,50,5,30,2,,ENERGY,40,,0.05,0.05,1,,0,10,1,5,,1000,,,,,,,"energy8, stardust_core_bp, merc",,Stardust Ventures,,General,,,,,,,,,,800.3
 Fel Striker,stardust_felrepeater_fighter,2,,350,700,,20,10,0,50,5,60,3,,ENERGY,25,,0.05,0.05,1,,0,10,1,5,,1000,,,,,,SYSTEM,energy8,,Stardust Ventures,,General,,,,,,,,,,800.301
 Linked Fel Repeaters,stardust_felrepeater_linked,2,,1500,700,,40,10,0,25,10,90,5,,ENERGY,39,,0.05,0.05,2,,0,10,1,5,,1000,,,,,,,"energy12, stardust_mil_bp, merc",,Stardust Ventures,,General,,,,,,,,,,800.302
