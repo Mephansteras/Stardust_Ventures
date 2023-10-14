@@ -10,7 +10,7 @@
 		"tags":["stardust_core_bp"],
     },
 	"shipsWhenImporting":{
-		"tags":["stardust_core_bp"],
+		"tags":[],
 	},
 	"knownFighters":{
 		"tags":["stardust_core_bp"],

@@ -39,6 +39,19 @@ public class stardust_FleetStatManager implements EveryFrameScript
         return false;
     }
 
+    public boolean isVIP()
+    {
+        CampaignFleetAPI playerFleet = Global.getSector().getPlayerFleet();
+        for (FleetMemberAPI member : playerFleet.getFleetData().getMembersListCopy())
+        {
+            if (member.getId().equals("stardust_stormseeker_c_ig"))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public void advance(float amount)
     {   
         CampaignFleetAPI playerFleet = Global.getSector().getPlayerFleet();

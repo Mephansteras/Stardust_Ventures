@@ -103,11 +103,11 @@
 		"stardust_dianadart_k":0.5,
 	},
 	"fighterSellFrequency":{
-		"stardust_meteorite_Fighter":5,
+		"stardust_meteorite_Fighter":6,
 		"stardust_stormwing_Fighter":5,
-		"stardust_gammaracer_Fighter":5,
-		"stardust_moonbreaker_Bomber":2,
-		"stardust_stormlight_wing":0.5,
+		"stardust_gammaracer_Fighter":6,
+		"stardust_moonbreaker_Bomber":5,
+		"stardust_stormlight_Fighter":0.25,
 	},
 	"hullmodSellFrequency":{
 		"stardust_enhancedengines":5,

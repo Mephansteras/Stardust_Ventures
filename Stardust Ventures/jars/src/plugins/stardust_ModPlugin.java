@@ -27,7 +27,13 @@ public class stardust_ModPlugin extends BaseModPlugin
 {
     // basic ModPlugin code taken from theDragn's High Tech Expansion mod, but no longer reliant on kotlin
     // Thanks to theDragn for directing me to it!
+
+    // Check for mods that we care about
+    public static final boolean HAVE_LUNALIB = Global.getSettings().getModManager().isModEnabled("lunalib");
+
+    // General constants we want in one place for easy access
     public static final int STARDUST_SUBMARKETS = 3;
+
 
     @Override
     public void onGameLoad(boolean newGame)
@@ -38,10 +44,27 @@ public class stardust_ModPlugin extends BaseModPlugin
             sector.addScript(new stardust_FleetStatManager());
         }
 
+        // To-Do should make it a config option so the markets can be turned off
+        openSubMarkets();
+
+
+    }
+
+    public void openSubMarkets()
+    {
         // Add in Stardust Ventures submarkets to indie markets
         // We want them in ilm, agreus, and baetis if they exist.
         // If not (for random core or whatever), put them in the 3 biggest indy markets
+        SectorAPI sector = Global.getSector();
         Set<String> sdv_markets= new HashSet<>();
+
+        // First off, get a list of all markets and check if we've got the required number of SDV subs
+
+        // If not, we need to add them. First, try the standard core ones
+
+        // If we still don't have enough, just get the biggest indy markets until we have enough
+        // But avoid blacklisted markets, like Kassadar and Prism
+
         SectorEntityToken loc = sector.getEntityById("ilm");
         MarketAPI current_market = null;
         if (loc != null) { current_market = loc.getMarket(); }
@@ -79,10 +102,13 @@ public class stardust_ModPlugin extends BaseModPlugin
         if (sdv_markets.size() < STARDUST_SUBMARKETS)
         {
             // Get candidate markets
+            // Note: Need to add in a more generic blacklist so we can avoid some mod locations
+            // But for now, just exclude Kassadar
             Map<MarketAPI, Integer> indy_markets = new HashMap<>();
             for (MarketAPI place : sector.getEconomy().getMarketsCopy()) {
                 if (place.getFactionId().equals("independent"))
                 {
+                    String db_place = place.getId(); // && !place.getId().equals(("tahlan_lethia_p05"))
                     indy_markets.put(place, place.getSize());
                 }
             }
@@ -114,7 +140,6 @@ public class stardust_ModPlugin extends BaseModPlugin
             }
 
         }
-
     }
 
 }
