@@ -14,5 +14,6 @@
     <orderEntry type="library" name="LazyLib" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="Starsector Core" level="project" />
     <orderEntry type="library" name="ExerelinCore" level="project" />
+    <orderEntry type="library" name="LunaLib" level="project" />
   </component>
 </module>

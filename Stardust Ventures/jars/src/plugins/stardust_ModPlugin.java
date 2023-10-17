@@ -3,6 +3,7 @@ package plugins;
 import com.fs.starfarer.api.BaseModPlugin;
 import java.lang.RuntimeException;
 import java.lang.ClassNotFoundException;
+import lunalib.lunaSettings.LunaSettings;
 
 import com.fs.starfarer.api.campaign.LocationAPI;
 import com.fs.starfarer.api.campaign.SectorAPI;
@@ -19,6 +20,8 @@ import com.fs.starfarer.api.campaign.CampaignPlugin;
 import java.io.IOException;
 
 import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.lang.Exception;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -31,8 +34,12 @@ public class stardust_ModPlugin extends BaseModPlugin
     // Check for mods that we care about
     public static final boolean HAVE_LUNALIB = Global.getSettings().getModManager().isModEnabled("lunalib");
 
-    // General constants we want in one place for easy access
-    public static final int STARDUST_SUBMARKETS = 3;
+    // General constants/variables we want in one place for easy access
+    private static String SETTINGS_FILE = "stardust_settings.json";
+
+    // Stuff from the configs, values here are the defaults if needed for some reason
+    public int STARDUST_SUBMARKETS = 3;
+    private boolean GEN_SHOPS = true;
 
 
     @Override
@@ -44,10 +51,40 @@ public class stardust_ModPlugin extends BaseModPlugin
             sector.addScript(new stardust_FleetStatManager());
         }
 
-        // To-Do should make it a config option so the markets can be turned off
-        openSubMarkets();
+        // Get our settings, from LunaLib or the config files
+        try {
+            loadSettings();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // Generate the shops if enabled
+        if (GEN_SHOPS) {
+            openSubMarkets();
+        }
 
 
+    }
+
+    public void loadSettings() throws JSONException, IOException {
+        // Use Lunalib config if that is installed, otherwise use the settings file
+        if (HAVE_LUNALIB)
+        {
+            GEN_SHOPS = Boolean.TRUE.equals(LunaSettings.getBoolean("stardustventures", "stardust_generate_shops"));
+            try {
+                STARDUST_SUBMARKETS = LunaSettings.getInt("stardustventures", "stardust_num_shops");
+            } catch (NullPointerException npe) {
+                STARDUST_SUBMARKETS = 3;
+            }
+
+        }
+        else {
+            JSONObject setting = Global.getSettings().loadJSON(SETTINGS_FILE);
+            STARDUST_SUBMARKETS = setting.getInt("numShops");
+            GEN_SHOPS = setting.getBoolean("enableShops");
+        }
     }
 
     public void openSubMarkets()
