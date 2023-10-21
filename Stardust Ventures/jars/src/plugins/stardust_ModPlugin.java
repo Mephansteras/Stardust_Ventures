@@ -19,23 +19,27 @@ import com.fs.starfarer.api.combat.MissileAIPlugin;
 import com.fs.starfarer.api.campaign.CampaignPlugin;
 import java.io.IOException;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.lang.Exception;
 import java.util.*;
 import java.util.stream.Collectors;
+import org.apache.log4j.Logger;
 
 public class stardust_ModPlugin extends BaseModPlugin
 {
     // basic ModPlugin code taken from theDragn's High Tech Expansion mod, but no longer reliant on kotlin
     // Thanks to theDragn for directing me to it!
+    public static final Logger log = Global.getLogger(stardust_ModPlugin.class);
 
     // Check for mods that we care about
     public static final boolean HAVE_LUNALIB = Global.getSettings().getModManager().isModEnabled("lunalib");
 
     // General constants/variables we want in one place for easy access
     private static String SETTINGS_FILE = "stardust_settings.json";
+    //private static String SHOP_BLACKLIST_FILE = "stardust_market_blacklist.csv";
 
     // Stuff from the configs, values here are the defaults if needed for some reason
     public int STARDUST_SUBMARKETS = 3;
@@ -55,14 +59,20 @@ public class stardust_ModPlugin extends BaseModPlugin
         try {
             loadSettings();
         } catch (JSONException e) {
-            e.printStackTrace();
+            log.error(e);
         } catch (IOException e) {
-            e.printStackTrace();
+            log.error(e);
         }
 
         // Generate the shops if enabled
         if (GEN_SHOPS) {
-            openSubMarkets();
+            try {
+                openSubMarkets();
+            } catch (JSONException e) {
+                log.error(e);
+            } catch (IOException e) {
+                log.error(e);
+            }
         }
 
 
@@ -85,97 +95,134 @@ public class stardust_ModPlugin extends BaseModPlugin
             STARDUST_SUBMARKETS = setting.getInt("numShops");
             GEN_SHOPS = setting.getBoolean("enableShops");
         }
+
     }
 
-    public void openSubMarkets()
-    {
+    public void openSubMarkets() throws JSONException, IOException {
         // Add in Stardust Ventures submarkets to indie markets
         // We want them in ilm, agreus, and baetis if they exist.
         // If not (for random core or whatever), put them in the 3 biggest indy markets
+        //   Or however many the config says to use
         SectorAPI sector = Global.getSector();
         Set<String> sdv_markets= new HashSet<>();
+        int sdv_count = 0;
+
+        // Get blacklist for allowed markets
+        Set<String> blacklist_markets = new HashSet<>();
+        String path = "data/config/stardust_market_blacklist.csv";
+        try {
+            JSONArray blacklist = Global.getSettings().getMergedSpreadsheetDataForMod("id", path, "stardustventures");
+            for (int i = 0; i < blacklist.length(); i++) {
+
+                JSONObject row = blacklist.getJSONObject(i);
+                String marketId = row.getString("id");
+
+                blacklist_markets.add(marketId);
+                log.debug("Blacklisting " + marketId);
+            }
+        } catch (IOException | JSONException ex) {
+            log.error(ex);
+        }
+
 
         // First off, get a list of all markets and check if we've got the required number of SDV subs
+        // Not limited to indy markets for this, in case some got taken over
+        for (MarketAPI place : sector.getEconomy().getMarketsCopy()) {
+            if (place.hasSubmarket("stardust_market"))
+            {
+                sdv_count++;
+                log.info("Found SDV shop at " + place.getId());
+            }
+        }
 
         // If not, we need to add them. First, try the standard core ones
-
         // If we still don't have enough, just get the biggest indy markets until we have enough
-        // But avoid blacklisted markets, like Kassadar and Prism
-
-        SectorEntityToken loc = sector.getEntityById("ilm");
-        MarketAPI current_market = null;
-        if (loc != null) { current_market = loc.getMarket(); }
-        if (current_market != null){
-            if (current_market.hasSubmarket("stardust_market") && !sdv_markets.contains(current_market.getName())) {
-                sdv_markets.add(current_market.getName());
-            } else if (!current_market.hasSubmarket("stardust_market") && Objects.equals(current_market.getFactionId(), "independent")) {
-                current_market.addSubmarket("stardust_market");
-                sdv_markets.add(current_market.getName());
+        // But avoid blacklisted markets, like Kassadar and Galatia
+        if (sdv_count < STARDUST_SUBMARKETS) {
+            SectorEntityToken loc = sector.getEntityById("ilm");
+            MarketAPI current_market = null;
+            if (loc != null) {
+                current_market = loc.getMarket();
             }
-        }
-        loc = sector.getEntityById("agreus");
-        current_market = null;
-        if (loc != null) { current_market = loc.getMarket(); }
-        if (current_market != null){
-            if (current_market.hasSubmarket("stardust_market") && !sdv_markets.contains(current_market.getName())) {
-                sdv_markets.add(current_market.getName());
-            } else if (!current_market.hasSubmarket("stardust_market") && Objects.equals(current_market.getFactionId(), "independent")) {
-                current_market.addSubmarket("stardust_market");
-                sdv_markets.add(current_market.getName());
-            }
-        }
-        loc = sector.getEntityById("baetis");
-        current_market = null;
-        if (loc != null) { current_market = loc.getMarket(); }
-        if (current_market != null){
-            if (current_market.hasSubmarket("stardust_market") && !sdv_markets.contains(current_market.getName())) {
-                sdv_markets.add(current_market.getName());
-            } else if (!current_market.hasSubmarket("stardust_market") && Objects.equals(current_market.getFactionId(), "independent")) {
-                current_market.addSubmarket("stardust_market");
-                sdv_markets.add(current_market.getName());
-            }
-        }
-        // If we didn't populate 3 markets, go find some and populate them until we have 3
-        if (sdv_markets.size() < STARDUST_SUBMARKETS)
-        {
-            // Get candidate markets
-            // Note: Need to add in a more generic blacklist so we can avoid some mod locations
-            // But for now, just exclude Kassadar
-            Map<MarketAPI, Integer> indy_markets = new HashMap<>();
-            for (MarketAPI place : sector.getEconomy().getMarketsCopy()) {
-                if (place.getFactionId().equals("independent"))
-                {
-                    String db_place = place.getId(); // && !place.getId().equals(("tahlan_lethia_p05"))
-                    indy_markets.put(place, place.getSize());
+            if (current_market != null) {
+                if (current_market.hasSubmarket("stardust_market") && !sdv_markets.contains(current_market.getName())) {
+                    sdv_markets.add(current_market.getName());
+                } else if (!current_market.hasSubmarket("stardust_market") && Objects.equals(current_market.getFactionId(), "independent")) {
+                    current_market.addSubmarket("stardust_market");
+                    sdv_markets.add(current_market.getName());
+                    log.info("Adding SDV shop to " + current_market.getId());
                 }
             }
-            // Sort the Map so we can get the biggest markets easily
-            LinkedHashMap<MarketAPI, Integer> sortedMarkets = indy_markets.entrySet()
-                    .stream()
-                    .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
-                    .collect(Collectors.toMap(
-                            Map.Entry::getKey,
-                            Map.Entry::getValue,
-                            (oldValue, newValue) -> oldValue, LinkedHashMap::new));
-            Set<MarketAPI> market_set = sortedMarkets.keySet();
-            // Go through the list and get us up to [STARDUST_SUBMARKETS] submarkets.
-            //  If we run out somehow before we get to that number, oh well, there just aren't enough indy markets available.
-            for(MarketAPI indy_market:market_set){
-                //MarketAPI current_market = Global.getSector().getEntityById(k).getMarket();
-                if (indy_market != null) {
-                    if (indy_market.hasSubmarket("stardust_market") && !sdv_markets.contains(indy_market.getName())) {
-                        sdv_markets.add(indy_market.getName());
-                    } else if (!indy_market.hasSubmarket("stardust_market")) {
-                        indy_market.addSubmarket("stardust_market");
-                        sdv_markets.add(indy_market.getName());
+            loc = sector.getEntityById("agreus");
+            current_market = null;
+            if (loc != null) {
+                current_market = loc.getMarket();
+            }
+            if (current_market != null) {
+                if (current_market.hasSubmarket("stardust_market") && !sdv_markets.contains(current_market.getName())) {
+                    sdv_markets.add(current_market.getName());
+                } else if (!current_market.hasSubmarket("stardust_market") && Objects.equals(current_market.getFactionId(), "independent")) {
+                    current_market.addSubmarket("stardust_market");
+                    sdv_markets.add(current_market.getName());
+                    log.info("Adding SDV shop to " + current_market.getId());
+                }
+            }
+            loc = sector.getEntityById("baetis");
+            current_market = null;
+            if (loc != null) {
+                current_market = loc.getMarket();
+            }
+            if (current_market != null) {
+                if (current_market.hasSubmarket("stardust_market") && !sdv_markets.contains(current_market.getName())) {
+                    sdv_markets.add(current_market.getName());
+                } else if (!current_market.hasSubmarket("stardust_market") && Objects.equals(current_market.getFactionId(), "independent")) {
+                    current_market.addSubmarket("stardust_market");
+                    sdv_markets.add(current_market.getName());
+                    log.info("Adding SDV shop to " + current_market.getId());
+                }
+            }
+            // If we didn't populate 3 markets, go find some and populate them until we have 3
+            if (sdv_markets.size() < STARDUST_SUBMARKETS) {
+                // Get candidate markets
+                Map<MarketAPI, Integer> indy_markets = new HashMap<>();
+                for (MarketAPI place : sector.getEconomy().getMarketsCopy()) {
+                    if (place.getFactionId().equals("independent") && !blacklist_markets.contains(place.getId())) {
+                        String db_place = place.getId(); // Debug, comment out for release
+                        indy_markets.put(place, place.getSize());
+                    }
+                    else if (blacklist_markets.contains(place.getId()))
+                    {
+                        log.info("Skipping SDV shop at " + place.getId() + ", it is blacklisted");
                     }
                 }
-                if (sdv_markets.size() >= STARDUST_SUBMARKETS)
-                {
-                    break;
+                // Sort the Map so we can get the biggest markets easily
+                LinkedHashMap<MarketAPI, Integer> sortedMarkets = indy_markets.entrySet()
+                        .stream()
+                        .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                        .collect(Collectors.toMap(
+                                Map.Entry::getKey,
+                                Map.Entry::getValue,
+                                (oldValue, newValue) -> oldValue, LinkedHashMap::new));
+                Set<MarketAPI> market_set = sortedMarkets.keySet();
+                // Go through the list and get us up to [STARDUST_SUBMARKETS] submarkets.
+                //  If we run out somehow before we get to that number, oh well, there just aren't enough indy markets available.
+                for (MarketAPI indy_market : market_set) {
+                    //MarketAPI current_market = Global.getSector().getEntityById(k).getMarket();
+                    if (indy_market != null) {
+                        if (indy_market.hasSubmarket("stardust_market") && !sdv_markets.contains(indy_market.getName())) {
+                            sdv_markets.add(indy_market.getName());
+                        } else if (!indy_market.hasSubmarket("stardust_market")) {
+                            indy_market.addSubmarket("stardust_market");
+                            sdv_markets.add(indy_market.getName());
+                            log.info("Adding SDV shop to " + indy_market.getId());
+                        }
+                    }
+                    if (sdv_markets.size() >= STARDUST_SUBMARKETS) {
+                        break;
+                    }
                 }
-            }
 
+            }
         }
     }
 

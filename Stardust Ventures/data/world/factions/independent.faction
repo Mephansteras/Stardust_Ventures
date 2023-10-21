@@ -1,8 +1,8 @@
 {
     "hullFrequency":{
 		"tags":{
-			"stardust_core_bp":0.75,
-			"stardust_mil_bp":0.75,
+			"stardust_core_bp":0.33,
+			"stardust_mil_bp":0.33,
 		},
 		"hulls":{
             "stardust_plasmaburst":0.6,
@@ -13,7 +13,7 @@
 		"tags":["stardust_core_bp", "stardust_mil_bp"],
     },
 	"shipsWhenImporting":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"tags":[],
 	},
 	"knownFighters":{
 		"tags":["stardust_core_bp", "stardust_mil_bp"],

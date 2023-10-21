@@ -1,3 +1,3 @@
 fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
 stardust_generate_shops,Generate Shops,Boolean,TRUE,,"Generate SDV shops on indy planets (Ilm, Agreus, and Baetis in that order if they exist)",,,
-stardust_num_shops,Number of Shops,Int,3,,"How many to generate, if enabled. Shops will go biggest market to smallest.",0,10,
+stardust_num_shops,Number of Shops,Int,3,,"How many to generate, if enabled. Shops will spawn on largest indy markets first then downwards onto smaller markets. Will add new shops on [game load], but will not remove existing if later disabled.",0,10,

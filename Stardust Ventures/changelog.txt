@@ -105,6 +105,9 @@ v0.7.4 = Added Fel Defender and Guardian
 		 Rebalanced the Stormwing fighters
 		 Save compatable, HOWEVER some OP costs have changed so your ships may be over/under on existing saves
 v0.8.0 = Added Stardust Ventures Store to some Indy markets
-		 Scavengers can now use SDV ships
+		 VIPs get special treatment
+		 Added mod configuration files and Lunalib support
+		 Scavengers can now use some SDV ships
 		 Toned down SDV ship usage in most factions
-		 
+		 Art update for Sunbeam Rider
+		 Save compatable, stores WILL generate in markets on game load after update if enabled. 

@@ -1,0 +1,7 @@
+{
+	# enables Stardust Ventures shops to be generated. Once generated, they will not go away if this is set to false
+	"enableShops": true,
+	
+	# How many shops to generate? They will spawn on Ilm, Agreus, and Baetis in that order, then look for other indy markets biggest->smallest
+	"numShops": 3,
+}
