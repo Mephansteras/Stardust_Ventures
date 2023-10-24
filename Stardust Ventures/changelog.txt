@@ -111,3 +111,6 @@ v0.8.0 = Added Stardust Ventures Store to some Indy markets
 		 Toned down SDV ship usage in most factions
 		 Art update for Sunbeam Rider
 		 Save compatable, stores WILL generate in markets on game load after update if enabled. 
+v0.8.1 = Updated some ship variant loadouts
+		 Fel Guardians are less common (autofit was abusing it to the detriment of AI ships)
+		 Fixed an issue that was causing crashes with Java 7

@@ -3,7 +3,7 @@
   "hullId": "stardust_stormseeker",
   "displayName": "Attack",
   "goalVariant": true,
-  "fluxCapacitors": 10,
+  "fluxCapacitors": 14,
   "fluxVents": 14,
   "quality": 1,
   "permaMods": [],

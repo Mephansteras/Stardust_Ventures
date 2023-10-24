@@ -3,16 +3,20 @@
   "hullId": "stardust_stormbringer",
   "displayName": "Guardian",
   "goalVariant": true,
-  "fluxCapacitors": 35,
-  "fluxVents": 40,
+  "fluxCapacitors": 34,
+  "fluxVents": 35,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "turretgyros"
+  ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0005": "mark9",
+        "WS0006": "mark9",
         "WS0007": "heavymortar",
         "WS0008": "heavymortar",
         "WS0009": "stardust_felpulser",
@@ -62,9 +66,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0003": "stardust_felguardian",
-        "WS0004": "stardust_felguardian",
-        "WS0005": "devastator",
-        "WS0006": "devastator"
+        "WS0004": "stardust_felguardian"
       }
     },
     {
