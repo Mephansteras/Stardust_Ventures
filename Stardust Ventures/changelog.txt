@@ -114,3 +114,8 @@ v0.8.0 = Added Stardust Ventures Store to some Indy markets
 v0.8.1 = Updated some ship variant loadouts
 		 Fel Guardians are less common (autofit was abusing it to the detriment of AI ships)
 		 Fixed an issue that was causing crashes with Java 7
+v0.8.2 = Added unique base for Streak MRM (double) versions
+	     Fixed market blacklist not working
+		 Fix - Golden Ticket start now gets a skill point
+		 Art updates for Horizon Chaser and Void Nomad
+		 

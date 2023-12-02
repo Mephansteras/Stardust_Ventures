@@ -19,6 +19,9 @@
     "stardust_StardustCore",
     "stardust_EnvironmentalShielding"
   ],
+  "builtInWeapons": {
+    "WS0009": "void_nomad_core"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -91,6 +94,15 @@
       "arc": 33,
       "angle": 0,
       "locations": [86, -43]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 210,
+      "angle": 0,
+      "locations": [30, -0]
     }
   ],
   "engineSlots": [

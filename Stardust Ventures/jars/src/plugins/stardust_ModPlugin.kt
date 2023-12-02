@@ -108,6 +108,7 @@ class stardust_ModPlugin : BaseModPlugin() {
             if (current_market != null) {
                 if (current_market.hasSubmarket("stardust_market") && !sdv_markets.contains(current_market.name)) {
                     sdv_markets.add(current_market.name)
+                    log.info("Found SDV shop at " + current_market.id + "(size " + current_market.size + ")")
                 } else if (!current_market.hasSubmarket("stardust_market") && current_market.factionId == "independent") {
                     current_market.addSubmarket("stardust_market")
                     sdv_markets.add(current_market.name)
@@ -122,6 +123,7 @@ class stardust_ModPlugin : BaseModPlugin() {
             if (current_market != null) {
                 if (current_market.hasSubmarket("stardust_market") && !sdv_markets.contains(current_market.name)) {
                     sdv_markets.add(current_market.name)
+                    log.info("Found SDV shop at " + current_market.id + "(size " + current_market.size + ")")
                 } else if (!current_market.hasSubmarket("stardust_market") && current_market.factionId == "independent") {
                     current_market.addSubmarket("stardust_market")
                     sdv_markets.add(current_market.name)
@@ -136,6 +138,7 @@ class stardust_ModPlugin : BaseModPlugin() {
             if (current_market != null) {
                 if (current_market.hasSubmarket("stardust_market") && !sdv_markets.contains(current_market.name)) {
                     sdv_markets.add(current_market.name)
+                    log.info("Found SDV shop at " + current_market.id + "(size " + current_market.size + ")")
                 } else if (!current_market.hasSubmarket("stardust_market") && current_market.factionId == "independent") {
                     current_market.addSubmarket("stardust_market")
                     sdv_markets.add(current_market.name)
@@ -144,26 +147,20 @@ class stardust_ModPlugin : BaseModPlugin() {
             }
             // If we didn't populate 3 markets, go find some and populate them until we have 3
             if (sdv_markets.size < STARDUST_SUBMARKETS) {
-                // Get candidate markets
-                val indy_markets: MutableMap<MarketAPI, Int> = HashMap()
-                for (place in sector.economy.marketsCopy) {
-                    if (place.factionId == "independent" && !blacklist_markets.contains(place.id)) {
-                        //val db_place = place.id // Debug, comment out for release
-                        indy_markets[place] = place.size
-                    } else if (blacklist_markets.contains(place.id)) {
-                        log.info("Skipping SDV shop at " + place.id + ", it is blacklisted")
-                    }
-                }
-                // Sort the Map so we can get the biggest markets easily
-                // Should upgrade all of the "independent" strings with the Factions ref at some point
+                // Only get indy markets, and sort the Map so we can get the biggest markets easily
                 val marketSet = Global.getSector().economy.marketsCopy.filter { it.factionId == Factions.INDEPENDENT }.sortedByDescending { it.size }
                 // Go through the list and get us up to [STARDUST_SUBMARKETS] submarkets.
                 //  If we run out somehow before we get to that number, oh well, there just aren't enough indy markets available.
                 for (indy_market in marketSet) {
                     //MarketAPI current_market = Global.getSector().getEntityById(k).getMarket();
                     if (indy_market != null) {
-                        if (indy_market.hasSubmarket("stardust_market") && !sdv_markets.contains(indy_market.name)) {
+                        if (blacklist_markets.contains(indy_market.id)) // Skip blacklisted markets
+                        {
+                            log.info("Skipping SDV shop at " + indy_market.id + ", it is blacklisted")
+                        }
+                        else if (indy_market.hasSubmarket("stardust_market") && !sdv_markets.contains(indy_market.name)) {
                             sdv_markets.add(indy_market.name)
+                            log.info("Found SDV shop at " + indy_market.id)
                         } else if (!indy_market.hasSubmarket("stardust_market")) {
                             indy_market.addSubmarket("stardust_market")
                             sdv_markets.add(indy_market.name)
@@ -179,7 +176,7 @@ class stardust_ModPlugin : BaseModPlugin() {
     }
 
     companion object {
-        // basic ModPlugin code taken from theDragn's High Tech Expansion mod, but no longer reliant on kotlin
+        // basic ModPlugin code taken from theDragn's High Tech Expansion mod
         // Thanks to theDragn for directing me to it!
         val log = Global.getLogger(stardust_ModPlugin::class.java)
 

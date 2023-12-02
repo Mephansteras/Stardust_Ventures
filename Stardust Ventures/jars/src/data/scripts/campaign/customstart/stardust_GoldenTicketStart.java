@@ -49,6 +49,8 @@ public class stardust_GoldenTicketStart extends CustomStart {
 
         data.getStartingCargo().getCredits().add(30000);
         AddRemoveCommodity.addCreditsGainText(30000, dialog.getTextPanel());
+        MutableCharacterStatsAPI stats = data.getPerson().getStats();
+        stats.addPoints(1);
 
         tempFleet.getFleetData().setSyncNeeded();
         tempFleet.getFleetData().syncIfNeeded();
