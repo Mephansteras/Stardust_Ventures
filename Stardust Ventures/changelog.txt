@@ -118,4 +118,5 @@ v0.8.2 = Added unique base for Streak MRM (double) versions
 	     Fixed market blacklist not working
 		 Fix - Golden Ticket start now gets a skill point
 		 Art updates for Horizon Chaser and Void Nomad
-		 
+		 Horizon Chaser now has Advance Survey Drones (This reduced the available OP slightly)
+		 Updated various variant loadouts

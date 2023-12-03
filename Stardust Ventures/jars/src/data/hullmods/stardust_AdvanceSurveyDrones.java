@@ -19,41 +19,22 @@ import com.fs.starfarer.api.util.Misc;
 
 public class stardust_AdvanceSurveyDrones extends BaseHullMod {
 
-    private static float surveyCostReduction = 1f;
-    private static float baseDistance = 1000f;
-    private static float baseAddition = 500f;
-    private static float baseMax = 3000f;
-
-    public static float SMOD_BONUS = 50f;
+    private static final float SURVEYCOSTREDUCTION = 1f;
+    public static final float BASEDISTANCE = 1000f;
+    public static final float BASEADDITION = 500f;
+    public static final float BASEMAX = 3000f;
 
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 
-        stats.getDynamic().getMod(Stats.getSurveyCostReductionId(Commodities.HEAVY_MACHINERY)).modifyFlat(id, surveyCostReduction);
-        stats.getDynamic().getMod(Stats.getSurveyCostReductionId(Commodities.SUPPLIES)).modifyFlat(id, surveyCostReduction);
-    }
-
-    public float getSurveyDistance(MutableShipStatsAPI stats)
-    {
-        float mod = baseAddition;
-
-        boolean sMod = isSMod(stats);
-        if (sMod) {
-            mod *= 1f + (SMOD_BONUS / 100f);
-        }
-
-        return mod;
-    }
-
-    public String getSModDescriptionParam(int index, HullSize hullSize) {
-        if (index == 0) return "" + (int) SMOD_BONUS + "%";
-        return null;
+        stats.getDynamic().getMod(Stats.getSurveyCostReductionId(Commodities.HEAVY_MACHINERY)).modifyFlat(id, SURVEYCOSTREDUCTION);
+        stats.getDynamic().getMod(Stats.getSurveyCostReductionId(Commodities.SUPPLIES)).modifyFlat(id, SURVEYCOSTREDUCTION);
     }
 
     public String getDescriptionParam(int index, HullSize hullSize) {
-        if (index == 0) return "" + (int) baseDistance;
-        if (index == 1) return "" + (int) baseAddition;
-        if (index == 2) return "" + (int) baseMax;
-        if (index == 3) return "" + (int) surveyCostReduction;
+        if (index == 0) return "" + (int) BASEDISTANCE;
+        if (index == 1) return "" + (int) BASEADDITION;
+        if (index == 2) return "" + (int) BASEMAX;
+        if (index == 3) return "" + (int) SURVEYCOSTREDUCTION;
 
         return null;
     }

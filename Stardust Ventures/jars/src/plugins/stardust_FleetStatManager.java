@@ -4,22 +4,20 @@ import com.fs.starfarer.api.EveryFrameScript;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.FleetDataAPI;
 import com.fs.starfarer.api.combat.MutableStat;
-import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.fleet.MutableFleetStatsAPI;
-import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
 import com.fs.starfarer.api.util.IntervalUtil;
 import com.fs.starfarer.api.util.Misc;
 import com.fs.starfarer.api.campaign.CampaignFleetAPI;
-import com.fs.starfarer.api.combat.MutableStat.StatMod;
 import com.fs.starfarer.api.characters.MutableCharacterStatsAPI;
 import com.fs.starfarer.api.characters.PersonAPI;
-import com.fs.starfarer.api.combat.MutableStat;
 
 import com.fs.starfarer.campaign.CharacterStats;
 import data.hullmods.stardust_StardustCore;
 import data.hullmods.stardust_WarpHarmonicResonator;
+import data.hullmods.stardust_AdvanceSurveyDrones;
+import data.scripts.everyframe.stardust_PartialSurvey;
 
 public class stardust_FleetStatManager implements EveryFrameScript
 {
@@ -28,6 +26,8 @@ public class stardust_FleetStatManager implements EveryFrameScript
     private static IntervalUtil timer = new IntervalUtil(0.25f,0.5f);
     public static final String HARMONIC_ID = "stardust_harmonics_temp";
     public static final String HARMONIC_DESC = "Stardust Harmonics Active";
+
+    private stardust_PartialSurvey surveyor = new stardust_PartialSurvey();
 
     public boolean runWhilePaused()
     {
@@ -57,11 +57,15 @@ public class stardust_FleetStatManager implements EveryFrameScript
         CampaignFleetAPI playerFleet = Global.getSector().getPlayerFleet();
         calc(playerFleet);
         applyHarmonics(playerFleet);
+        if (surveyor == null) { surveyor = new stardust_PartialSurvey(); }
+        surveyor.advance(amount);
 
         // really no need to check every frame
         timer.advance(amount);
         if (timer.intervalElapsed())
         {
+            float surveyProbeDist = getFleetSurveyProbes();
+            if (surveyProbeDist > 0) {  surveyor.setSurveyDistance(surveyProbeDist); }
             for (CampaignFleetAPI fleet : Misc.getVisibleFleets(playerFleet, true))
             {
                     calc(fleet);
@@ -180,5 +184,24 @@ public class stardust_FleetStatManager implements EveryFrameScript
             fleetStats.removeTemporaryMod(HARMONIC_ID);
         }
 
+    }
+
+    private static float getFleetSurveyProbes()
+    {
+        CampaignFleetAPI playerFleet = Global.getSector().getPlayerFleet();
+
+        float tempDist = 0f;
+
+        for (FleetMemberAPI member : playerFleet.getFleetData().getMembersListCopy()) {
+            if (member.getVariant().hasHullMod("stardust_AdvanceSurveyDrones"))
+            {
+                if (tempDist == 0) { tempDist = stardust_AdvanceSurveyDrones.BASEDISTANCE; }
+                tempDist += stardust_AdvanceSurveyDrones.BASEADDITION;
+            }
+        }
+
+        if (tempDist > stardust_AdvanceSurveyDrones.BASEMAX) { tempDist = stardust_AdvanceSurveyDrones.BASEMAX; }
+
+        return tempDist;
     }
 }

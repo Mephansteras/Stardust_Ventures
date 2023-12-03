@@ -1,0 +1,63 @@
+{
+  "variantId": "stardust_stormseeker_c_flanker",
+  "hullId": "stardust_stormseeker_c",
+  "displayName": "Flanker",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "extendedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_hvy_plasmacaster",
+        "WS0002": "stardust_hvy_plasmacaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "lightag"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "stardust_lithobreaker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "stardust_streak_mrm_crimson"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "stardust_mistpds"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "stardust_moonbreaker_wing"
+  ]
+}

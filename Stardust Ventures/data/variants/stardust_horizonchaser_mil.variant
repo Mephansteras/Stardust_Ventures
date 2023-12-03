@@ -3,8 +3,8 @@
   "hullId": "stardust_horizonchaser",
   "displayName": "Horizon Chaser(M)",
   "goalVariant": true,
-  "fluxCapacitors": 8,
-  "fluxVents": 8,
+  "fluxCapacitors": 7,
+  "fluxVents": 7,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

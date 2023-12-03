@@ -14,8 +14,9 @@
   "builtInMods": [
     "stardust_StardustCore",
     "surveying_equipment",
+	"stardust_AdvanceSurveyDrones",
     "civgrade",
-    "stardust_EnvironmentalShielding"
+    "stardust_EnvironmentalShielding"	
   ],
   "builtInWeapons": {
     "WS0005": "horizon_chaser_core"
