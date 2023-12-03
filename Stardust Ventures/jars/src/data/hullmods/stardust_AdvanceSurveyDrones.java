@@ -20,7 +20,7 @@ import com.fs.starfarer.api.util.Misc;
 public class stardust_AdvanceSurveyDrones extends BaseHullMod {
 
     private static final float SURVEYCOSTREDUCTION = 1f;
-    public static final float BASEDISTANCE = 1000f;
+    public static final float BASEDISTANCE = 500f;
     public static final float BASEADDITION = 500f;
     public static final float BASEMAX = 3000f;
 
