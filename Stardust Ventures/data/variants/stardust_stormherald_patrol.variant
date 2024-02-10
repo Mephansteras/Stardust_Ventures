@@ -16,27 +16,26 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "stardust_lightproton",
+        "WS0002": "stardust_lightproton",
+        "WS0003": "stardust_lightproton",
+        "WS0004": "stardust_lightproton",
         "WS0007": "stardust_autoproton",
         "WS0010": "stardust_streak_mrm_amber_double",
+        "WS0011": "stardust_scorpion_beam",
+        "WS0012": "stardust_scorpion_beam",
         "WS0014": "stardust_streak_mrm_violet"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0011": "stardust_hvy_plasmacaster",
-        "WS0012": "stardust_hvy_plasmacaster"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "stardust_dualproton",
-        "WS0002": "stardust_dualproton",
-        "WS0003": "stardust_dualproton",
-        "WS0004": "stardust_dualproton",
         "WS0005": "stardust_dualproton",
         "WS0006": "stardust_dualproton"
       }

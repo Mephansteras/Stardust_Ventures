@@ -13,13 +13,10 @@
 	"shipNamePrefix":"SDV",
 
 	"shipNameSources":{
-		"NORDIC":1,
-		"GREEK":1,
-		"CELTIC":1,
-		"BEASTS":2,
-		"MERCANTILE":2,
-		"SPACE":3,
-		"GENERAL":2,
+		"SDV":4,
+		"MERCANTILE":1,
+		"SPACE":2,
+		"GENERAL":1,
 	},
 	"description":"One of the premier developers of heavy weapons in the vast galactic polity that had once been called the Domain. The Collapse and two wars, brought about the apparent demise of that golden age, along with the majority of the companies infrastructure.",
 	"names":{

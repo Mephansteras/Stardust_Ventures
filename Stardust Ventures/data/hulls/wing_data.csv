@@ -8,7 +8,7 @@ stardust_stormwing_wing,stardust_stormwing_Fighter,"fighter4, fighter, mid, star
 stardust_gammaracer_wing,stardust_gammaracer_Fighter,"interceptor2, interceptor, mid, stardust_core_bp, merc",1,,5,6,V,4000,200,600,3,INTERCEPTOR,Interceptor,5,6000,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #dagger_wing,dagger_Bomber,"bomber4, bomber, high, hightech_bp, merc",2,,5,18,V,4000,2000,600,3,BOMBER,Bomber,18,9000,,,,,,,,,,,,,11
-stardust_moonbreaker_wing,stardust_moonbreaker_Bomber,"bomber4, bomber, mid, stardust_mil_bp, merc",2,,5,18,V,4000,2000,600,3,BOMBER,Bomber,18,9000,,,,,,,,,,,,,11
+stardust_moonbreaker_wing,stardust_moonbreaker_Bomber,"bomber4, bomber, mid, stardust_mil_bp, merc",2,,5,14,V,4000,1500,600,2,BOMBER,Bomber,15,9000,,,,,,,,,,,,,11
 #xyphos_wing,xyphos_Fighter,"support3, fighter, high, rare_bp, hist1t, merc",3,0.5,7,18,V,0,500,,2,SUPPORT,Support,15,10000,,,,,,,,,,,,,2
 stardust_stormlight_wing,stardust_stormlight_Fighter,"fighter5, fighter, mid, rare_bp, hist1t, merc",3,0.5,7,20,V,5000,600,400,1,FIGHTER,Gunship,15,10000,,,,,,,,,,,,,2
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,31

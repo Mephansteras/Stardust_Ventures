@@ -4,8 +4,8 @@
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/stardust_storm_bringer.png",
   "style": "MIDLINE",
-  "height": 422,
-  "width": 297,
+  "height": 423,
+  "width": 296,
   "center": [148.5, 196],
   "collisionRadius": 259,
   "shieldCenter": [0, -0],
@@ -166,7 +166,7 @@
       "type": "ENERGY",
       "mount": "TURRET",
       "arc": 160,
-      "angle": 90,
+      "angle": 70.5,
       "locations": [167, 17]
     },
     {
@@ -175,7 +175,7 @@
       "type": "ENERGY",
       "mount": "TURRET",
       "arc": 160,
-      "angle": -90,
+      "angle": -70.5,
       "locations": [167, -17]
     },
     {

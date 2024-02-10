@@ -4,7 +4,7 @@
   "displayName": "Flanker",
   "goalVariant": true,
   "fluxCapacitors": 12,
-  "fluxVents": 13,
+  "fluxVents": 14,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -17,7 +17,8 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "stardust_hvy_plasmacaster",
-        "WS0002": "stardust_hvy_plasmacaster"
+        "WS0002": "stardust_hvy_plasmacaster",
+        "WS0008": "stardust_felpds"
       }
     },
     {
@@ -51,9 +52,7 @@
     {
       "autofire": true,
       "mode": "ALTERNATING",
-      "weapons": {
-        "WS0008": "stardust_mistpds"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

@@ -15,7 +15,8 @@
     "stardust_StardustCore",
     "civgrade",
     "stardust_WarpHarmonicResonator",
-    "drive_field_stabilizer"
+    "drive_field_stabilizer",
+    "high_maintenance"
   ],
   "builtInWeapons": {
     "WS0002": "celestialguide_blinker_blue",

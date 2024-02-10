@@ -4,7 +4,7 @@
   "displayName": "Rapid Response",
   "goalVariant": true,
   "fluxCapacitors": 13,
-  "fluxVents": 13,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -16,7 +16,9 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "stardust_stormfront"
+        "WS0001": "stardust_stormfront",
+        "WS0005": "stardust_stream_mrm_crimson_pod",
+        "WS0006": "stardust_stream_mrm_violet_pod"
       }
     },
     {
@@ -29,16 +31,12 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0005": "salamanderpod"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0006": "harpoonpod"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

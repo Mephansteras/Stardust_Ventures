@@ -13,10 +13,7 @@
 	"shipNamePrefix":"SDV",
 
 	"shipNameSources":{
-		"NORDIC":1,
-		"GREEK":1,
-		"CELTIC":1,
-		"BEASTS":2,
+		"SDV":4,
 		"MERCANTILE":2,
 		"SPACE":3,
 		"GENERAL":2,

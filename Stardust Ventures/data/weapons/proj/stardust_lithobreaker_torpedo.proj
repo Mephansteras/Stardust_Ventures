@@ -36,7 +36,7 @@
 				    "length":20.0,
 				    "angle":180.0}],
 	"behaviorSpec":{"behavior":"MIRV",
-					"splitRange":400,
+					"splitRange":300,
 					"splitRangeRange":100,
 					"minTimeToSplit":2,
 					"canSplitEarly":true,
@@ -52,7 +52,7 @@
 					#"spreadSpeed":300,
 					"spreadSpeed":1000,
 					"spreadSpeedRange":500,
-					"projectileRange":600, # only needed if not a missile
+					"projectileRange":400, # only needed if not a missile
 					"projectileSpec":"stardust_lithobreaker_warhead",
 					"smokeSpec":{"particleSizeMin":20.0,
 								 "particleSizeRange":20.0,

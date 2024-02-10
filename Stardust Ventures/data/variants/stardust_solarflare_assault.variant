@@ -3,8 +3,8 @@
   "hullId": "stardust_solarflare",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 33,
-  "fluxVents": 20,
+  "fluxCapacitors": 10,
+  "fluxVents": 42,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -15,17 +15,17 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "stardust_felcannon",
-        "WS0002": "stardust_felcannon"
+        "WS0001": "hil",
+        "WS0002": "hil",
+        "WS0003": "stardust_scorpion_beam",
+        "WS0004": "stardust_scorpion_beam",
+        "WS0006": "stardust_stream_mrm_violet_pod"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0003": "stardust_hvy_plasmacaster",
-        "WS0004": "stardust_hvy_plasmacaster"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
@@ -37,9 +37,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0006": "harpoonpod"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

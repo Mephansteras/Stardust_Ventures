@@ -39,7 +39,7 @@
       "type": "HYBRID",
       "mount": "TURRET",
       "arc": 180,
-      "angle": 0,
+      "angle": 90,
       "locations": [-114.5, 40]
     },
     {
@@ -48,7 +48,7 @@
       "type": "HYBRID",
       "mount": "TURRET",
       "arc": 180,
-      "angle": -0,
+      "angle": -90,
       "locations": [-114.5, -44]
     },
     {
@@ -111,7 +111,7 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 160,
-      "angle": 90,
+      "angle": 50,
       "locations": [74, 47.5]
     },
     {
@@ -120,7 +120,7 @@
       "type": "BALLISTIC",
       "mount": "TURRET",
       "arc": 160,
-      "angle": -90,
+      "angle": -50,
       "locations": [74.5, -51.5]
     },
     {

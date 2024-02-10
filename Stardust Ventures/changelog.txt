@@ -120,3 +120,14 @@ v0.8.2 = Added unique base for Streak MRM (double) versions
 		 Art updates for Horizon Chaser and Void Nomad
 		 Horizon Chaser now has Advance Survey Drones (This reduced the available OP slightly)
 		 Updated various variant loadouts
+v0.8.3 = Starsector 0.97 Update
+		 Extended the shield bubble for Vortex Hunter
+		 Tweaked some weapon arcs
+		 Updated some descriptions
+		 Rebalanced some ship stats, and gave Solar Flare Harmonic Winds instead of Active Flare system
+		 Rebalanced some weapon stats
+		 Added Stardust Ventures ship name list
+		 Added the Scorpion Beam weapon
+		 The Twilight Defiance's internal Streak MRMs now have slow ammo regen
+		 Reduced Moonbreaker wing size down to 2, as well as OP cost to 14
+		 Updated some variant loadouts
