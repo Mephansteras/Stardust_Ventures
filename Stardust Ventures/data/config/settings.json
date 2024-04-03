@@ -4,6 +4,7 @@
 		"blueprint_packages":{
 			"stardust_core_package":"graphics/icons/cargo/stardust_package_core.png",
 			"stardust_mil_package":"graphics/icons/cargo/stardust_package_mil.png",
+			"stardust_export_package":"graphics/icons/cargo/stardust_package_export.png",
 		},	
 	
 	},

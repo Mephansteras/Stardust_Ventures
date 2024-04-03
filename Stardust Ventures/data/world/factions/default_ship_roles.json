@@ -22,6 +22,8 @@
         "stardust_stormrunner_stock":4,
         "stardust_stormrunner_escort":3,
         "stardust_stormrunner_assault":3,
+		"stardust_stormrunner_mid_stock":4,
+        "stardust_stormrunner_mid_attack":3,
         "stardust_horizonchaser_mil":5,
         "stardust_comettail_stock":5,
         "stardust_comettail_support":5,

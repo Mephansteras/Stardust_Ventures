@@ -2,7 +2,7 @@
 	id:"stardust_ventures",
 	"color":[189,255,255,255],
 	"secondaryUIColor":[56,153,153,255],
-	        "secondarySegments":4,
+	"secondarySegments":4,
 	"displayName":"Stardust Ventures",
 	"displayNameWithArticle":"Stardust Ventures",
 	"displayNameLong":"Stardust Ventures Company",
@@ -45,7 +45,7 @@
 			},
 	},
 	"knownShips":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
 		"hulls":[	
 			"nebula",
 			"valkyrie",
@@ -59,19 +59,19 @@
 			],
 	},
 	"shipsWhenImporting":{
-		"tags":["base_bp", "stardust_core_bp", "midline_bp", "stardust_mil_bp", "independent"],
+		"tags":["base_bp", "stardust_core_bp", "midline_bp", "stardust_mil_bp", "stardust_export_bp", "independent"],
 		"hulls":[
 			"omen",
 		],
 	},
 	"knownFighters":{
-		"tags":["stardust_core_bp","stardust_mil_bp"],
+		"tags":["stardust_core_bp","stardust_mil_bp", "stardust_export_bp"],
 			"fighters":[
 			"stardust_stormlight_wing",
 			],
 	},
 	"knownWeapons":{
-		"tags":["ind", "independent", "stardust_core_bp", "stardust_mil_bp"],
+		"tags":["ind", "independent", "stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
 		"weapons":[
 			"stardust_felpds_ig",
 			"stardust_felpulser_ig",

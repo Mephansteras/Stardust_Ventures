@@ -1,8 +1,9 @@
 {
     "hullFrequency":{
 		"tags":{
-			"stardust_core_bp":0.33,
-			"stardust_mil_bp":0.4,
+			"stardust_core_bp":0.23,
+			"stardust_mil_bp":0.1,
+			"stardust_export_bp":0.3,
 		},
         "hulls":{
             "stardust_plasmaburst":0.2,
@@ -10,7 +11,7 @@
         },
     },
     "knownShips":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
         "hulls":[
             "stardust_plasmaburst_persean",
         ],
@@ -19,7 +20,7 @@
 		"tags":["stardust_core_bp"],
 	},
 	"knownFighters":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
 		"fighters":[
 			"stardust_stormlight_wing",
 		],

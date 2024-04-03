@@ -3,6 +3,7 @@
 		"tags":{
 			"stardust_core_bp":0.33,
 			"stardust_mil_bp":0.33,
+			"stardust_export_bp":0.10,
 		},
 		"hulls":{
             "stardust_plasmaburst":0.6,
@@ -12,19 +13,19 @@
         },
     },
     "knownShips":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
     },
 	"shipsWhenImporting":{
 		"tags":[],
 	},
 	"knownFighters":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
 		"fighters":[
 			"stardust_stormlight_wing",
 		],
 	},
 	"knownWeapons":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
 	},
 	"knownHullMods":{
 		"hullMods":[

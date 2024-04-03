@@ -1,8 +1,9 @@
 {
     "hullFrequency":{
 		"tags":{
-			"stardust_core_bp":0.25,
+			"stardust_core_bp":0.15,
 			"stardust_mil_bp":0.10,
+			"stardust_export_bp":0.25,
 		},
         "hulls":{
             "stardust_plasmaburst":0.1,
@@ -10,7 +11,7 @@
         },
     },
     "knownShips":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
         "hulls":[
             "stardust_plasmaburst_hegemony",
         ],
@@ -19,14 +20,14 @@
 		"tags":["stardust_core_bp"],
 	},
 	"knownWeapons":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
 		"weapons":[
 			"stardust_cloudburst_pod",
 			"stardust_stormfront",
 		],
 	},
 	"knownFighters":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
 	},
 	"knownHullMods":{
 		"hullMods":[

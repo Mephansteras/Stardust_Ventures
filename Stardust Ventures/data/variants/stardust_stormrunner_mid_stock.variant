@@ -1,0 +1,34 @@
+{
+  "variantId": "stardust_stormrunner_mid_stock",
+  "hullId": "stardust_stormrunner_mid",
+  "displayName": "Export",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "extendedshieldemitter",
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightmg",
+        "WS0002": "lightmg",
+        "WS0003": "phasebeam",
+        "WS0004": "phasebeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
