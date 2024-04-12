@@ -94,6 +94,7 @@ public class stardust_GoldenTicketStart extends CustomStart {
                 fleet.getFleetData().setSyncNeeded();
 
                 Global.getSector().getPlayerFaction().setRelationship("independent", 0.25f);
+                Global.getSector().getPlayerFaction().setRelationship("stardust_ventures", 0.25f);
             }
         });
 

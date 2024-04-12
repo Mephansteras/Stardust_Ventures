@@ -4,7 +4,7 @@
   "displayName": "Guardian",
   "goalVariant": true,
   "fluxCapacitors": 34,
-  "fluxVents": 35,
+  "fluxVents": 36,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -15,6 +15,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0002": "stardust_streak_mrm_violet_barrage",
+        "WS0003": "stardust_plasmacaster_array",
         "WS0005": "mark9",
         "WS0006": "mark9",
         "WS0007": "heavymortar",
@@ -26,14 +28,14 @@
         "WS0015": "stardust_dualproton",
         "WS0016": "stardust_dualproton",
         "WS0017": "stardust_felrepeater",
-        "WS0018": "stardust_felrepeater"
+        "WS0018": "stardust_felrepeater",
+        "WS0023": "stardust_streak_mrm_crimson_pod"
       }
     },
     {
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0002": "stardust_stream_mrm_azure_barrage",
         "WS0022": "stardust_lithobreaker"
       }
     },
@@ -42,8 +44,7 @@
       "mode": "ALTERNATING",
       "weapons": {
         "WS0019": "stardust_streak_mrm_amber",
-        "WS0020": "gazer",
-        "WS0023": "stardust_stream_mrm_violet_pod"
+        "WS0020": "gazer"
       }
     },
     {
@@ -65,7 +66,6 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "stardust_felguardian",
         "WS0004": "stardust_felguardian"
       }
     },

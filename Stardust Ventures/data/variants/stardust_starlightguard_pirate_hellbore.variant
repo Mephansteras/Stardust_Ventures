@@ -8,24 +8,23 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "auxiliarythrusters",
-    "heavyarmor"
+    "heavyarmor",
+    "reinforcedhull"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "lightdualac",
+        "WS0002": "lightdualac",
         "WS0005": "hellbore"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "lightag",
-        "WS0002": "lightag"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

@@ -1,0 +1,97 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    
+    "rebelFleetSuffix":"Splinter Group",
+    
+    "directoryUseShortName":true,
+    
+    "marketSpawnWeight":0.75,
+	
+     
+    "startRelationships":{ 
+		"hegemony": 0.15, #trade partner
+		"luddic_church":-0.2, 
+		"diableavionics":-0.15,
+		"pirates":-0.6,
+		"luddic_path":-0.6,
+		"fpe":-0.6,
+		"blackrock_driveyards":-0.15,
+		"dassault_mikoyan":-0.15,
+		"brighton":0.5,
+		"hmi":-0.3,
+		"interstellarimperium":0.1,
+		"MVS":0.15,
+		"star_federation":0.15,
+        "independent":0.8,
+        "persean":0.15, #trade partner
+		"lions_guard":0.15,				
+		"sindrian_diktat":0.15,	#trade partner		
+		"ae_ixbattlegroup":-0.4, 
+		"tritachyon":-0.15, #former trade partner
+		"tahlan_legioinfernalis":-0.8 
+		},
+    "maxRelationships":{},
+    "diplomacyPositiveChance":{},
+    "diplomacyNegativeChance":{},
+    "morality":"good",
+    
+    "alignments":{
+        "corporate":0.5,
+        "technocratic":0.5,
+		"diplomatic":1,
+		"militarist":-0.5,
+    },
+	
+    "diplomacyTraits":["pacifist", "helps_allies", "stalwart", "lowprofile", "neutralist"],
+    
+    "freeMarket":true,
+    
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":1.5,	# Currently trying to expand
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+        
+    "startShipsSolo":[
+		["stardust_horizonchaser_stock"]
+	],
+    "startShipsCombatSmall":[
+      ["stardust_stormseeker_c_stock", "stardust_comettail_stock", "stardust_ionskimmer_blockade"]
+    ],
+    "startShipsTradeSmall":[
+      ["stardust_sunbeamrider_stock", "stardust_starlightguard_escort", "stardust_ionskimmer_bulk"]
+    ],
+    "startShipsCombatLarge":[
+      ["stardust_stormherald_patrol", "stardust_stormseeker_stock", "stardust_warpdiver_strike"]
+    ],
+    "startShipsExplorerLarge":[
+      ["stardust_voidnomad_stock", "stardust_stargazer_stock", "stardust_horizonchaser_stock"]	
+	],
+    "startShipsTradeLarge":[
+	  ["stardust_oorttraveler_stock", "stardust_starlightguard_escort", "stardust_stormrunner_escort"]
+	],
+    "startShipsCarrierSmall":[
+	  ["stardust_stormseeker_c_flanker", "stardust_stormseeker_c_support"]
+	],
+    "startShipsCarrierLarge":[
+		["stardust_cosmicwind_stock", "stardust_cosmicwind_assault", "stardust_stormseeker_picket"]
+	],
+    #"startShipsSuper":[	],
+    
+    "startSpecialItems":[
+        [["stardust_core_package",  ""]],
+        [["stardust_mil_package",  ""]]
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1},
+    ],
+}

@@ -16,7 +16,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "stardust_felrepeater_linked"
+        "WS0001": "stardust_streak_mrm_azure_int",
+        "WS0003": "stardust_scorpion_beam"
       }
     },
     {
@@ -29,9 +30,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "harpoon"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

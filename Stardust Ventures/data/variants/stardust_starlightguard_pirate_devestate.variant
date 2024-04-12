@@ -3,14 +3,14 @@
   "hullId": "stardust_starlightguard_pirate",
   "displayName": "Exploder",
   "goalVariant": true,
-  "fluxCapacitors": 15,
+  "fluxCapacitors": 10,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "auxiliarythrusters",
     "reinforcedhull",
-    "armoredweapons"
+    "armoredweapons",
+    "heavyarmor"
   ],
   "weaponGroups": [
     {

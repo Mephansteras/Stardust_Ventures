@@ -23,7 +23,7 @@ public class stardust_MireBeamEffect implements OnHitEffectPlugin {
 
         ShipAPI ship = (ShipAPI) target;
 
-        ship.
+        //ship.
 
         if ((float) Math.random() > 0.75f && !shieldHit && target instanceof ShipAPI) {
 

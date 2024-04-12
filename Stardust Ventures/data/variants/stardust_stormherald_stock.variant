@@ -15,12 +15,11 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "stardust_felcannon",
-        "WS0014": "stardust_streak_mrm_violet"
+        "WS0007": "stardust_felcannon"
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0011": "stardust_felpulser",
@@ -45,7 +44,9 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0014": "stardust_streak_mrm_violet"
+      }
     },
     {
       "autofire": true,

@@ -17,8 +17,8 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "stardust_stormfront",
-        "WS0005": "stardust_stream_mrm_crimson_pod",
-        "WS0006": "stardust_stream_mrm_violet_pod"
+        "WS0005": "stardust_streak_mrm_violet_pod",
+        "WS0006": "stardust_streak_mrm_crimson_pod"
       }
     },
     {

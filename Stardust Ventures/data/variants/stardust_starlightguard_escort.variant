@@ -18,15 +18,14 @@
       "weapons": {
         "WS0001": "stardust_dualproton",
         "WS0002": "stardust_dualproton",
-        "WS0005": "stardust_quadproton"
+        "WS0005": "stardust_quadproton",
+        "WS0006": "stardust_streak_mrm_crimson_pod"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0006": "stardust_stream_mrm_azure_pod"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,

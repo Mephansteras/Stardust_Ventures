@@ -3,12 +3,13 @@ package plugins
 import com.fs.starfarer.api.BaseModPlugin
 import com.fs.starfarer.api.Global
 import com.fs.starfarer.api.campaign.econ.MarketAPI
+import com.fs.starfarer.api.impl.campaign.ids.Factions
+import exerelin.campaign.SectorManager
 import lunalib.lunaSettings.LunaSettings.getBoolean
 import lunalib.lunaSettings.LunaSettings.getInt
 import org.json.JSONException
 import java.io.IOException
-import com.fs.starfarer.api.impl.campaign.ids.Factions
-
+import data.scripts.world.systems.stardust_Gen
 
 class stardust_ModPlugin : BaseModPlugin() {
     //private static String SHOP_BLACKLIST_FILE = "stardust_market_blacklist.csv";
@@ -56,6 +57,18 @@ class stardust_ModPlugin : BaseModPlugin() {
             val setting = Global.getSettings().loadJSON(SETTINGS_FILE)
             STARDUST_SUBMARKETS = setting.getInt("numShops")
             GEN_SHOPS = setting.getBoolean("enableShops")
+        }
+    }
+
+    // Need to generate the faction. Should be able to be turned off in configs
+    //  Also, add code to spawn the faction mid-game if enabled
+    override fun onNewGame() {
+        super.onNewGame()
+
+        // The code below requires that Nexerelin is added as a library (not a dependency, it's only needed to compile the mod).
+        val isNexerelinEnabled = Global.getSettings().modManager.isModEnabled("nexerelin")
+        if (!isNexerelinEnabled || SectorManager.getManager().isCorvusMode) {
+            stardust_Gen().generate(Global.getSector())
         }
     }
 

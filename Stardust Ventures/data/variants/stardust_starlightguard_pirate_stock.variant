@@ -4,7 +4,7 @@
   "displayName": "Brawler",
   "goalVariant": true,
   "fluxCapacitors": 10,
-  "fluxVents": 15,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

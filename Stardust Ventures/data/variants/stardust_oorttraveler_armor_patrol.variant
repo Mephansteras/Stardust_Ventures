@@ -18,8 +18,8 @@
         "WS0003": "stardust_dualproton",
         "WS0004": "stardust_dualproton",
         "WS0005": "stardust_streak_mrm_crimson",
-        "WS0006": "stardust_stream_mrm_azure_pod",
-        "WS0007": "stardust_stream_mrm_violet_pod",
+        "WS0006": "stardust_streak_mrm_azure_pod",
+        "WS0007": "stardust_streak_mrm_violet_pod",
         "WS0008": "stardust_quadproton",
         "WS0009": "stardust_quadproton"
       }

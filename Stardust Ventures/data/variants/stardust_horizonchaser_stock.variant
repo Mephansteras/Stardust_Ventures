@@ -3,13 +3,14 @@
   "hullId": "stardust_horizonchaser",
   "displayName": "Horizon Chaser",
   "goalVariant": true,
-  "fluxCapacitors": 3,
-  "fluxVents": 4,
+  "fluxCapacitors": 4,
+  "fluxVents": 5,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "advancedshieldemitter",
-    "auxiliarythrusters"
+    "auxiliarythrusters",
+    "insulatedengine"
   ],
   "weaponGroups": [
     {

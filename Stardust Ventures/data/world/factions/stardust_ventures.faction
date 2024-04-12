@@ -9,7 +9,7 @@
 	"displayNameLongWithArticle":"the Stardust Ventures Company",
 	"logo":"graphics/factions/stardust_ventures_flag.png",
 	"crest":"graphics/factions/stardust_ventures_crest.png",
-	"showInIntelTab":false,
+	"showInIntelTab":true,
 	"shipNamePrefix":"SDV",
 
 	"shipNameSources":{
@@ -18,7 +18,7 @@
 		"SPACE":3,
 		"GENERAL":2,
 	},
-	"description":"One of the premier developers of heavy weapons in the vast galactic polity that had once been called the Domain. The Collapse and two wars, brought about the apparent demise of that golden age, along with the majority of the companies infrastructure.",
+	"description":"A minor shipyard during the years of the Domain, focused almost exclusively on the creation of long range exploration and colonization ships. These days the company has carved out a small niche in the sector, selling ships and weapons to various factions and independent explorers.",
 	"names":{
 		"modern":1,
 		"world":1,
@@ -228,7 +228,7 @@
 	"custom":{
 		"decentralized":false,
 		"allowsTransponderOffTrade":true,
-		"offersCommissions":false,
+		"offersCommissions":true,
 		"engagesInHostilities":false,
 		"buysAICores":true,
 		"AICoreValueMult":1.5,

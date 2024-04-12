@@ -16,8 +16,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "stardust_scorpion_beam",
-        "WS0002": "stardust_scorpion_beam",
-        "WS0008": "stardust_mistpds"
+        "WS0002": "stardust_scorpion_beam"
       }
     },
     {
@@ -52,7 +51,9 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0008": "stardust_mistpds"
+      }
     }
   ],
   "modules": [],

@@ -1,10 +1,10 @@
 {
-	"id":"stardust_stream_mrm_azure_barrage",
+	"id":"stardust_streak_mrm_violet_barrage",
 	"specClass":"projectile",
 	"type":"MISSILE",
 	"size":"LARGE",
-	"turretSprite":"graphics/weapons/stardust_streak_launcher_lrg_az_turret_base.png",
-	"hardpointSprite":"graphics/weapons/stardust_streak_launcher_lrg_az_hardpoint_base.png",	
+	"turretSprite":"graphics/weapons/stardust_streak_launcher_lrg_vlt_turret_base.png",
+	"hardpointSprite":"graphics/weapons/stardust_streak_launcher_lrg_vlt_hardpoint_base.png",	
 	"hardpointOffsets":[10, 5, 10, -5],
 	"turretOffsets":[0, 5, 0, -5],
 	"hardpointAngleOffsets":[0, 0],
@@ -24,6 +24,6 @@
 				 "blowbackLength":22.0,
 				 "blowbackSpread":15.0,
 				 "particleColor":[71,90,124,105]},
-	"projectileSpecId":"stardust_missile_streak_azure",
+	"projectileSpecId":"stardust_missile_streak_violet",
 	"fireSoundTwo":"harpoon_fire",
 }

@@ -3,7 +3,7 @@
   "hullId": "stardust_twilightdefiance",
   "displayName": "Patrol",
   "goalVariant": true,
-  "fluxCapacitors": 19,
+  "fluxCapacitors": 17,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
@@ -16,15 +16,22 @@
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0001": "stardust_stream_mrm_crimson_barrage"
+        "WS0001": "stardust_streak_mrm_violet_barrage"
       }
     },
     {
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0002": "stardust_stream_mrm_azure_pod",
-        "WS0004": "stardust_streak_mrm_azure",
+        "WS0002": "stardust_streak_mrm_crimson_pod",
+        "WS0012": "stardust_streak_mrm_crimson_int"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "stardust_streak_mrm_azure_pod",
         "WS0010": "stardust_streak_mrm_azure_int"
       }
     },
@@ -32,7 +39,7 @@
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0003": "stardust_stream_mrm_violet_pod",
+        "WS0011": "stardust_streak_mrm_amber_int",
         "WS0013": "stardust_streak_mrm_violet_int"
       }
     },
@@ -40,15 +47,8 @@
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0011": "stardust_streak_mrm_amber_int"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "ALTERNATING",
-      "weapons": {
-        "WS0005": "stardust_streak_mrm_crimson",
-        "WS0012": "stardust_streak_mrm_crimson_int"
+        "WS0004": "stardust_lithobreaker",
+        "WS0005": "stardust_lithobreaker"
       }
     },
     {

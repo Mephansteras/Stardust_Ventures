@@ -3,7 +3,7 @@
   "hullId": "stardust_stargazer",
   "displayName": "Stargazer (S)",
   "goalVariant": true,
-  "fluxCapacitors": 14,
+  "fluxCapacitors": 17,
   "fluxVents": 15,
   "quality": 1,
   "permaMods": [],

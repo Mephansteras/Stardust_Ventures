@@ -3,7 +3,7 @@
   "hullId": "stardust_voidnomad",
   "displayName": "Civlian",
   "goalVariant": true,
-  "fluxCapacitors": 16,
+  "fluxCapacitors": 15,
   "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
@@ -15,11 +15,13 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "stardust_heavyproton"
+        "WS0002": "stardust_heavyproton",
+        "WS0007": "stardust_dualproton",
+        "WS0008": "stardust_dualproton"
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0003": "pilum",
@@ -38,9 +40,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0005": "stardust_lightproton",
-        "WS0006": "stardust_lightproton",
-        "WS0007": "stardust_lightproton",
-        "WS0008": "stardust_lightproton"
+        "WS0006": "stardust_lightproton"
       }
     }
   ],

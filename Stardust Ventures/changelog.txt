@@ -131,5 +131,11 @@ v0.8.3 = Starsector 0.97 Update
 		 The Twilight Defiance's internal Streak MRMs now have slow ammo regen
 		 Reduced Moonbreaker wing size down to 2, as well as OP cost to 14
 		 Updated some variant loadouts
-v0.8.4 = Updated wing classifications
+v0.9.0 = FACTION UPDATE - Save Breaking!!
+		 Added Stardust Ventures as a faction
+		 Added Talia star system
+		 Updated wing classifications
 		 Added a midline export version of the Storm Runner
+		 Updated some id typos
+		 Updated many variants
+		 

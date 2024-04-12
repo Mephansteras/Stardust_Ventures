@@ -17,10 +17,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "stardust_felpulser",
-        "WS0002": "stardust_felpulser",
-        "WS0005": "stardust_felpds",
-        "WS0006": "stardust_felpds",
-        "WS0008": "stardust_mistpds"
+        "WS0002": "stardust_felpulser"
       }
     },
     {
@@ -40,7 +37,17 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0005": "stardust_felpds",
+        "WS0006": "stardust_felpds"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "stardust_mistpds"
+      }
     }
   ],
   "modules": [],
