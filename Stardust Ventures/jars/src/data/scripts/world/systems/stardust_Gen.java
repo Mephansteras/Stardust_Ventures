@@ -6,6 +6,7 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
 import data.scripts.world.systems.stardust_Talia;
+import data.scripts.world.systems.stardust_InitialColonies;
 import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 
 public class stardust_Gen implements SectorGeneratorPlugin{
@@ -81,7 +82,9 @@ public class stardust_Gen implements SectorGeneratorPlugin{
 
         initFactionRelationships(sector);
         new stardust_Talia().generate(sector);
+    }
 
-
+    public void generateAfterTime(){
+        new stardust_InitialColonies().initColonies();
     }
 }

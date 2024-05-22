@@ -12,24 +12,26 @@
   ],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0001": "stardust_lightproton",
-        "WS0002": "stardust_lightproton",
-        "WS0003": "stardust_scorpion_beam",
-        "WS0004": "stardust_feldefense"
+        "WS0002": "stardust_lightproton"
       }
     },
     {
       "autofire": true,
-      "mode": "LINKED",
-      "weapons": {}
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "stardust_scorpion_beam"
+      }
     },
     {
       "autofire": true,
-      "mode": "LINKED",
-      "weapons": {}
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "stardust_feldefense"
+      }
     }
   ],
   "modules": [],

@@ -16,6 +16,7 @@ class stardust_ModPlugin : BaseModPlugin() {
     // Stuff from the configs, values here are the defaults if needed for some reason
     var STARDUST_SUBMARKETS = 3
     private var GEN_SHOPS = true
+    private var GEN_FACTION = true
     override fun onGameLoad(newGame: Boolean) {
         val sector = Global.getSector()
         if (!sector.hasScript(stardust_FleetStatManager::class.java)) {
@@ -41,6 +42,15 @@ class stardust_ModPlugin : BaseModPlugin() {
                 log.error(e)
             }
         }
+
+        // Generate the faction if enabled
+        if (GEN_FACTION && Global.getSector().getEntityById("stardust_talia") == null) {
+            val isNexerelinEnabled = Global.getSettings().modManager.isModEnabled("nexerelin")
+            if ((!isNexerelinEnabled || SectorManager.getManager().isCorvusMode)) {
+                stardust_Gen().generate(Global.getSector())
+                stardust_Gen().generateAfterTime()
+            }
+        }
     }
 
     @Throws(JSONException::class, IOException::class)
@@ -53,10 +63,12 @@ class stardust_ModPlugin : BaseModPlugin() {
             } catch (npe: NullPointerException) {
                 3
             }
+            GEN_FACTION = java.lang.Boolean.TRUE == getBoolean("stardustventures", "stardust_generate_faction")
         } else {
             val setting = Global.getSettings().loadJSON(SETTINGS_FILE)
             STARDUST_SUBMARKETS = setting.getInt("numShops")
             GEN_SHOPS = setting.getBoolean("enableShops")
+            GEN_FACTION = setting.getBoolean("enableFaction")
         }
     }
 
@@ -67,9 +79,13 @@ class stardust_ModPlugin : BaseModPlugin() {
 
         // The code below requires that Nexerelin is added as a library (not a dependency, it's only needed to compile the mod).
         val isNexerelinEnabled = Global.getSettings().modManager.isModEnabled("nexerelin")
-        if (!isNexerelinEnabled || SectorManager.getManager().isCorvusMode) {
+        if ((!isNexerelinEnabled || SectorManager.getManager().isCorvusMode) && GEN_FACTION) {
             stardust_Gen().generate(Global.getSector())
         }
+    }
+
+    override fun onNewGameAfterTimePass(){
+        if (GEN_FACTION) { stardust_Gen().generateAfterTime() }
     }
 
     @Throws(JSONException::class, IOException::class)

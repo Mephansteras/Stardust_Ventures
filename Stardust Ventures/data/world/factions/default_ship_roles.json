@@ -2,12 +2,16 @@
 	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
-        "stardust_stormrunner_stock":4,
-        "stardust_stormrunner_escort":3,
-        "stardust_stormrunner_assault":3,
+        "stardust_stormrunner_stock":2,
+        "stardust_stormrunner_escort":2,
+        "stardust_stormrunner_assault":2,
+		"stardust_stormrunner_mid_stock":3,
+        "stardust_stormrunner_mid_attack":3,
         "stardust_horizonchaser_mil":5,
-        "stardust_comettail_stock":5,
-        "stardust_comettail_support":5,
+        "stardust_comettail_stock":3,
+        "stardust_comettail_support":2,
+		"stardust_comettail_mid_stock":3,
+        "stardust_comettail_mid_patrol":2,
         "stardust_plasmaburst_stock":2,
         "stardust_plasmaburst_strike":2,
         "stardust_plasmaburst_support":1,
@@ -19,14 +23,16 @@
         
 	},
 	"combatSmall":{
-        "stardust_stormrunner_stock":4,
-        "stardust_stormrunner_escort":3,
-        "stardust_stormrunner_assault":3,
-		"stardust_stormrunner_mid_stock":4,
+        "stardust_stormrunner_stock":2,
+        "stardust_stormrunner_escort":2,
+        "stardust_stormrunner_assault":2,
+		"stardust_stormrunner_mid_stock":3,
         "stardust_stormrunner_mid_attack":3,
         "stardust_horizonchaser_mil":5,
         "stardust_comettail_stock":5,
         "stardust_comettail_support":5,
+		"stardust_comettail_mid_stock":5,
+        "stardust_comettail_mid_patrol":5,
         "stardust_plasmaburst_stock":2,
         "stardust_plasmaburst_strike":2,
         "stardust_plasmaburst_support":1,
@@ -47,7 +53,9 @@
         "stardust_stormseeker_stock":3,
         "stardust_stormseeker_attack":3,
         "stardust_stormseeker_strike":2,
-		"stardust_stormseeker_picket":2,		
+		"stardust_stormseeker_picket":2,	
+        "stardust_stormseeker_mid_stock":3,
+        "stardust_stormseeker_mid_escort":2,		
         
 		"stardust_starlightguard_pirate_hellbore":3,    
         "stardust_starlightguard_pirate_stock":4,
@@ -111,11 +119,16 @@
 		"stardust_oorttraveler_armor_brawler":3,
 		"stardust_oorttraveler_armor_patrol":3,
 	},
+	"tankerMedium":{
+		"stardust_sunbeamrider_stock":6,
+	},
     # carriers
 	"carrierSmall":{
 		"stardust_stormseeker_c_stock":3,
-		"stardust_stormseeker_c_support":3,
+		"stardust_stormseeker_c_support":2,
 		"stardust_stormseeker_c_ig_stock":0.5,
+		"stardust_stormseeker_c_mid_stock":3,
+		"stardust_stormseeker_c_mid_strike":2,
 	},    
     	"carrierMedium":{
         "stardust_cosmicfury_stock":4,

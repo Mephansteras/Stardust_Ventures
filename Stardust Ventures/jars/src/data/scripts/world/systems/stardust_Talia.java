@@ -88,7 +88,7 @@ public class stardust_Talia implements SectorGeneratorPlugin { //A SectorGenerat
         pentamerone_magfield.setCircularOrbit(pentamerone, 0, 0, 100);
 
         // These two planets are both moons of Pentamerone
-        PlanetAPI venture_industries = system.addPlanet("stardust_venture_industries", pentamerone, "Venture Industries", "barren", 0, 75, 750, 30);
+        PlanetAPI venture_industries = system.addPlanet("stardust_venture_industries", pentamerone, "Venture Industries", "barren", 135, 75, 750, 40);
         venture_industries.getSpec().setGlowTexture(Global.getSettings().getSpriteName("hab_glows", "barren"));
         venture_industries.getSpec().setGlowColor(new Color(255, 255, 255, 255));
         venture_industries.setCustomDescriptionId("stardust_venture_industries");
@@ -151,7 +151,7 @@ public class stardust_Talia implements SectorGeneratorPlugin { //A SectorGenerat
                         Industries.MEGAPORT,
                         Industries.BATTLESTATION_MID,
                         Industries.GROUNDDEFENSES,
-                        Industries.MILITARYBASE,
+                        Industries.HIGHCOMMAND,
                         Industries.AQUACULTURE,
                         Industries.WAYSTATION,
                         Industries.COMMERCE

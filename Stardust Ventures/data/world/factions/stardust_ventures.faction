@@ -209,6 +209,19 @@
 			"graphics/portraits/portrait46.png",	
 		],
 	},
+	"ranks":{
+		"ranks":{
+			"spaceAdmiral":{"name":"Chief of Defense"},
+			"spaceCommander":{"name":"Defense Commander"},
+			"factionLeader":{"name":"CEO"},
+		},
+		"posts":{
+			"factionLeader":{"name":"CEO"},
+			"patrolCommander":{"name":"Patrol Officer"},
+			"fleetCommander":{"name":"Fleet Officer"},
+			"baseCommander":{"name":"Base Officer"},
+		},
+	},
 	"voices":{
 		"LOW":{
 			"soldier":5,

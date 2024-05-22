@@ -151,5 +151,10 @@
 	"stardust_mire_beam_loop":
 	[
 		{"file":"sounds/sfx_wpn_energy/phase_beam_loop_loud.ogg","pitch":0.7,"volume":0.7},
-	],		
+	],	
+
+	"stardust_scorpion_lance_loop":
+	[
+		{"file":"sounds/sfx_wpn_energy/phase_beam_loop_loud.ogg","pitch":0.5,"volume":1.2},
+	],	
 }

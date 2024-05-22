@@ -17,8 +17,6 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "vulcan",
-        "WS0002": "vulcan",
         "WS0003": "stardust_hvy_plasmacaster",
         "WS0004": "stardust_hvy_plasmacaster"
       }
@@ -26,7 +24,10 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan"
+      }
     }
   ],
   "modules": [],

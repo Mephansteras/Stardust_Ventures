@@ -25,6 +25,8 @@ public class stardust_subMarketPlugin extends BaseSubmarketPlugin {
     private final RepLevel MIN_STANDING = RepLevel.SUSPICIOUS;
     private final FactionAPI STORE_FACTION = Global.getSector().getFaction("stardust_ventures_shop");
 
+    private final FactionAPI SDV_FACTION = Global.getSector().getFaction("stardust_ventures");
+
     public boolean isVIP()
     {
         CampaignFleetAPI playerFleet = Global.getSector().getPlayerFleet();
@@ -41,7 +43,7 @@ public class stardust_subMarketPlugin extends BaseSubmarketPlugin {
     private RepLevel getStoreRep()
     {
         RepLevel marketLevel = market.getFaction().getRelationshipLevel(Global.getSector().getFaction(Factions.PLAYER));
-        RepLevel sdvLevel = STORE_FACTION.getRelationshipLevel(Global.getSector().getFaction(Factions.PLAYER));
+        RepLevel sdvLevel = SDV_FACTION.getRelationshipLevel(Global.getSector().getFaction(Factions.PLAYER));
 
         // As long as the player is a VIP, and not in bad standing with the market or SDV, they are considered Co-Op
         boolean IsVIP = isVIP();
