@@ -14,6 +14,9 @@
   "builtInMods": [
     "stardust_StardustCore"
   ],
+  "builtInWeapons": {
+    "WS0008": "storm_herald_core"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -85,7 +88,8 @@
       "mount": "HARDPOINT",
       "arc": 45,
       "angle": -0,
-      "locations": [-31, -52.5]
+      "locations": [-31, -52.5],
+      "renderOrderMod": 2
     },
     {
       "id": "WS0010",
@@ -94,7 +98,8 @@
       "mount": "HARDPOINT",
       "arc": 45,
       "angle": 0,
-      "locations": [-31, 56.5]
+      "locations": [-31, 56.5],
+      "renderOrderMod": 2
     },
     {
       "id": "WS0011",
@@ -121,7 +126,8 @@
       "mount": "HARDPOINT",
       "arc": 45,
       "angle": -0,
-      "locations": [-14.5, -41.5]
+      "locations": [-14.5, -41.5],
+      "renderOrderMod": 1
     },
     {
       "id": "WS0014",
@@ -130,12 +136,22 @@
       "mount": "HARDPOINT",
       "arc": 45,
       "angle": 0,
-      "locations": [-17, 45.5]
+      "locations": [-17, 45.5],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 140,
+      "angle": 0,
+      "locations": [-70.5, 1.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-116, 62],
+      "location": [-131, 65],
       "length": 85,
       "width": 18,
       "angle": 180,
@@ -144,7 +160,7 @@
       "styleId": "stardust_TECH"
     },
     {
-      "location": [-116, -62],
+      "location": [-132, -62],
       "length": 85,
       "width": 18,
       "angle": -180,
@@ -153,7 +169,7 @@
       "styleId": "stardust_TECH"
     },
     {
-      "location": [-127, 19],
+      "location": [-141, 19.5],
       "length": 85,
       "width": 18,
       "angle": 180,
@@ -162,7 +178,7 @@
       "styleId": "stardust_TECH"
     },
     {
-      "location": [-127, -19],
+      "location": [-141, -17.5],
       "length": 85,
       "width": 18,
       "angle": -180,
