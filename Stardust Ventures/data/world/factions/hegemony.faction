@@ -7,7 +7,8 @@
 		},
         "hulls":{
             "stardust_plasmaburst":0.1,
-            "stardust_plasmaburst_hegemony":0.5,			
+            "stardust_plasmaburst_hegemony":0.5,	
+			"stardust_stormherald_mid_league":0.0,
         },
     },
     "knownShips":{
