@@ -8,6 +8,9 @@
 		},	
 		"characters":{
 			"stardust_ravenna":"graphics/portraits/characters/stardust_ravenna.png",
+			"stardust_sarval":"graphics/portraits/characters/stardust_sarval.png",
+			"stardust_danlia":"graphics/portraits/characters/stardust_danlia.png",
+			"stardust_portrait_f1":"graphics/portraits/stardust_portrait_f1.png";
 		},
 	},
 

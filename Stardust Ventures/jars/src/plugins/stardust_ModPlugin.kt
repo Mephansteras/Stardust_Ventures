@@ -4,12 +4,13 @@ import com.fs.starfarer.api.BaseModPlugin
 import com.fs.starfarer.api.Global
 import com.fs.starfarer.api.campaign.econ.MarketAPI
 import com.fs.starfarer.api.impl.campaign.ids.Factions
+import data.scripts.world.systems.stardust_Gen
 import exerelin.campaign.SectorManager
 import lunalib.lunaSettings.LunaSettings.getBoolean
 import lunalib.lunaSettings.LunaSettings.getInt
 import org.json.JSONException
 import java.io.IOException
-import data.scripts.world.systems.stardust_Gen
+
 
 class stardust_ModPlugin : BaseModPlugin() {
     //private static String SHOP_BLACKLIST_FILE = "stardust_market_blacklist.csv";
@@ -85,7 +86,9 @@ class stardust_ModPlugin : BaseModPlugin() {
     }
 
     override fun onNewGameAfterTimePass(){
-        if (GEN_FACTION) { stardust_Gen().generateAfterTime() }
+        if (GEN_FACTION) {
+            stardust_Gen().generateAfterTime()
+        }
     }
 
     @Throws(JSONException::class, IOException::class)

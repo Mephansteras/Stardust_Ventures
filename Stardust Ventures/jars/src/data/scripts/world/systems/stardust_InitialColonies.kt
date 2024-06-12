@@ -232,6 +232,7 @@ class stardust_InitialColonies {
     }
 
     fun addCharacters() {
+        val ip = Global.getSector().importantPeople
         var market = Global.getSector().economy.getMarket("stardust_stardust_hall")
         // If stardust hall doesn't exist, might be random core worlds. Then we'll need to send them to the biggest
         if (market == null) { market = getLargestColony()}
@@ -240,18 +241,72 @@ class stardust_InitialColonies {
         if (market != null) {
             val stardust_ravenna = Global.getFactory().createPerson()
             stardust_ravenna.setFaction("stardust_ventures")
+            stardust_ravenna.setId("stardust_ravenna");
             stardust_ravenna.gender = FullName.Gender.FEMALE
             stardust_ravenna.postId = Ranks.POST_FACTION_LEADER
             stardust_ravenna.rankId = Ranks.FACTION_LEADER
             stardust_ravenna.name.first = "Ravenna"
             stardust_ravenna.name.last = "Silverlight"
             stardust_ravenna.portraitSprite = "graphics/portraits/characters/stardust_ravenna.png"
-
+            stardust_ravenna.setVoice(Voices.BUSINESS);
             stardust_ravenna.stats.setSkillLevel(Skills.INDUSTRIAL_PLANNING, 3f)
             market.admin = stardust_ravenna
             market.commDirectory.addPerson(stardust_ravenna, 0)
             market.addPerson(stardust_ravenna)
+            ip.addPerson(stardust_ravenna)
+
+            val stardust_sarval = Global.getFactory().createPerson()
+            stardust_sarval.setFaction("stardust_ventures")
+            stardust_sarval.setId("stardust_sarval");
+            stardust_sarval.gender = FullName.Gender.MALE
+            stardust_sarval.rankId = Ranks.SPACE_COMMANDER
+            stardust_sarval.postId = Ranks.POST_FLEET_COMMANDER
+            stardust_sarval.name.first = "Sarval"
+            stardust_sarval.name.last = "Kaan"
+            stardust_sarval.portraitSprite = "graphics/portraits/characters/stardust_sarval.png"
+            stardust_sarval.setVoice(Voices.SOLDIER);
+            stardust_sarval.setPersonality(Personalities.AGGRESSIVE);
+            stardust_sarval.getStats().setSkillLevel(Skills.GUNNERY_IMPLANTS, 2f)
+            stardust_sarval.getStats().setSkillLevel(Skills.ORDNANCE_EXPERTISE, 1f)
+            stardust_sarval.getStats().setSkillLevel(Skills.FIELD_MODULATION, 2f)
+            stardust_sarval.getStats().setSkillLevel(Skills.COMBAT_ENDURANCE, 2f)
+            stardust_sarval.getStats().setSkillLevel(Skills.MISSILE_SPECIALIZATION, 1f)
+            stardust_sarval.getStats().setSkillLevel(Skills.TACTICAL_DRILLS, 1f)
+            stardust_sarval.getStats().setSkillLevel(Skills.CREW_TRAINING, 1f)
+            stardust_sarval.getStats().setLevel(7)
+            stardust_sarval.addTag("coff_nocapture");
+            //market.addPerson(stardust_sarval);
+            //market.getCommDirectory().addPerson(stardust_sarval, 1);
+            ip.addPerson(stardust_sarval)
+
+            val stardust_danlia = Global.getFactory().createPerson()
+            stardust_danlia.setFaction("stardust_ventures")
+            stardust_danlia.setId("stardust_danlia");
+            stardust_danlia.gender = FullName.Gender.FEMALE
+            stardust_danlia.rankId = Ranks.SPACE_CAPTAIN
+            stardust_danlia.postId = Ranks.POST_FLEET_COMMANDER
+            stardust_danlia.name.first = "Danlia"
+            stardust_danlia.name.last = "Star Seeker"
+            stardust_danlia.portraitSprite = "graphics/portraits/characters/stardust_danlia.png"
+            stardust_danlia.setVoice(Voices.SPACER);
+            stardust_danlia.setPersonality(Personalities.CAUTIOUS);
+            stardust_danlia.getStats().setSkillLevel(Skills.GUNNERY_IMPLANTS, 1f)
+            stardust_danlia.getStats().setSkillLevel(Skills.ORDNANCE_EXPERTISE, 1f)
+            stardust_danlia.getStats().setSkillLevel(Skills.FIELD_MODULATION, 2f)
+            stardust_danlia.getStats().setSkillLevel(Skills.COMBAT_ENDURANCE, 2f)
+            stardust_danlia.getStats().setSkillLevel(Skills.MISSILE_SPECIALIZATION, 2f)
+            stardust_danlia.getStats().setSkillLevel(Skills.TACTICAL_DRILLS, 1f)
+            stardust_danlia.getStats().setSkillLevel(Skills.CREW_TRAINING, 1f)
+            stardust_danlia.getStats().setLevel(7)
+            stardust_danlia.addTag("coff_nocapture");
+            market.addPerson(stardust_danlia);
+            market.getCommDirectory().addPerson(stardust_danlia, 1);
+            ip.addPerson(stardust_danlia)
+
+
         }
+
+
     }
 
     fun initColonies()

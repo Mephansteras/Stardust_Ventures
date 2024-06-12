@@ -207,6 +207,7 @@
 			"graphics/portraits/portrait42.png",	
 			"graphics/portraits/portrait45.png",	
 			"graphics/portraits/portrait46.png",	
+			"graphics/portraits/stardust_portrait_f1.png",
 		],
 	},
 	"ranks":{
@@ -214,6 +215,7 @@
 			"spaceAdmiral":{"name":"Chief of Defense"},
 			"spaceCommander":{"name":"Defense Commander"},
 			"factionLeader":{"name":"CEO"},
+			"spaceCaptain":{"name":"Commander"},
 		},
 		"posts":{
 			"factionLeader":{"name":"CEO"},

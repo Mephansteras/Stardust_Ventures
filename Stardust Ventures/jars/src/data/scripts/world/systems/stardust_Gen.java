@@ -1,5 +1,6 @@
 package data.scripts.world.systems;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.FactionAPI;
 import com.fs.starfarer.api.campaign.RepLevel;
 import com.fs.starfarer.api.campaign.SectorAPI;
@@ -8,6 +9,7 @@ import com.fs.starfarer.api.impl.campaign.shared.SharedData;
 import data.scripts.world.systems.stardust_Talia;
 import data.scripts.world.systems.stardust_InitialColonies;
 import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
+import data.scripts.campaign.fleets.stardust_PersonalFleetSarvalKaan;
 
 public class stardust_Gen implements SectorGeneratorPlugin{
     public static void initFactionRelationships(SectorAPI sector) {
@@ -85,6 +87,12 @@ public class stardust_Gen implements SectorGeneratorPlugin{
     }
 
     public void generateAfterTime(){
+
         new stardust_InitialColonies().initColonies();
+
+        SectorAPI sector = Global.getSector();
+        if (!sector.hasScript(stardust_PersonalFleetSarvalKaan.class)) {
+            sector.addScript(new stardust_PersonalFleetSarvalKaan());
+        }
     }
 }
