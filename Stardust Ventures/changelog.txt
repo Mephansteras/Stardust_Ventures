@@ -136,7 +136,7 @@ v0.9.0 = FACTION UPDATE - Save Breaking!!
 		 Added Talia star system
 		 Added Unique characters
 		 Updated wing classifications
-		 Added a midline export version of the Storm Runner, Storm Seeker, Comet Tail
+		 Added a midline export version of the Storm Runner, Storm Seeker, Storm Herald, Comet Tail
 		 Updated some id typos
 		 Updated many variants
 		 Updated Scorpion Beam graphics
