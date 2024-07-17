@@ -38,7 +38,7 @@ Lithobreaker Torpedo Barrage,stardust_lithobreaker_barrage,2,0.5,5000,1500,,1250
 Plasma Caster,stardust_plasmacaster,2,0.9,800,500,,125,,,40,4,,,,ENERGY,100,,0.33,1.01,1,,0,0,0,0,,750,,,500,,,,"energy7, stardust_mil_bp, merc",,Stardust Ventures,,General,,,,,,,,,,800.18
 Heavy Plasma Caster,stardust_hvy_plasmacaster,2,0.9,1600,600,,250,,,25,8,,,,ENERGY,200,,0.33,1.01,1,,0,0,0,0,,750,,,500,,,"STRIKE, USE_VS_FRIGATES","energy12, stardust_mil_bp, merc",,Stardust Ventures,,Strike,,,,,,,,,,800.19
 Plasma Caster Array,stardust_plasmacaster_array,2,0.9,5400,700,,250,,,25,16,,,,ENERGY,200,,0.33,1.01,2,,0,0,0,0,,750,,,500,,,"STRIKE, USE_VS_FRIGATES","energy17, stardust_mil_bp, merc",,Stardust Ventures,,Strike,,,,,,,,,,800.21
-Plasma Arc Thrower,stardust_plasmaarc,2,0.2,800,500,,30,,,50,4,,,,ENERGY,20,,0.25,0.75,1,,0,5,5,15,,750,,,500,,,PD_ALSO,"energy5, rare_bp, merc",,Stardust Ventures,,Strike,,,,,,,,,,800.181
+Plasma Arc Thrower,stardust_plasmaarc,2,0.2,800,500,,30,,,50,4,12,1,,ENERGY,6,,0,0.2,3,0.2,0,5,1,15,,750,,,500,,,PD,"energy5, rare_bp, merc",,Stardust Ventures,,Strike,,,,,,,,,,800.181
 Walloper,stardust_walloper,0,,1400,800,,100,,1,20,14,180,10,40,FRAGMENTATION,30,,0,0.55,40,0.05,0,7,1,20,,800,,,30,,,,"kinetic14, pirate_bp, pirates",,Pirate,,General,,,,,,,,,,800.22
 #Hellbore Cannon,hellbore,0,,3000,900,,750,,200,5,16,,,,HIGH_EXPLOSIVE,750,,0,3,4,,0,10,5,10,,500,,,400,,,,"he18, lowtech_bp, merc",,,,Anti Armor,,,,,,,,,,8
 Diana's Spear (F),stardust_dianaspear_f,2,0.2,6000,1000,,500,,50,10,20,,,,FRAGMENTATION,50,,1,0,1,0.1,0,4,1,15,,700,,,400,,,"PD_ALSO, GUIDED_POOR","kinetic17, rare_bp, merc",,Stardust Ventures,,Anti Hull,Fast,Good,,,,,,,,800.24
