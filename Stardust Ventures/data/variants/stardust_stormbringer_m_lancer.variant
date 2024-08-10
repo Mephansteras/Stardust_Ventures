@@ -1,10 +1,10 @@
 {
-  "variantId": "stardust_stormbringer_lancer",
-  "hullId": "stardust_stormbringer",
+  "variantId": "stardust_stormbringer_m_lancer",
+  "hullId": "stardust_stormbringer_monoco",
   "displayName": "Lancer",
   "goalVariant": true,
-  "fluxCapacitors": 19,
-  "fluxVents": 40,
+  "fluxCapacitors": 25,
+  "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -42,8 +42,6 @@
       "mode": "ALTERNATING",
       "weapons": {
         "WS0002": "stardust_streak_mrm_violet_barrage",
-        "WS0021": "stardust_streak_mrm_crimson",
-        "WS0022": "stardust_streak_mrm_crimson"
       }
     },
     {
@@ -58,8 +56,6 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0019": "stardust_cloudburst",
-        "WS0020": "stardust_cloudburst",
         "WS0023": "stardust_cloudburst_pod"
       }
     },

@@ -1,0 +1,20 @@
+{
+	"baseHullId":"stardust_stormbringer",
+	"skinHullId":"stardust_stormbringer_monoco",
+	"hullName":"Storm Bringer (Monoco)",
+	"coversColor":[255,255,255,255],
+	"descriptionId":"stardust_stormbringer",
+	"descriptionPrefix":"An older varient of the Storm Bringer based around the doctrine favored by the first System Defense Commander, Captain Monoco. It omits the small missile mounts and modern weapons integration in favor of heavier armor. While uncommon, it still has its proponents in the Stardust military.",
+	"baseValueMult":1.0,
+	"spriteName":"graphics/ships/skins/stardust_storm_bringer_monoco.png",
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[magazines], 		# hullmod ids
+	"removeWeaponSlots":[
+    "WS0019", 
+    "WS0020",
+	"WS0021",
+	"WS0022"], 		# weapon slot ids
+	"builtInMods":["heavyarmor"],
+	"builtInWeapons":{},
+    "engineSlotChanges":{}
+}

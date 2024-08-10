@@ -10,10 +10,10 @@
 	"logo":"graphics/factions/stardust_ventures_flag.png",
 	"crest":"graphics/factions/stardust_ventures_crest.png",
 	"showInIntelTab":true,
-	"shipNamePrefix":"SDV",
+	"shipNamePrefix":"SVS",
 
 	"shipNameSources":{
-		"SDV":4,
+		"SDV":6,
 		"MERCANTILE":2,
 		"SPACE":3,
 		"GENERAL":2,
@@ -42,6 +42,7 @@
 				"heron":0.2,
 				"omen":0.1,
 				"stardust_stormseeker_c_ig":0.05,
+				"stardust_stormbringer_monoco":0.2,
 			},
 	},
 	"knownShips":{
@@ -56,6 +57,7 @@
 			"prometheus",
 			"venture",
 			"stardust_stormseeker_c_ig",
+			"stardust_stormbringer_monoco",
 			],
 	},
 	"shipsWhenImporting":{

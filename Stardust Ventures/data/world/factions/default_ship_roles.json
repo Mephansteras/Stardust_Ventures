@@ -69,7 +69,7 @@
         "stardust_stormherald_patrol":3,		
 		"stardust_stormherald_overdrive":1,
 		"stardust_stormherald_mid_stock":4,
-        "stardust_stormherald_mid_league":4,
+        "stardust_stormherald_mid_league":1,
         "stardust_stormherald_mid_patrol":4,
         "stardust_vortexhunter_stock":5,
         "stardust_vortexhunter_brawler":5,
@@ -82,6 +82,7 @@
 		"stardust_stormbringer_shock":2,
         "stardust_stormbringer_lancer":3,
 		"stardust_stormbringer_guardian":2,
+		"stardust_stormbringer_m_lancer":1,
 	},
 	"civilianRandom":{
 		"stardust_horizonchaser_stock":10,

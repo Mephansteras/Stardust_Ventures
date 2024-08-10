@@ -134,11 +134,13 @@ v0.8.3 = Starsector 0.97 Update
 v0.9.0 = FACTION UPDATE - Save Breaking!!
 		 Added Stardust Ventures as a faction
 		 Added Talia star system
+		 Added random location colonies
 		 Added Unique characters
 		 Updated wing classifications
-		 Added a midline export version of the Storm Runner, Storm Seeker, Storm Herald, Comet Tail
+		 Added a midline export versions of the Storm Runner, Storm Seeker, Storm Herald, Comet Tail
 		 Updated some id typos
 		 Updated many variants
 		 Updated Scorpion Beam graphics
 		 Added Wyvern Beam
-		 Resprites of the Storm Herald, Storm Bringer, 
+		 Resprites of the Storm Herald, Storm Bringer 
+		 Added the Monoco Storm Bringer variant

@@ -10,7 +10,7 @@
 	"logo":"graphics/factions/stardust_ventures_flag.png",
 	"crest":"graphics/factions/stardust_ventures_crest.png",
 	"showInIntelTab":false,
-	"shipNamePrefix":"SDV",
+	"shipNamePrefix":"SVS",
 
 	"shipNameSources":{
 		"SDV":4,
@@ -29,12 +29,14 @@
 			"hulls":
 			{
 			  "stardust_stormseeker_c_ig":0.05,
+			  "stardust_stormbringer_monoco":0.2,
 			},
 	},
 	"knownShips":{
 		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
 		"hulls":[	
 			"stardust_stormseeker_c_ig",
+			"stardust_stormbringer_monoco",
 			],
 	},
 	"shipsWhenImporting":{

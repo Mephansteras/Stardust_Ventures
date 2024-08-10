@@ -57,7 +57,7 @@ public class stardust_PersonalFleetSarvalKaan extends PersonalFleetScript {
 
         CampaignFleetAPI fleet = m.createFleet();
         FleetMemberAPI oldFlagship = fleet.getFlagship();
-        FleetMemberAPI newFlagship = Global.getFactory().createFleetMember(FleetMemberType.SHIP, "stardust_stormbringer_stock");
+        FleetMemberAPI newFlagship = Global.getFactory().createFleetMember(FleetMemberType.SHIP, "stardust_stormbringer_m_lancer");
         fleet.getFleetData().addFleetMember(newFlagship);
         if (newFlagship != null && oldFlagship != null) {
             newFlagship.setCaptain(oldFlagship.getCaptain());

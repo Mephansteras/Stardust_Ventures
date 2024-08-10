@@ -1,5 +1,10 @@
 {
-    "hullFrequency":{
+    "variantOverrides":{
+		"stardust_stormherald_mid_stock":1,
+        "stardust_stormherald_mid_league":5,
+        "stardust_stormherald_mid_patrol":1,
+	},
+	"hullFrequency":{
 		"tags":{
 			"stardust_core_bp":0.23,
 			"stardust_mil_bp":0.1,
@@ -8,7 +13,6 @@
         "hulls":{
             "stardust_plasmaburst":0.2,
             "stardust_plasmaburst_persean":0.6,
-			"stardust_stormherald_mid_league":0.8,
         },
     },
     "knownShips":{
