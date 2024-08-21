@@ -9,7 +9,7 @@ import org.magiclib.util.MagicIncompatibleHullmods;
 import java.util.HashSet;
 import java.util.Set;
 
-public class stardust_enhancedengines extends BaseLogisticsHullMod {
+public class stardust_EnhancedEngines extends BaseLogisticsHullMod {
 
     private static final int BURN_LEVEL_BONUS = 1;
     private static int SMOD_BURN_LEVEL_BONUS = 1;
@@ -25,7 +25,7 @@ public class stardust_enhancedengines extends BaseLogisticsHullMod {
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
         for (String tmp : BLOCKED_HULLMODS) {
             if (ship.getVariant().getHullMods().contains(tmp)) {
-                MagicIncompatibleHullmods.removeHullmodWithWarning(ship.getVariant(), tmp, "stardust_enhancedengines");
+                MagicIncompatibleHullmods.removeHullmodWithWarning(ship.getVariant(), tmp, "stardust_EnhancedEngines");
             }
         }
     }

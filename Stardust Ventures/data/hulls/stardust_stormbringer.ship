@@ -13,7 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "stardust_StardustCore",
-    "magazines"
+    "stardust_AdvancedWeaponIntegration"
   ],
   "builtInWeapons": {
     "WS0025": "storm_bringer_cover",

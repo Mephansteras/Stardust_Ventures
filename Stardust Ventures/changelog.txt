@@ -144,3 +144,4 @@ v0.9.0 = FACTION UPDATE - Save Breaking!!
 		 Added Wyvern Beam
 		 Resprites of the Storm Herald, Storm Bringer 
 		 Added the Monoco Storm Bringer variant
+		 Added 4 new hullmods to specialize Celestial Guides

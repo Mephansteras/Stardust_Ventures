@@ -54,7 +54,7 @@
 	},
 	"knownHullMods":{
 		"hullMods":[
-			"stardust_enhancedengines",
+			"stardust_EnhancedEngines",
 			"stardust_EnvironmentalShielding",
 		],
 	},	

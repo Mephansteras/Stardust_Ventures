@@ -28,6 +28,9 @@ public class stardust_FleetStatManager implements EveryFrameScript
     private static IntervalUtil timer = new IntervalUtil(0.25f,0.5f);
     public static final String HARMONIC_ID = "stardust_harmonics_temp";
     public static final String HARMONIC_DESC = "Stardust Harmonics Active";
+    public static final String HARMONIC_ENH_ID = "stardust_harmonics_enh_temp";
+    public static final String HARMONIC_DESC_ENH = "Stardust Harmonics Enhanced";
+
 
     private stardust_PartialSurvey surveyor = new stardust_PartialSurvey();
 
@@ -167,6 +170,7 @@ public class stardust_FleetStatManager implements EveryFrameScript
         FleetDataAPI fleetData = fleet.getFleetData();
         MutableFleetStatsAPI fleetStats = fleetData.getFleet().getStats();
         boolean hasHarmonics = fleetStats.hasMod(HARMONIC_ID);
+        boolean hasHarmonicsEnh = fleetStats.hasMod(HARMONIC_ENH_ID);
         boolean hasHarmonicMod = false;
         boolean hasHarmonicEnhancerMod = false;
 
@@ -187,14 +191,18 @@ public class stardust_FleetStatManager implements EveryFrameScript
             if (hasHarmonicEnhancerMod == true) {
                 commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).modifyFlat(HARMONIC_ID,
                         boostedPenaltyReduction);
+                MutableStat fleetChecked = new MutableStat(0.0F);
+                fleetStats.addTemporaryModMult(365f, HARMONIC_ID, HARMONIC_DESC, 1f, fleetChecked);
+                fleetStats.addTemporaryModMult(365f, HARMONIC_ENH_ID, HARMONIC_DESC_ENH, 1f, fleetChecked);
             }
             else
             {
                 commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).modifyFlat(HARMONIC_ID,
                         penaltyReduction);
+                MutableStat fleetChecked = new MutableStat(0.0F);
+                fleetStats.addTemporaryModMult(365f, HARMONIC_ID, HARMONIC_DESC, 1f, fleetChecked);
             }
-            MutableStat fleetChecked = new MutableStat(0.0F);
-            fleetStats.addTemporaryModMult(365f, HARMONIC_ID, HARMONIC_DESC, 1f, fleetChecked);
+
         }
         else if (hasHarmonics == true && hasHarmonicMod == false)
         {
@@ -202,8 +210,44 @@ public class stardust_FleetStatManager implements EveryFrameScript
             //        0.01f * stardust_WarpHarmonicResonator.NAVIGATION_PENALTY_REDUCTION);
             commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).unmodify(HARMONIC_ID);
             fleetStats.removeTemporaryMod(HARMONIC_ID);
+            if (hasHarmonicsEnh == true) {
+                fleetStats.removeTemporaryMod(HARMONIC_ENH_ID);
+            }
         }
+        else if (hasHarmonics == true && hasHarmonicMod == true && hasHarmonicsEnh == false && hasHarmonicEnhancerMod == true)
+        {
+            // Enhanced harmonics has been added
+            // remove the old
+            commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).unmodify(HARMONIC_ID);
+            fleetStats.removeTemporaryMod(HARMONIC_ID);
+            // add the enhanced in
+            commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).modifyFlat(HARMONIC_ID,
+                    boostedPenaltyReduction);
+            MutableStat fleetChecked = new MutableStat(0.0F);
+            fleetStats.addTemporaryModMult(365f, HARMONIC_ID, HARMONIC_DESC, 1f, fleetChecked);
+            fleetStats.addTemporaryModMult(365f, HARMONIC_ENH_ID, HARMONIC_DESC_ENH, 1f, fleetChecked);
+        }
+        else if (hasHarmonics == true && hasHarmonicMod == true && hasHarmonicsEnh == true && hasHarmonicEnhancerMod == false)
+        {
+            // Enhanced harmonics is gone, need to reset to base
+            // remove the old
+            commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).unmodify(HARMONIC_ID);
+            fleetStats.removeTemporaryMod(HARMONIC_ID);
+            // add the normal back
+            commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).modifyFlat(HARMONIC_ID,
+                    penaltyReduction);
+            MutableStat fleetChecked = new MutableStat(0.0F);
+            fleetStats.addTemporaryModMult(365f, HARMONIC_ID, HARMONIC_DESC, 1f, fleetChecked);
+        }
+    }
 
+    public static int getPlayerNavPenalty()
+    {
+        MutableCharacterStatsAPI commanderStats = Global.getSector().getPlayerStats();
+        float navMod = commanderStats.getDynamic().getStat(Stats.NAVIGATION_PENALTY_MULT).modified;
+        int navModInt = (int)(100 * navMod);
+        int currentNavPenalty = 100 - navModInt;
+        return currentNavPenalty;
     }
 
     private static float getFleetSurveyProbes()

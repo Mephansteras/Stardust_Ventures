@@ -103,7 +103,7 @@
 	"knownHullMods":{
 		"tags":["standard", "ind", "independent"],
 		"hullMods":[
-			"stardust_enhancedengines",
+			"stardust_EnhancedEngines",
 			"stardust_EnvironmentalShielding",
 		],
 	},
@@ -126,7 +126,7 @@
 		"stardust_stormlight_wing":3,
 	},
 	"hullmodSellFrequency":{
-		"stardust_enhancedengines":5,
+		"stardust_EnhancedEngines":5,
 		"stardust_EnvironmentalShielding":5,
 		"surveying_equipment":5,
 	},	

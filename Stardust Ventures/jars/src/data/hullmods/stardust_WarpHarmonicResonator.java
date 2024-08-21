@@ -5,6 +5,7 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.combat.BaseHullMod;
+import com.fs.starfarer.api.impl.campaign.ids.Stats;
 
 public class stardust_WarpHarmonicResonator extends BaseHullMod  {
 
@@ -20,7 +21,9 @@ public class stardust_WarpHarmonicResonator extends BaseHullMod  {
             {
                 return ("0% (in mission mode)");
             }
-        if (index == 1 || index == 2) return "" + (int) NAVIGATION_PENALTY_REDUCTION + "%";
+        int navPenalty = plugins.stardust_FleetStatManager.getPlayerNavPenalty();
+        //if (index == 1 || index == 2) return "" + (int) NAVIGATION_PENALTY_REDUCTION + "%";
+        if (index == 1 || index == 2) return "" + navPenalty + "%";
         return null;
     }
 
