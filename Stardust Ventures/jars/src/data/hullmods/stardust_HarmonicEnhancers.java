@@ -11,7 +11,7 @@ import java.util.Set;
 
 public class stardust_HarmonicEnhancers extends BaseHullMod {
 
-    public static final float NAVIGATION_PENALTY_REDUCTION = 33f; //50f;
+    public static final float NAVIGATION_PENALTY_REDUCTION = 35f;
     private static final float SUPPLY_USE_MULT = 1.125f;
     public static final float SENSOR_PROFILE = 100f;
 
