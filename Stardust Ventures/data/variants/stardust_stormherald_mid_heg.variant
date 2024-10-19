@@ -1,0 +1,71 @@
+{
+  "variantId": "stardust_stormherald_mid_heg",
+  "hullId": "stardust_stormherald_mid",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "stardust_scorpion_lance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "stardust_scorpion_beam",
+        "WS0012": "stardust_scorpion_beam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "stardust_lithobreaker",
+        "WS0010": "stardust_lithobreaker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "harpoon",
+        "WS0014": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightmg",
+        "WS0002": "lightmg",
+        "WS0003": "lightmg",
+        "WS0004": "lightmg",
+        "WS0005": "lightmg",
+        "WS0006": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

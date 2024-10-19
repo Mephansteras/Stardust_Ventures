@@ -145,3 +145,4 @@ v0.9.0 = FACTION UPDATE - Save Breaking!!
 		 Resprites of the Storm Herald, Storm Bringer 
 		 Added the Monoco Storm Bringer variant
 		 Added 4 new hullmods to specialize Celestial Guides
+		 Restricted the Hegemony, League, and Diktat to a subset of SDV gear and removed most from Tri-Tachyon. 

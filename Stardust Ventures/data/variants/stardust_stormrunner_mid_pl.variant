@@ -1,0 +1,34 @@
+{
+  "variantId": "stardust_stormrunner_mid_pl",
+  "hullId": "stardust_stormrunner_mid",
+  "displayName": "League",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "extendedshieldemitter",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "stardust_felrepeater_linked",
+        "WS0004": "stardust_felrepeater_linked"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_lightproton",
+        "WS0002": "stardust_lightproton"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

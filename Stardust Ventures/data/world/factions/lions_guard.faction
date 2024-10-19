@@ -11,13 +11,13 @@
         ],
     },
 	"knownFighters":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"tags":["stardust_export_bp"],
 		"fighters":[
-			"stardust_stormlight_wing",
+			"stardust_stormwing_wing",
 		],
 	},
 	"knownWeapons":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
+		"tags":["stardust_export_bp"],
 		"weapons":[
 			"stardust_dianaspear_f",
 			"stardust_dianaspear_he",
@@ -28,9 +28,10 @@
 			"stardust_dianadart_f",
 			"stardust_dianadart_he",
 			"stardust_dianadart_k",
+			"stardust_cloudburst",
+			"stardust_cloudburst_single",
 			"stardust_cloudburst_pod",
 			"stardust_stormfront",
-
 		],
 	},
 }

@@ -1,26 +1,12 @@
 {
     "hullFrequency":{
-		"tags":{
-			"stardust_core_bp":0.20,
-			"stardust_mil_bp":0.25,
-		},
 		"hulls":{
 			"stardust_warpdiver":0.8,
 		},
     },
     "knownShips":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
         "hulls":[
             "stardust_warpdiver",
         ],
     },
-	"shipsWhenImporting":{
-		"tags":["stardust_core_bp"],
-	},
-	"knownWeapons":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
-	},
-	"knownFighters":{
-		"tags":["stardust_core_bp", "stardust_mil_bp"],
-	},
 }

@@ -4,11 +4,12 @@
   "displayName": "Strike",
   "goalVariant": true,
   "fluxCapacitors": 10,
-  "fluxVents": 13,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "expanded_deck_crew"
+    "expanded_deck_crew",
+    "missleracks"
   ],
   "weaponGroups": [
     {
@@ -51,6 +52,6 @@
   ],
   "modules": [],
   "wings": [
-    "trident_wing"
+    "gladius_wing"
   ]
 }

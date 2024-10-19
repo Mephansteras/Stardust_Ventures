@@ -9,7 +9,8 @@
   "permaMods": [],
   "hullMods": [
     "recovery_shuttles",
-    "expanded_deck_crew"
+    "expanded_deck_crew",
+    "advancedshieldemitter"
   ],
   "weaponGroups": [
     {
@@ -46,6 +47,6 @@
   ],
   "modules": [],
   "wings": [
-    "broadsword_wing"
+    "talon_wing"
   ]
 }

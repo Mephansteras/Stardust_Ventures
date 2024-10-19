@@ -3,7 +3,7 @@
   "hullId": "stardust_stormrunner_mid",
   "displayName": "Export",
   "goalVariant": true,
-  "fluxCapacitors": 8,
+  "fluxCapacitors": 4,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
@@ -17,8 +17,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "stardust_hvy_plasmacaster",
-        "WS0004": "stardust_hvy_plasmacaster"
+        "WS0003": "pulselaser",
+        "WS0004": "pulselaser"
       }
     },
     {

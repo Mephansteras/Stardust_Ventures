@@ -1,33 +1,42 @@
 {
     "variantOverrides":{
-		"stardust_stormherald_mid_stock":1,
+		"stardust_stormherald_mid_stock":0,
         "stardust_stormherald_mid_league":5,
-        "stardust_stormherald_mid_patrol":1,
+        "stardust_stormherald_mid_patrol":0,
+		"stardust_stormherald_mid_heg":0,
+		"stardust_stormseeker_mid_escort":0,
+		"stardust_stormseeker_mid_stock":0,
+		"stardust_stormseeker_mid_pl":5,
+		"stardust_stormseeker_c_mid_stock":0,
+		"stardust_stormseeker_c_mid_heg":0,
+		"stardust_stormseeker_c_mid_strike":0,
+		"stardust_stormseeker_c_mid_pl":5,
+		"stardust_stormrunner_mid_pl":3,
+		"stardust_stormrunner_mid_attack":0,
+		"stardust_stormrunner_mid_stock":2,
+		
 	},
 	"hullFrequency":{
 		"tags":{
-			"stardust_core_bp":0.23,
-			"stardust_mil_bp":0.1,
 			"stardust_export_bp":0.3,
 		},
         "hulls":{
-            "stardust_plasmaburst":0.2,
             "stardust_plasmaburst_persean":0.6,
         },
     },
     "knownShips":{
-		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
+		"tags":["stardust_export_bp"],
         "hulls":[
             "stardust_plasmaburst_persean",
         ],
     },
 	"shipsWhenImporting":{
-		"tags":["stardust_core_bp"],
+		"tags":["stardust_export_bp"],
 	},
 	"knownFighters":{
-		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
+		"tags":["stardust_export_bp"],
 		"fighters":[
-			"stardust_stormlight_wing",
+			"stardust_meteorite_wing",
 		],
 	},
 	"knownWeapons":{
@@ -46,16 +55,11 @@
 			"stardust_felrepeater_battery",
 			"stardust_felpulser",
 			"stardust_felcannon",
-			"stardust_plasmacaster",
-			"stardust_hvy_plasmacaster",
-			"stardust_plasmacaster_array",
-			"stardust_mistpds",
 		],
 	},
 	"knownHullMods":{
 		"hullMods":[
 			"stardust_EnhancedEngines",
-			"stardust_EnvironmentalShielding",
 		],
 	},	
 }

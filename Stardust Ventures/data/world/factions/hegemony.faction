@@ -1,34 +1,54 @@
 {
+    "variantOverrides":{
+		"stardust_stormherald_mid_stock":3,
+        "stardust_stormherald_mid_league":0,
+        "stardust_stormherald_mid_patrol":0,
+		"stardust_stormherald_mid_heg":2,
+		"stardust_stormseeker_mid_escort":2,
+		"stardust_stormseeker_mid_stock":3,
+		"stardust_stormseeker_mid_pl":0,
+		"stardust_stormseeker_c_mid_stock":2,
+		"stardust_stormseeker_c_mid_heg":2,
+		"stardust_stormseeker_c_mid_strike":2,
+		"stardust_stormseeker_c_mid_pl":0,
+		"stardust_stormrunner_mid_pl":0,
+		"stardust_stormrunner_mid_attack":2,
+		"stardust_stormrunner_mid_stock":3,
+		
+	},
     "hullFrequency":{
 		"tags":{
-			"stardust_core_bp":0.15,
-			"stardust_mil_bp":0.10,
 			"stardust_export_bp":0.25,
 		},
         "hulls":{
-            "stardust_plasmaburst":0.1,
             "stardust_plasmaburst_hegemony":0.5,	
-			"stardust_stormherald_mid_league":0.0,
         },
     },
     "knownShips":{
-		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
+		"tags":["stardust_export_bp"],
         "hulls":[
             "stardust_plasmaburst_hegemony",
         ],
     },
 	"shipsWhenImporting":{
-		"tags":["stardust_core_bp"],
+		"tags":["stardust_export_bp"],
 	},
 	"knownWeapons":{
-		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
+		"tags":["stardust_export_bp"],
 		"weapons":[
-			"stardust_cloudburst_pod",
-			"stardust_stormfront",
+			"stardust_lithobreaker",
+			"stardust_lithobreaker_single",
+			"stardust_lithobreaker_pod",
+			"stardust_lithobreaker_barrage",
+			"stardust_scorpion_beam",
+			"stardust_scorpion_lance",
 		],
 	},
 	"knownFighters":{
-		"tags":["stardust_core_bp", "stardust_mil_bp", "stardust_export_bp"],
+		"tags":["stardust_export_bp"],
+		"fighters":[
+			"stardust_moonbreaker_wing",
+		],
 	},
 	"knownHullMods":{
 		"hullMods":[
