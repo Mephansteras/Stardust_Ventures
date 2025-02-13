@@ -106,12 +106,12 @@
         "stardust_ionskimmer_bulk":5,
         "stardust_ionskimmer_stock":5,
         "stardust_stargazer_stock":5,
-        "stardust_stargazer_seeker":5,
+        "stardust_stargazer_seeker":5,			
 	},
     # freighters and such
 	"freighterSmall":{
-        
-		"stardust_sunbeamrider_stock":8,
+        "stardust_moonlightwalker_stock":10,
+		"stardust_sunbeamrider_stock":8,		
 	},
 	"freighterMedium":{
 		"stardust_oorttraveler_stock":8,
@@ -125,6 +125,9 @@
 		"stardust_oorttraveler_armor_stock":4,
 		"stardust_oorttraveler_armor_brawler":3,
 		"stardust_oorttraveler_armor_patrol":3,
+	},
+	"tankerSmall":{
+		"stardust_moonlightwalker_stock":10,
 	},
 	"tankerMedium":{
 		"stardust_sunbeamrider_stock":6,

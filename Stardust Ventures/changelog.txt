@@ -144,5 +144,8 @@ v0.9.0 = FACTION UPDATE - Save Breaking!!
 		 Added Wyvern Beam
 		 Resprites of the Storm Herald, Storm Bringer 
 		 Added the Monoco Storm Bringer variant
+		 Storm Heralds and Storm Bringers now use the Storm Surge ship system. Export heralds still use maneuvering jets. 
 		 Added 4 new hullmods to specialize Celestial Guides
 		 Restricted the Hegemony, League, and Diktat to a subset of SDV gear and removed most from Tri-Tachyon. 
+		 Cloudburst missile line is more expensive but now regenerates ammo
+		 Added the Moonlight Walker small logistics vessel so SDV doesn't use drams for fuel.

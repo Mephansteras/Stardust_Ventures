@@ -5,3 +5,4 @@ Missile Augmenter,stardust_missileaugmenter,,,,,,,,,,1,5,1,10,,,,,,,,,,,,,graphi
 #Accelerated Ammo Feeder,ammofeed,,,,,,,,,,1,5,1,10,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
 Harmonic Wind,stardust_harmonicwinds,,,,,,0.5,,,,0.5,40,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/stardust_wind_boost.png
 #Targeting Feed,targetingfeed,,,,,,0.5,,,,0.5,20,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+Storm Surge,stardust_stormsurge,,,,,,,,,,1,6,1,6,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png

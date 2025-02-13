@@ -17,7 +17,8 @@
   ],
   "builtInWeapons": {
     "WS0025": "storm_bringer_cover",
-    "WS0026": "storm_bringer_core"
+    "WS0026": "storm_bringer_core",
+    "WS0027": "storm_bringer_system"
   },
   "weaponSlots": [
     {
@@ -253,6 +254,15 @@
       "arc": 160,
       "angle": 0,
       "locations": [-84.5, 3]
+    },
+    {
+      "id": "WS0027",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [85.5, 0.5]
     }
   ],
   "engineSlots": [
@@ -343,6 +353,42 @@
       "width": 9,
       "angle": -180,
       "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [155, 38.5],
+      "length": 14.772937,
+      "width": 9.002298,
+      "angle": 136,
+      "contrailSize": 9.002298,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [155, -38.5],
+      "length": 14.772937,
+      "width": 9.002298,
+      "angle": -136,
+      "contrailSize": 9.002298,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [141.5, 38],
+      "length": 14.772937,
+      "width": 9.002298,
+      "angle": 136,
+      "contrailSize": 9.002298,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [141.5, -38],
+      "length": 14.772937,
+      "width": 9.002298,
+      "angle": -136,
+      "contrailSize": 9.002298,
       "style": "CUSTOM",
       "styleId": "stardust_TECH"
     }

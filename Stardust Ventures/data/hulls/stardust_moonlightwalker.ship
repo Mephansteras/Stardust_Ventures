@@ -1,0 +1,93 @@
+{
+  "hullName": "Moonlight Walker",
+  "hullId": "stardust_moonlightwalker",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/stardust_moonlight_walker.png",
+  "style": "MIDLINE",
+  "height": 98,
+  "width": 73,
+  "center": [36.5, 45],
+  "collisionRadius": 60.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 57.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "stardust_StardustCore"
+  ],  
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [25, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-15.5, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44.5, 31.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-44.5, -31.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-32, 12],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    },
+    {
+      "location": [-32, -12],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "stardust_TECH"
+    }
+  ],
+  "bounds": [
+    51, -2,
+    30.5, -13,
+    41, -23.5,
+    41, -27,
+    30.5, -34.5,
+    -43.5, -35,
+    -37.5, -17,
+    -32.5, -17,
+    -32.5, 17,
+    -37.5, 17,
+    -43.5, 35,
+    30.5, 34.5,
+    41, 27,
+    41, 23.5,
+    30.5, 13,
+    51, 2
+  ]
+}
