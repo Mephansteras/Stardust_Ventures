@@ -1,8 +1,9 @@
 {
-	"id":"stardust_dianaspear_k",  # this id must match what's in the spreadsheet
+	"id":"stardust_dianaspear",  # this id must match what's in the spreadsheet
 	"specClass":"projectile",
 	"type":"BALLISTIC",
 	"size":"LARGE",
+	"everyFrameEffect": "data.weapons.stardust_DianasWeaponScript",
 	"turretSprite":"graphics/weapons/stardust_dianaspear_k_turret_base.png",
 	"turretGunSprite":"graphics/weapons/stardust_dianaspear_k_turret_recoil.png",
     "turretGlowSprite":"graphics/weapons/stardust_dianaspear_f_turret_glow.png",
@@ -10,9 +11,9 @@
 	"hardpointGunSprite":"graphics/weapons/stardust_dianaspear_k_hardpoint_recoil.png",
     "hardpointGlowSprite":"graphics/weapons/stardust_dianaspear_f_hardpoint_glow.png",
 	"visualRecoil":10.0,  # the gun sprites are only used if this is non-0
-	"turretOffsets":[40, 0],
+	"turretOffsets":[30, 0],
 	"turretAngleOffsets":[0],
-	"hardpointOffsets":[40, 0],
+	"hardpointOffsets":[30, 0],
 	"hardpointAngleOffsets":[0],
 	"renderHints":[RENDER_BARREL_BELOW],
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.

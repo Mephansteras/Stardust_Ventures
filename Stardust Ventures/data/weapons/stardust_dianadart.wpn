@@ -1,9 +1,10 @@
 {
-	"id":"stardust_dianadart_k",  # this id must match what's in the spreadsheet
+	"id":"stardust_dianadart",  # this id must match what's in the spreadsheet
 	"specClass":"projectile",
 	"type":"BALLISTIC",
 	"size":"SMALL",
 	"displayArcRadius":250,
+	"everyFrameEffect": "data.weapons.stardust_DianasWeaponScript",
 	"turretSprite":"graphics/weapons/stardust_dianadart_k_turret_base.png",
 	"turretGunSprite":"graphics/weapons/stardust_dianadart_k_turret_recoil.png",
     "turretGlowSprite":"graphics/weapons/stardust_dianadart_f_turret_glow.png",
