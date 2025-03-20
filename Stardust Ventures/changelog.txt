@@ -149,4 +149,5 @@ v0.9.0 = FACTION UPDATE - Save Breaking!!
 		 Restricted the Hegemony, League, and Diktat to subsets of SDV gear and removed most from Tri-Tachyon. 
 		 Cloudburst missile line is more expensive but now regenerates ammo
 		 Added the Moonlight Walker small logistics vessel so SDV doesn't use drams for fuel.
-		 Fel PDS line now has charges
+		 Fel PDS line now has ammo charges
+		 Reworked the Diana's Dart/Arrow/Spear. They now use proper guided projectiles instead of missiles, always do HE damage base, but have an on-hit that does kinetic against shields.
