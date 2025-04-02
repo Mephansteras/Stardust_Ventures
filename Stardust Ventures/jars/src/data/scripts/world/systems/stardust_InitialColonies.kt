@@ -10,7 +10,6 @@ import com.fs.starfarer.api.characters.PersonAPI
 import com.fs.starfarer.api.impl.campaign.ids.*
 import com.fs.starfarer.api.impl.campaign.population.PopulationComposition
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator
-import exerelin.campaign.SectorManager
 import org.lazywizard.lazylib.MathUtils
 import plugins.stardust_ModPlugin.Companion.log
 import kotlin.math.abs
@@ -190,7 +189,7 @@ class stardust_InitialColonies {
         market.tariff.modifyFlat("generator", Global.getSector().getFaction(factionId).tariffFraction);
 
         // submarkets
-        SectorManager.updateSubmarkets(market, Factions.NEUTRAL, factionId)
+        updateSubmarkets(market, Factions.NEUTRAL, factionId)
         market.addSubmarket(Submarkets.SUBMARKET_STORAGE)
 
         market.surveyLevel = MarketAPI.SurveyLevel.FULL
@@ -333,5 +332,40 @@ class stardust_InitialColonies {
 
         // Add in unique characters
         addCharacters()
+    }
+
+    // Taken from the Nex code so we don't have a dependency on it just to spawn colonies
+    fun addOrRemoveSubmarket(market: MarketAPI, submarketId: String?, shouldHave: Boolean) {
+        if (market.hasSubmarket(submarketId) && !shouldHave) market.removeSubmarket(submarketId) else if (!market.hasSubmarket(submarketId) && shouldHave) {
+            market.addSubmarket(submarketId)
+            market.getSubmarket(submarketId).cargo // force cargo to generate if needed; fixes military submarket crash
+        }
+    }
+
+    fun shouldHaveMilitarySubmarket(market: MarketAPI, factionId: String?,
+                                    isPlayer: Boolean): Boolean {
+        if (isPlayer) return false
+
+        else if (market.hasIndustry(Industries.MILITARYBASE) || market.hasIndustry(Industries.HIGHCOMMAND) ) return true
+
+        else return false
+    }
+
+
+    fun updateSubmarkets(market: MarketAPI, oldOwnerId: String?, newOwnerId: String) {
+        val isPlayer = newOwnerId == Factions.PLAYER || market.isPlayerOwned
+        var haveOpen = false
+        val haveMilitary = shouldHaveMilitarySubmarket(market, newOwnerId, isPlayer)
+        var haveBlackMarket = false
+
+        if (!isPlayer) {
+            haveBlackMarket = true
+        }
+
+        if (!isPlayer || market.hasIndustry("commerce")) haveOpen = true
+        addOrRemoveSubmarket(market, Submarkets.LOCAL_RESOURCES, isPlayer)
+        addOrRemoveSubmarket(market, Submarkets.SUBMARKET_OPEN, haveOpen)
+        addOrRemoveSubmarket(market, Submarkets.SUBMARKET_BLACK, haveBlackMarket)
+        addOrRemoveSubmarket(market, Submarkets.GENERIC_MILITARY, haveMilitary)
     }
 }

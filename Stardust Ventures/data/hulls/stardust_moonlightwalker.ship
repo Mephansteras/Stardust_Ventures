@@ -12,7 +12,8 @@
   "shieldRadius": 57.5,
   "viewOffset": 0,
   "builtInMods": [
-    "stardust_StardustCore"
+    "stardust_StardustCore",
+	"civgrade"
   ],  
   "weaponSlots": [
     {

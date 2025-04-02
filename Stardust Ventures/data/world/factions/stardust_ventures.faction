@@ -235,7 +235,7 @@
 	},	
 	"custom":{
 		"decentralized":false,
-		"allowsTransponderOffTrade":true,
+		"allowsTransponderOffTrade":false,
 		"offersCommissions":true,
 		"engagesInHostilities":false,
 		"buysAICores":true,

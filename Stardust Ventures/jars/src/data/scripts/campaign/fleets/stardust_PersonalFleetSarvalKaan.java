@@ -22,7 +22,6 @@ import com.fs.starfarer.api.impl.campaign.missions.hub.HubMissionWithTriggers.Of
 import com.fs.starfarer.api.impl.campaign.missions.hub.HubMissionWithTriggers.OfficerQuality;
 import com.fs.starfarer.api.impl.campaign.missions.hub.MissionFleetAutoDespawn;
 import com.fs.starfarer.api.loading.VariantSource;
-import com.fs.starfarer.api.impl.campaign.fleets.PersonalFleetScript;
 
 public class stardust_PersonalFleetSarvalKaan extends PersonalFleetScript {
 
@@ -31,6 +30,11 @@ public class stardust_PersonalFleetSarvalKaan extends PersonalFleetScript {
         super("stardust_sarval");
         setMinRespawnDelayDays(10f);
         setMaxRespawnDelayDays(20f);
+    }
+
+    @Override
+    protected MarketAPI getSourceMarket() {
+        return Global.getSector().getEconomy().getMarket("stardust_stardust_hall");
     }
 
     @Override
