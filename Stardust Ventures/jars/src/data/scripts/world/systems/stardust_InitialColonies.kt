@@ -249,6 +249,8 @@ class stardust_InitialColonies {
             stardust_ravenna.portraitSprite = "graphics/portraits/characters/stardust_ravenna.png"
             stardust_ravenna.setVoice(Voices.BUSINESS);
             stardust_ravenna.stats.setSkillLevel(Skills.INDUSTRIAL_PLANNING, 3f)
+            stardust_ravenna.addTag(Tags.CONTACT_TRADE);
+            stardust_ravenna.setImportance(PersonImportance.VERY_HIGH);
             market.admin = stardust_ravenna
             market.commDirectory.addPerson(stardust_ravenna, 0)
             market.addPerson(stardust_ravenna)
@@ -298,6 +300,8 @@ class stardust_InitialColonies {
             stardust_danlia.getStats().setSkillLevel(Skills.CREW_TRAINING, 1f)
             stardust_danlia.getStats().setLevel(7)
             stardust_danlia.addTag("coff_nocapture");
+            stardust_danlia.addTag(Tags.CONTACT_MILITARY);
+            stardust_danlia.setImportance(PersonImportance.HIGH);
             market.addPerson(stardust_danlia);
             market.getCommDirectory().addPerson(stardust_danlia, 1);
             ip.addPerson(stardust_danlia)

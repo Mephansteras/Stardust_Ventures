@@ -1,0 +1,29 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME StardustVentures,,,,,,
+,,,,,,
+# Danlia Contact,,,,,,
+stardust_defaultDanliaGreeting,PickGreeting,$id == stardust_danlia score: 1000,"ShowPersonVisual
+FireAll PopulateOptions
+SetShortcut cutCommLinkPolite ""ESCAPE""","""Why, hello there. This is Starseeker, how can I help you?""",0:cutCommLink:Cut the comm link,
+,,,,,,
+stardust_addDanliaAsContact,DialogOptionSelected,"$option == stardust_DanliaContactOption
+!$stardust_DanliaContact
+RepGTE stardust_ventures FAVORABLE","AddPotentialContact
+$stardust_DanliaContact = true
+EndConversation
+ShowDefaultVisual","""We do hire independent contractors to do a lot of work for us, yes. We have much to do and only so many resources available, as I�m sure you can guess.
+
+Looks like your file is pretty clean, and we could certainly use the help. Feel free to speak with me about opportunities whenever you�re in system.""
+",,
+stardust_denyDanliaContact,DialogOptionSelected,"$option == stardust_DanliaContactOption
+!$stardust_DanliaContact
+!$stardust_danliaContactDenied
+RepLTE stardust_ventures NEUTRAL","$stardust_danliaContactDenied = true 1
+FireAll PopulateOptions","""We do hire independent contractors to do a lot of work for us, yes. However, I prefer to work with folks who�ve had a good track record of success with us in the past. We post a lot of general announcements on the commnet, maybe start there?""",,
+stardust_denyDanliaContact2,PopulateOptions,"!$stardust_DanliaContact
+$stardust_danliaContactDenied
+RepLTE stardust_ventures NEUTRAL","SetTooltip stardust_DanliaContactOption ""You'll have to wait until 1 day has passed before you can ask $himOrHer to become a contact for you again. In the meantime, try raising your rep with Stardust Ventures."" 
+SetTooltipHighlights stardust_DanliaContactOption ""1 day""
+SetEnabled stardust_DanliaContactOption false",,,
+stardust_receiveContactDanlia,PopulateOptions,"$id == stardust_danlia
+!$stardust_DanliaContact",,,"1:stardust_DanliaContactOption:""I�ve heard that Stardust Ventures has been hiring out contractors.""",
