@@ -8,7 +8,8 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "targetingunit"
+    "magazines",
+    "hardenedshieldemitter"
   ],
   "weaponGroups": [
     {
@@ -28,7 +29,7 @@
     },
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "WS0009": "stardust_lithobreaker",
         "WS0010": "stardust_lithobreaker"
@@ -52,18 +53,19 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "stardust_dualproton",
-        "WS0002": "stardust_dualproton",
-        "WS0003": "stardust_dualproton",
-        "WS0004": "stardust_dualproton",
         "WS0005": "stardust_dualproton",
         "WS0006": "stardust_dualproton"
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
+      }
     }
   ],
   "modules": [],

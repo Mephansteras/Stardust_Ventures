@@ -1,14 +1,15 @@
 {
-  "variantId": "stardust_sunbeamrider_stock",
+  "variantId": "stardust_sunbeamrider_exp",
   "hullId": "stardust_sunbeamrider",
-  "displayName": "Stock",
+  "displayName": "Expedition",
   "goalVariant": true,
   "fluxCapacitors": 4,
-  "fluxVents": 5,
+  "fluxVents": 3,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "auxiliarythrusters"
+    "efficiency_overhaul",
+    "stardust_EnvironmentalShielding"
   ],
   "weaponGroups": [
     {

@@ -49,6 +49,7 @@
 		"stardust_starlightguard_flak":2,
 		"stardust_starlightguard_close":2,
 		"stardust_starlightguard_escort":3,
+		"stardust_starlightguard_hunter":3,
         "stardust_warpdiver_stock":5,
         "stardust_warpdiver_strike":5,  
         "stardust_stormseeker_stock":3,
@@ -91,12 +92,16 @@
 		"stardust_horizonchaser_stock":10,
         "stardust_stargazer_stock":5,
         "stardust_stargazer_seeker":5,
-        "stardust_sunbeamrider_stock":10,
+		"stardust_moonlightwalker_stock":5,
+        "stardust_sunbeamrider_exp":10,
 		"stardust_celestialguide_stock":0.75,
 	},    
 	# utility ships
 	"tug":{
-		"stardust_celestialguide_stock":5,
+		"stardust_celestialguide_stock":2,
+		"stardust_celestialguide_overdrive":1,
+		"stardust_celestialguide_enhanced":1,
+		"stardust_celestialguide_stabalized":1,
 	},
 	"utility":{
 		"stardust_celestialguide_stock":2,
@@ -110,11 +115,14 @@
 	},
     # freighters and such
 	"freighterSmall":{
-        "stardust_moonlightwalker_stock":10,
-		"stardust_sunbeamrider_stock":8,		
+        "stardust_moonlightwalker_stock":7,
+		"stardust_moonlightwalker_bulk":3,
+		"stardust_sunbeamrider_stock":4,
+		"stardust_sunbeamrider_exp":4,		
 	},
 	"freighterMedium":{
 		"stardust_oorttraveler_stock":8,
+		"stardust_oorttraveler_bulk":8,
 	},
     "combatFreighterMedium":{
 		"stardust_warpdiver_blockade":3,
@@ -127,10 +135,12 @@
 		"stardust_oorttraveler_armor_patrol":3,
 	},
 	"tankerSmall":{
-		"stardust_moonlightwalker_stock":10,
+		"stardust_moonlightwalker_stock":4,
+		"stardust_moonlightwalker_bulk":6,
 	},
 	"tankerMedium":{
-		"stardust_sunbeamrider_stock":6,
+		"stardust_sunbeamrider_stock":2,
+		"stardust_sunbeamrider_exp":4,
 	},
     # carriers
 	"carrierSmall":{

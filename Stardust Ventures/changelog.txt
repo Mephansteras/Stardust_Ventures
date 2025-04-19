@@ -151,3 +151,4 @@ v0.9.0 = FACTION UPDATE - Save Breaking!!
 		 Added the Moonlight Walker small logistics vessel so SDV doesn't use drams for fuel.
 		 Fel PDS line now has ammo charges
 		 Reworked the Diana's Dart/Arrow/Spear. They now use proper guided projectiles instead of missiles, always do HE damage base, but have an on-hit that does kinetic against shields.
+		 Ion Skimmer now has Shielded cargo holds

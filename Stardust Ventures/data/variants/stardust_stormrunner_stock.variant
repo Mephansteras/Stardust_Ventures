@@ -3,8 +3,8 @@
   "hullId": "stardust_stormrunner",
   "displayName": "Pressure",
   "goalVariant": true,
-  "fluxCapacitors": 7,
-  "fluxVents": 7,
+  "fluxCapacitors": 8,
+  "fluxVents": 8,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -25,8 +25,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "stardust_dualproton",
-        "WS0002": "stardust_dualproton"
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg"
       }
     }
   ],

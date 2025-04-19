@@ -3,8 +3,8 @@
   "hullId": "stardust_stormbringer",
   "displayName": "Lancer",
   "goalVariant": true,
-  "fluxCapacitors": 19,
-  "fluxVents": 40,
+  "fluxCapacitors": 39,
+  "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -23,43 +23,43 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "stardust_heavyproton_battery",
-        "WS0006": "stardust_heavyproton_battery",
+        "WS0005": "stardust_autoproton",
+        "WS0006": "stardust_autoproton",
         "WS0007": "stardust_heavyproton",
-        "WS0008": "stardust_heavyproton"
+        "WS0008": "stardust_heavyproton",
+        "WS0015": "stardust_dualproton",
+        "WS0016": "stardust_dualproton"
       }
     },
     {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0009": "gravitonbeam",
-        "WS0010": "gravitonbeam"
-      }
-    },
-    {
-      "autofire": true,
+      "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0002": "stardust_streak_mrm_violet_barrage",
+        "WS0001": "stardust_lithobreaker_barrage",
+        "WS0024": "sabotpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "stardust_streak_mrm_violet_barrage"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0019": "stardust_streak_mrm_crimson",
+        "WS0020": "stardust_streak_mrm_crimson",
         "WS0021": "stardust_streak_mrm_crimson",
         "WS0022": "stardust_streak_mrm_crimson"
       }
     },
     {
       "autofire": true,
-      "mode": "ALTERNATING",
-      "weapons": {
-        "WS0001": "squall",
-        "WS0024": "stardust_lithobreaker_pod"
-      }
-    },
-    {
-      "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0019": "stardust_cloudburst",
-        "WS0020": "stardust_cloudburst",
         "WS0023": "stardust_cloudburst_pod"
       }
     },
@@ -67,12 +67,12 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "stardust_lightproton",
-        "WS0012": "stardust_lightproton",
+        "WS0009": "stardust_feldefense",
+        "WS0010": "stardust_feldefense",
+        "WS0011": "lightmg",
+        "WS0012": "lightmg",
         "WS0013": "stardust_mistpds",
         "WS0014": "stardust_mistpds",
-        "WS0015": "stardust_dualproton",
-        "WS0016": "stardust_dualproton",
         "WS0017": "stardust_mistpds",
         "WS0018": "stardust_mistpds"
       }

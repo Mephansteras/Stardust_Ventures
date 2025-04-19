@@ -1,15 +1,14 @@
 {
-  "variantId": "stardust_stargazer_seeker",
-  "hullId": "stardust_stargazer",
-  "displayName": "Expedition",
-  "goalVariant": true,
+  "variantId": "stardust_starlightguard_hunter",
+  "hullId": "stardust_starlightguard",
+  "displayName": "Hunter",
+  "goalVariant": false,
   "fluxCapacitors": 17,
-  "fluxVents": 15,
+  "fluxVents": 16,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "hiressensors",
-    "auxiliary_fuel_tanks",
+    "stardust_EnvironmentalShielding",
     "extendedshieldemitter"
   ],
   "weaponGroups": [
@@ -17,34 +16,31 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "stardust_hvy_plasmacaster"
+        "WS0005": "stardust_dianaarrow"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "stardust_lithobreaker"
+        "WS0006": "sabotpod"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "stardust_cloudburst"
+        "WS0001": "stardust_dianadart",
+        "WS0002": "stardust_dianadart"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "flak"
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
       }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {}
     }
   ],
   "modules": [],

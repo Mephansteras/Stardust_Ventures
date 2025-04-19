@@ -3,8 +3,8 @@
   "hullId": "stardust_stormbringer",
   "displayName": "Guardian",
   "goalVariant": true,
-  "fluxCapacitors": 34,
-  "fluxVents": 36,
+  "fluxCapacitors": 28,
+  "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -15,66 +15,66 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0005": "stardust_dianaspear",
+        "WS0006": "stardust_dianaspear"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "stardust_dianaarrow",
+        "WS0008": "stardust_dianaarrow",
+        "WS0015": "stardust_dianadart",
+        "WS0016": "stardust_dianadart"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "stardust_streak_mrm_violet_barrage",
         "WS0002": "stardust_streak_mrm_violet_barrage",
-        "WS0003": "stardust_plasmacaster_array",
-        "WS0005": "mark9",
-        "WS0006": "mark9",
-        "WS0007": "heavymortar",
-        "WS0008": "heavymortar",
-        "WS0009": "stardust_felpulser",
-        "WS0010": "stardust_felpulser",
+        "WS0023": "stardust_streak_mrm_crimson_pod",
+        "WS0024": "stardust_streak_mrm_crimson_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "gravitonbeam",
+        "WS0010": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0013": "stardust_felrepeater",
         "WS0014": "stardust_felrepeater",
-        "WS0015": "stardust_dualproton",
-        "WS0016": "stardust_dualproton",
         "WS0017": "stardust_felrepeater",
-        "WS0018": "stardust_felrepeater",
-        "WS0023": "stardust_streak_mrm_crimson_pod"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "ALTERNATING",
-      "weapons": {
-        "WS0022": "stardust_lithobreaker"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "ALTERNATING",
-      "weapons": {
-        "WS0019": "stardust_streak_mrm_amber",
-        "WS0020": "gazer"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "ALTERNATING",
-      "weapons": {
-        "WS0001": "stardust_stormfront"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "ALTERNATING",
-      "weapons": {
-        "WS0021": "atropos",
-        "WS0024": "typhoon"
+        "WS0018": "stardust_felrepeater"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "stardust_felguardian"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
+        "WS0003": "stardust_felguardian",
+        "WS0004": "stardust_felguardian",
         "WS0011": "vulcan",
         "WS0012": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0019": "stardust_streak_mrm_azure",
+        "WS0020": "stardust_streak_mrm_azure",
+        "WS0021": "stardust_streak_mrm_azure",
+        "WS0022": "stardust_streak_mrm_azure"
       }
     }
   ],

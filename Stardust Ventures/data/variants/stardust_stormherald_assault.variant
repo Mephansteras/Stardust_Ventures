@@ -3,13 +3,14 @@
   "hullId": "stardust_stormherald",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 20,
+  "fluxCapacitors": 19,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "targetingunit",
-    "advancedshieldemitter"
+    "advancedshieldemitter",
+    "magazines"
   ],
   "weaponGroups": [
     {
@@ -32,19 +33,19 @@
       "mode": "ALTERNATING",
       "weapons": {
         "WS0009": "stardust_lithobreaker",
-        "WS0010": "reaper"
+        "WS0010": "stardust_lithobreaker"
       }
     },
     {
       "autofire": false,
-      "mode": "ALTERNATING",
+      "mode": "LINKED",
       "weapons": {
         "WS0013": "stardust_streak_mrm_violet"
       }
     },
     {
       "autofire": true,
-      "mode": "ALTERNATING",
+      "mode": "LINKED",
       "weapons": {
         "WS0014": "stardust_cloudburst"
       }
@@ -53,18 +54,18 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "lightdualac",
-        "WS0004": "lightdualac",
-        "WS0005": "lightdualac",
-        "WS0006": "lightdualac"
+        "WS0005": "stardust_dualproton",
+        "WS0006": "stardust_dualproton"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "stardust_dualproton",
-        "WS0002": "stardust_dualproton"
+        "WS0001": "lightmg",
+        "WS0002": "lightmg",
+        "WS0003": "lightmg",
+        "WS0004": "lightmg"
       }
     }
   ],

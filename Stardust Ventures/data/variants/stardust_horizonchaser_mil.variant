@@ -4,7 +4,7 @@
   "displayName": "Horizon Chaser(M)",
   "goalVariant": true,
   "fluxCapacitors": 7,
-  "fluxVents": 7,
+  "fluxVents": 6,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

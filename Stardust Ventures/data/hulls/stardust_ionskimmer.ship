@@ -12,7 +12,8 @@
   "shieldRadius": 53,
   "viewOffset": 0,
   "builtInMods": [
-    "stardust_StardustCore"
+    "stardust_StardustCore",
+	"shielded_holds"
   ],
   "weaponSlots": [
     {

@@ -51,8 +51,13 @@
     {
       "autofire": true,
       "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
       "weapons": {
-        "WS0008": "stardust_lightproton"
+        "WS0008": "vulcan"
       }
     }
   ],

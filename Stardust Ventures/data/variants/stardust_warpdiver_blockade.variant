@@ -2,14 +2,15 @@
   "variantId": "stardust_warpdiver_blockade",
   "hullId": "stardust_warpdiver",
   "displayName": "Blockade Runner",
-  "goalVariant": true,
-  "fluxCapacitors": 6,
+  "goalVariant": false,
+  "fluxCapacitors": 8,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "insulatedengine",
-    "shielded_holds"
+    "shielded_holds",
+    "targetingunit"
   ],
   "weaponGroups": [
     {

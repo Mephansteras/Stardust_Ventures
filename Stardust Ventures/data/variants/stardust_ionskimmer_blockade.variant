@@ -4,13 +4,14 @@
   "displayName": "Blockade Runner",
   "goalVariant": true,
   "fluxCapacitors": 5,
-  "fluxVents": 5,
+  "fluxVents": 6,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "shielded_holds",
     "insulatedengine",
-    "hiressensors"
+    "hiressensors",
+    "extendedshieldemitter"
   ],
   "weaponGroups": [
     {

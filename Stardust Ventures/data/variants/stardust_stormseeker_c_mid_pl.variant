@@ -3,13 +3,13 @@
   "hullId": "stardust_stormseeker_c_mid",
   "displayName": "League",
   "goalVariant": true,
-  "fluxCapacitors": 10,
+  "fluxCapacitors": 13,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "recovery_shuttles",
-    "extendedshieldemitter"
+    "extendedshieldemitter",
+    "magazines"
   ],
   "weaponGroups": [
     {
@@ -17,22 +17,22 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "stardust_felpulser",
-        "WS0002": "stardust_felpulser",
+        "WS0002": "stardust_felpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "stardust_felpds",
+        "WS0006": "stardust_felpds"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0008": "lightdualmg"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0005": "lightdualac"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0006": "lightag"
       }
     },
     {

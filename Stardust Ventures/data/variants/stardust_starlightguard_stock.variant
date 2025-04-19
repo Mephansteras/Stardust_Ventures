@@ -1,22 +1,29 @@
 {
   "variantId": "stardust_starlightguard_stock",
   "hullId": "stardust_starlightguard",
-  "displayName": "Support",
+  "displayName": "Combat",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 18,
+  "fluxCapacitors": 18,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "reinforcedhull",
-    "turretgyros"
+    "magazines",
+    "hardenedshieldemitter"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "stardust_hvy_plasmacaster"
+        "WS0005": "stardust_felpulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "stardust_lithobreaker_pod"
       }
     },
     {
@@ -31,15 +38,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "stardust_lightproton",
-        "WS0004": "stardust_lightproton"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0006": "stardust_lithobreaker_pod"
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
       }
     }
   ],

@@ -8,16 +8,17 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "auxiliarythrusters",
-    "extendedshieldemitter"
+    "extendedshieldemitter",
+    "magazines",
+    "stabilizedshieldemitter"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "stardust_lightproton",
-        "WS0002": "stardust_lightproton"
+        "WS0001": "lightmg",
+        "WS0002": "lightmg"
       }
     },
     {

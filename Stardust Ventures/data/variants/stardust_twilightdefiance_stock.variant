@@ -3,13 +3,12 @@
   "hullId": "stardust_twilightdefiance",
   "displayName": "Patrol",
   "goalVariant": true,
-  "fluxCapacitors": 17,
-  "fluxVents": 20,
+  "fluxCapacitors": 15,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "missleracks",
-    "eccm"
+    "missleracks"
   ],
   "weaponGroups": [
     {

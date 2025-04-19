@@ -3,12 +3,12 @@
   "hullId": "stardust_oorttraveler",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 3,
+  "fluxCapacitors": 6,
   "fluxVents": 5,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "auxiliarythrusters",
+    "efficiency_overhaul",
     "stardust_EnvironmentalShielding"
   ],
   "weaponGroups": [

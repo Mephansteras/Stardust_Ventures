@@ -3,12 +3,12 @@
   "hullId": "stardust_starlightguard",
   "displayName": "Defender",
   "goalVariant": true,
-  "fluxCapacitors": 17,
-  "fluxVents": 17,
+  "fluxCapacitors": 16,
+  "fluxVents": 16,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "reinforcedhull"
+    "hardened_subsystems"
   ],
   "weaponGroups": [
     {
@@ -28,7 +28,7 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0006": "stardust_cloudburst_pod"

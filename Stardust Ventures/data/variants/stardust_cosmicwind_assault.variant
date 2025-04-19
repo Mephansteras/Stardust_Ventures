@@ -28,16 +28,16 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "lightdualac",
-        "WS0004": "lightdualmg"
+        "WS0005": "stardust_felrepeater",
+        "WS0007": "stardust_felrepeater"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "taclaser",
-        "WS0007": "taclaser"
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
       }
     }
   ],

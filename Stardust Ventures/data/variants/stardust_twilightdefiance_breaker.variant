@@ -3,13 +3,13 @@
   "hullId": "stardust_twilightdefiance",
   "displayName": "Breaker",
   "goalVariant": true,
-  "fluxCapacitors": 18,
-  "fluxVents": 17,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "missleracks",
-    "dedicated_targeting_core"
+    "fluxbreakers"
   ],
   "weaponGroups": [
     {
@@ -23,17 +23,17 @@
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0002": "sabotpod",
-        "WS0010": "stardust_streak_mrm_azure_int",
-        "WS0012": "stardust_streak_mrm_crimson_int"
+        "WS0002": "stardust_streak_mrm_violet_pod",
+        "WS0003": "stardust_streak_mrm_violet_pod",
+        "WS0013": "stardust_streak_mrm_violet_int"
       }
     },
     {
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0003": "annihilatorpod",
-        "WS0013": "stardust_streak_mrm_violet_int"
+        "WS0010": "stardust_streak_mrm_azure_int",
+        "WS0012": "stardust_streak_mrm_crimson_int"
       }
     },
     {

@@ -4,46 +4,50 @@
   "displayName": "Vanguard",
   "goalVariant": true,
   "fluxCapacitors": 30,
-  "fluxVents": 30,
+  "fluxVents": 47,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "magazines",
+    "stabilizedshieldemitter"
+  ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
         "WS0003": "stardust_felcannon",
-        "WS0004": "stardust_felcannon",
-        "WS0005": "stardust_autoproton",
-        "WS0006": "stardust_autoproton",
-        "WS0007": "stardust_quadproton",
-        "WS0008": "stardust_quadproton",
-        "WS0021": "stardust_streak_mrm_amber",
-        "WS0022": "stardust_streak_mrm_azure",
-        "WS0023": "stardust_streak_mrm_crimson_pod",
-        "WS0024": "stardust_streak_mrm_violet_pod"
+        "WS0004": "stardust_felcannon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0005": "stardust_autoproton",
+        "WS0006": "stardust_autoproton",
+        "WS0007": "stardust_quadproton",
+        "WS0008": "stardust_quadproton",
+        "WS0015": "stardust_dualproton",
+        "WS0016": "stardust_dualproton"
+      }
     },
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
         "WS0001": "stardust_lithobreaker_barrage",
-        "WS0002": "stardust_stormfront"
+        "WS0019": "stardust_lithobreaker",
+        "WS0020": "stardust_lithobreaker",
+        "WS0021": "stardust_lithobreaker",
+        "WS0022": "stardust_lithobreaker"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "stardust_hvy_plasmacaster",
-        "WS0010": "stardust_hvy_plasmacaster",
+        "WS0002": "stardust_stormfront",
         "WS0013": "stardust_felrepeater",
         "WS0014": "stardust_felrepeater",
         "WS0017": "stardust_felrepeater",
@@ -54,23 +58,24 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0019": "swarmer_fighter",
-        "WS0020": "swarmer_fighter"
+        "WS0023": "stardust_streak_mrm_crimson_pod"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0024": "stardust_streak_mrm_violet_pod"
+      }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "stardust_dualproton",
-        "WS0012": "stardust_dualproton",
-        "WS0015": "stardust_dualproton",
-        "WS0016": "stardust_dualproton"
+        "WS0009": "stardust_feldefense",
+        "WS0010": "stardust_feldefense",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan"
       }
     }
   ],

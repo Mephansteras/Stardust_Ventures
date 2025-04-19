@@ -4,12 +4,13 @@
   "displayName": "Support",
   "goalVariant": true,
   "fluxCapacitors": 13,
-  "fluxVents": 15,
+  "fluxVents": 14,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "expanded_deck_crew",
-    "recovery_shuttles"
+    "recovery_shuttles",
+    "targetingunit",
+    "turretgyros"
   ],
   "weaponGroups": [
     {
@@ -38,8 +39,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "stardust_felrepeater",
-        "WS0006": "stardust_felrepeater"
+        "WS0005": "stardust_felpds",
+        "WS0006": "stardust_felpds"
       }
     },
     {

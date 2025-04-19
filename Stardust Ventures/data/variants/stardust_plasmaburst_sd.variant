@@ -3,8 +3,8 @@
   "hullId": "stardust_plasmaburst_sindrian",
   "displayName": "Patrol",
   "goalVariant": true,
-  "fluxCapacitors": 5,
-  "fluxVents": 5,
+  "fluxCapacitors": 3,
+  "fluxVents": 3,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -13,10 +13,16 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "sabot_single",
-        "WS0002": "sabot_single",
-        "WS0003": "stardust_felrepeater",
-        "WS0004": "stardust_felrepeater"
+        "WS0003": "stardust_dianadart",
+        "WS0004": "stardust_dianadart"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "stardust_cloudburst_single",
+        "WS0002": "stardust_cloudburst_single"
       }
     }
   ],

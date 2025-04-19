@@ -1,27 +1,29 @@
 {
   "variantId": "stardust_vortexhunter_support",
   "hullId": "stardust_vortexhunter",
-  "displayName": "Support",
+  "displayName": "Sniper",
   "goalVariant": true,
   "fluxCapacitors": 20,
-  "fluxVents": 24,
+  "fluxVents": 21,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "high_scatter_amp"
+    "extendedshieldemitter"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "hil"
+        "WS0002": "stardust_dianaspear"
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0004": "stardust_lithobreaker_pod"
+      }
     },
     {
       "autofire": true,
@@ -34,25 +36,29 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "pilum"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0005": "stardust_dualproton",
-        "WS0006": "stardust_dualproton",
-        "WS0007": "stardust_dualproton",
-        "WS0008": "stardust_dualproton"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
         "WS0001": "stardust_feldefense"
       }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "vulcan",
+        "WS0006": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "vulcan",
+        "WS0008": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],

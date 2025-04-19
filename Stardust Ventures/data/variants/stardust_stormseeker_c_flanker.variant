@@ -17,41 +17,42 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "stardust_hvy_plasmacaster",
-        "WS0002": "stardust_hvy_plasmacaster",
+        "WS0002": "stardust_hvy_plasmacaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0005": "lightdualmg",
         "WS0006": "lightdualmg"
       }
     },
     {
-      "autofire": true,
-      "mode": "ALTERNATING",
-      "weapons": {}
-    },
-    {
-      "autofire": true,
-      "mode": "ALTERNATING",
-      "weapons": {}
-    },
-    {
       "autofire": false,
-      "mode": "ALTERNATING",
+      "mode": "LINKED",
       "weapons": {
         "WS0003": "stardust_lithobreaker"
       }
     },
     {
       "autofire": false,
-      "mode": "ALTERNATING",
+      "mode": "LINKED",
       "weapons": {
         "WS0004": "stardust_streak_mrm_crimson"
       }
     },
     {
       "autofire": true,
-      "mode": "ALTERNATING",
+      "mode": "LINKED",
       "weapons": {
         "WS0008": "stardust_felpds"
       }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],
