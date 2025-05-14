@@ -10,6 +10,7 @@ import com.fs.starfarer.api.characters.PersonAPI
 import com.fs.starfarer.api.impl.campaign.ids.*
 import com.fs.starfarer.api.impl.campaign.population.PopulationComposition
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator
+import data.scripts.world.stardust_WorldUtils
 import org.lazywizard.lazylib.MathUtils
 import plugins.stardust_ModPlugin.Companion.log
 import kotlin.math.abs
@@ -37,12 +38,16 @@ class stardust_InitialColonies {
         // Max is a 'nice to have', but will go further if nothing closer works.
         for (system in Global.getSector().starSystems) {
             // First, ditch any that are simply unusable
-             var skip = false
-            if (system.hasTag(Tags.SYSTEM_CUT_OFF_FROM_HYPER)) skip = true
-            if (system.hasPulsar()) skip = true
-            if (system.planets.isEmpty()) skip = true
-            if (!Global.getSector().economy.getMarkets(system).isEmpty()) skip = true  //System was inhabited
-            if (hasFleets(system)) skip = true
+            // TODO: use the isSystemUsable function for some of this
+            var skip = false
+            //if (system.hasTag(Tags.SYSTEM_CUT_OFF_FROM_HYPER)) skip = true
+            //if (system.hasPulsar()) skip = true
+            //if (system.planets.isEmpty()) skip = true
+            //if (!Global.getSector().economy.getMarkets(system).isEmpty()) skip = true  //System was inhabited
+            //if (hasFleets(system)) skip = true
+            if (!stardust_WorldUtils.isSystemUsable(system, "none", true, false)) {
+                skip = true
+            }
             var sys_x = system.location.getX()
             var sys_y = system.location.getY()
             if ( (abs(sys_x) < MinDist) or (abs(sys_x) > MaxDist) ) skip = true
@@ -62,39 +67,39 @@ class stardust_InitialColonies {
 
                 // Should be 75-225 or so
                 var score = market.hazardValue * 100
-                log.info("  Hazard value for planet $planet_name score:$score from $sys_name");
+                //log.info("  Hazard value for planet $planet_name score:$score from $sys_name")
                 // Adjust based on a few specific conditions. They are going to favor mild food growing planets most.
                 // Lower score is better
                 if (market.hasCondition(Conditions.MILD_CLIMATE)) {
                     score -= 10f
-                    log.info("      Has Mild Climate")
+                    //log.info("      Has Mild Climate")
                 }
                 if (market.hasCondition(Conditions.HABITABLE)) {
                     score -= 10f
-                    log.info("      Is Habitable")
+                    //log.info("      Is Habitable")
                 }
                 if (market.hasCondition(Conditions.FARMLAND_POOR)) {
                     score -= 5f
-                    log.info("      Has Poor Farmland")
+                    //log.info("      Has Poor Farmland")
                 }
                 if (market.hasCondition(Conditions.FARMLAND_ADEQUATE)) {
                     score -= 10f
-                    log.info("      Has Adequate Farmland")
+                    //log.info("      Has Adequate Farmland")
                 }
                 if (market.hasCondition(Conditions.FARMLAND_RICH)) {
                     score -= 15f
-                    log.info("      Has Rich Farmland")
+                    //log.info("      Has Rich Farmland")
                 }
                 if (market.hasCondition(Conditions.FARMLAND_BOUNTIFUL)) {
                     score -= 20f
-                    log.info("      Has Bountiful Farmland")
+                    //log.info("      Has Bountiful Farmland")
                 }
 
                 // randomizes things so they don't just grab the best planets every time
                 score *= MathUtils.getRandomNumberInRange(0.75f, 1.25f)
                 score = round(score)
 
-                log.info("    Adding planet $planet_name score:$score from $sys_name")
+                //log.info("    Adding planet $planet_name score:$score from $sys_name")
                 CandidatePlanets[planet] = score
             }
         }
@@ -119,23 +124,28 @@ class stardust_InitialColonies {
         return bestPlanet
     }
 
-    private fun addPerson(market: MarketAPI, rank: String?, post: String): PersonAPI? {
+    public fun addPerson(market: MarketAPI, rank: String, post: String): PersonAPI {
         var ip = Global.getSector().importantPeople
         val person = market.faction.createRandomPerson()
-        person.rankId = rank
+        var setRank = rank
+        if (setRank == "none") { setRank = null.toString()
+        }
+        person.rankId = setRank
         person.postId = post
         market.commDirectory.addPerson(person)
         market.addPerson(person)
         ip.addPerson(person)
         ip.getData(person).location.market = market
         ip.checkOutPerson(person, "permanent_staff")
-        if (post == Ranks.POST_BASE_COMMANDER)
+        if (post == Ranks.POST_BASE_COMMANDER || post == Ranks.POST_STATION_COMMANDER
+            || post == Ranks.POST_ADMINISTRATOR
+        )
         {
             person.setImportanceAndVoice(PersonImportance.MEDIUM, StarSystemGenerator.random)
         }
         else
         {
-            person.setImportanceAndVoice(PersonImportance.VERY_LOW, StarSystemGenerator.random)
+            person.setImportanceAndVoice(PersonImportance.LOW, StarSystemGenerator.random)
         }
 
         return person
@@ -152,18 +162,18 @@ class stardust_InitialColonies {
         market.isPlanetConditionMarketOnly = false
         if (market.hasCondition(Conditions.DECIVILIZED))
         {
-            market.removeCondition(Conditions.DECIVILIZED);
-            market.addCondition(Conditions.DECIVILIZED_SUBPOP);
+            market.removeCondition(Conditions.DECIVILIZED)
+            market.addCondition(Conditions.DECIVILIZED_SUBPOP)
         }
         market.addIndustry(Industries.POPULATION)
         market.addIndustry(Industries.SPACEPORT)
         market.addIndustry(Industries.WAYSTATION)
         market.addIndustry(Industries.PATROLHQ)
         // DEBUG - list conditions
-        for (cond in market.conditions)
-        {
-            log.info("        Found Condition $cond")
-        }
+        //for (cond in market.conditions)
+        //{
+        //    log.info("        Found Condition $cond")
+        //}
         // Aquaculture for water worlds, Farming if you can have it, Light industry as a fallback
         if (planet.typeId.contains("water"))
             market.addIndustry(Industries.AQUACULTURE)
@@ -186,7 +196,7 @@ class stardust_InitialColonies {
         // fixes insta colony upsize; see https://fractalsoftworks.com/forum/index.php?topic=5061.msg343893#msg343893
         market.incoming = PopulationComposition()
 
-        market.tariff.modifyFlat("generator", Global.getSector().getFaction(factionId).tariffFraction);
+        market.tariff.modifyFlat("generator", Global.getSector().getFaction(factionId).tariffFraction)
 
         // submarkets
         updateSubmarkets(market, Factions.NEUTRAL, factionId)
@@ -202,17 +212,20 @@ class stardust_InitialColonies {
 
         // Initial growth, to simulate that they have been there at least a little while
         var growth = MathUtils.getRandomNumberInRange(10.0f, 45.0f)
-        market.population.setWeight(growth);
-        market.population.normalize();
+        market.population.setWeight(growth)
+        market.population.normalize()
         // Hazard Pay
-        market.setImmigrationIncentivesOn(true);
+        market.setImmigrationIncentivesOn(true)
 
-        // Add people - Taken from NexUtilsMarket
-        val admin = addPerson(market, Ranks.CITIZEN, Ranks.POST_ADMINISTRATOR)
-        market.admin =admin
-        val postmaster = addPerson(market, null, Ranks.POST_PORTMASTER)
-        val supply = addPerson(market, Ranks.SPACE_COMMANDER, Ranks.POST_SUPPLY_OFFICER)
+        // Add people
+        fillPosts(market)
 
+        // mark system as explored
+        val system = market.starSystem
+        if (!system.hasTag("explored")) {
+            system.addTag("explored")
+            system.addTag(Tags.THEME_INTERESTING_MINOR)
+        }
 
     }
 
@@ -233,6 +246,11 @@ class stardust_InitialColonies {
     fun addCharacters() {
         val ip = Global.getSector().importantPeople
         var market = Global.getSector().economy.getMarket("stardust_stardust_hall")
+
+        // If stardust hall does exist we need to make sure it has position holders
+        // This comes up if the system is added post-newgame
+        fillPosts(market)
+
         // If stardust hall doesn't exist, might be random core worlds. Then we'll need to send them to the biggest
         if (market == null) { market = getLargestColony()}
 
@@ -240,17 +258,17 @@ class stardust_InitialColonies {
         if (market != null) {
             val stardust_ravenna = Global.getFactory().createPerson()
             stardust_ravenna.setFaction("stardust_ventures")
-            stardust_ravenna.setId("stardust_ravenna");
+            stardust_ravenna.setId("stardust_ravenna")
             stardust_ravenna.gender = FullName.Gender.FEMALE
             stardust_ravenna.postId = Ranks.POST_FACTION_LEADER
             stardust_ravenna.rankId = Ranks.FACTION_LEADER
             stardust_ravenna.name.first = "Ravenna"
             stardust_ravenna.name.last = "Silverlight"
             stardust_ravenna.portraitSprite = "graphics/portraits/characters/stardust_ravenna.png"
-            stardust_ravenna.setVoice(Voices.BUSINESS);
+            stardust_ravenna.setVoice(Voices.BUSINESS)
             stardust_ravenna.stats.setSkillLevel(Skills.INDUSTRIAL_PLANNING, 3f)
-            stardust_ravenna.addTag(Tags.CONTACT_TRADE);
-            stardust_ravenna.setImportance(PersonImportance.VERY_HIGH);
+            stardust_ravenna.addTag(Tags.CONTACT_TRADE)
+            stardust_ravenna.setImportance(PersonImportance.VERY_HIGH)
             market.admin = stardust_ravenna
             market.commDirectory.addPerson(stardust_ravenna, 0)
             market.addPerson(stardust_ravenna)
@@ -258,15 +276,15 @@ class stardust_InitialColonies {
 
             val stardust_sarval = Global.getFactory().createPerson()
             stardust_sarval.setFaction("stardust_ventures")
-            stardust_sarval.setId("stardust_sarval");
+            stardust_sarval.setId("stardust_sarval")
             stardust_sarval.gender = FullName.Gender.MALE
             stardust_sarval.rankId = Ranks.SPACE_COMMANDER
             stardust_sarval.postId = Ranks.POST_FLEET_COMMANDER
             stardust_sarval.name.first = "Sarval"
             stardust_sarval.name.last = "Kaan"
             stardust_sarval.portraitSprite = "graphics/portraits/characters/stardust_sarval.png"
-            stardust_sarval.setVoice(Voices.SOLDIER);
-            stardust_sarval.setPersonality(Personalities.AGGRESSIVE);
+            stardust_sarval.setVoice(Voices.SOLDIER)
+            stardust_sarval.setPersonality(Personalities.AGGRESSIVE)
             stardust_sarval.getStats().setSkillLevel(Skills.GUNNERY_IMPLANTS, 2f)
             stardust_sarval.getStats().setSkillLevel(Skills.ORDNANCE_EXPERTISE, 1f)
             stardust_sarval.getStats().setSkillLevel(Skills.FIELD_MODULATION, 2f)
@@ -275,22 +293,22 @@ class stardust_InitialColonies {
             stardust_sarval.getStats().setSkillLevel(Skills.TACTICAL_DRILLS, 1f)
             stardust_sarval.getStats().setSkillLevel(Skills.CREW_TRAINING, 1f)
             stardust_sarval.getStats().setLevel(7)
-            stardust_sarval.addTag("coff_nocapture");
+            stardust_sarval.addTag("coff_nocapture")
             //market.addPerson(stardust_sarval);
             //market.getCommDirectory().addPerson(stardust_sarval, 1);
             ip.addPerson(stardust_sarval)
 
             val stardust_danlia = Global.getFactory().createPerson()
             stardust_danlia.setFaction("stardust_ventures")
-            stardust_danlia.setId("stardust_danlia");
+            stardust_danlia.setId("stardust_danlia")
             stardust_danlia.gender = FullName.Gender.FEMALE
             stardust_danlia.rankId = Ranks.SPACE_CAPTAIN
             stardust_danlia.postId = Ranks.POST_FLEET_COMMANDER
             stardust_danlia.name.first = "Danlia"
             stardust_danlia.name.last = "Star Seeker"
             stardust_danlia.portraitSprite = "graphics/portraits/characters/stardust_danlia.png"
-            stardust_danlia.setVoice(Voices.SPACER);
-            stardust_danlia.setPersonality(Personalities.CAUTIOUS);
+            stardust_danlia.setVoice(Voices.SPACER)
+            stardust_danlia.setPersonality(Personalities.CAUTIOUS)
             stardust_danlia.getStats().setSkillLevel(Skills.GUNNERY_IMPLANTS, 1f)
             stardust_danlia.getStats().setSkillLevel(Skills.ORDNANCE_EXPERTISE, 1f)
             stardust_danlia.getStats().setSkillLevel(Skills.FIELD_MODULATION, 2f)
@@ -299,16 +317,54 @@ class stardust_InitialColonies {
             stardust_danlia.getStats().setSkillLevel(Skills.TACTICAL_DRILLS, 1f)
             stardust_danlia.getStats().setSkillLevel(Skills.CREW_TRAINING, 1f)
             stardust_danlia.getStats().setLevel(7)
-            stardust_danlia.addTag("coff_nocapture");
-            stardust_danlia.addTag(Tags.CONTACT_MILITARY);
-            stardust_danlia.setImportance(PersonImportance.HIGH);
-            market.addPerson(stardust_danlia);
-            market.getCommDirectory().addPerson(stardust_danlia, 1);
+            stardust_danlia.addTag("coff_nocapture")
+            stardust_danlia.addTag(Tags.CONTACT_MILITARY)
+            stardust_danlia.setImportance(PersonImportance.HIGH)
+            market.addPerson(stardust_danlia)
+            market.getCommDirectory().addPerson(stardust_danlia, 1)
             ip.addPerson(stardust_danlia)
 
+            // Now fill the posts for Venture Industries and Brabant if they need it
+            market = Global.getSector().economy.getMarket("stardust_venture_industries")
+            if (market != null) { fillPosts(market) }
 
+            market = Global.getSector().economy.getMarket("stardust_brabant")
+            if (market != null) { fillPosts(market) }
         }
 
+
+    }
+
+    // Based on the Nex code to do this
+    private fun fillPosts(market: MarketAPI) {
+        var admin = market.peopleCopy.firstOrNull { it.postId == Ranks.POST_ADMINISTRATOR || it.postId == Ranks.POST_FACTION_LEADER}
+        if (admin == null) {
+            admin = addPerson(market, Ranks.CITIZEN, Ranks.POST_ADMINISTRATOR)
+            market.admin = admin
+        }
+        var portmaster = market.peopleCopy.firstOrNull { it.postId == Ranks.POST_PORTMASTER }
+        if (portmaster == null) {
+            portmaster = addPerson(market, "none", Ranks.POST_PORTMASTER)
+        }
+        var supply = market.peopleCopy.firstOrNull { it.postId == Ranks.POST_SUPPLY_OFFICER }
+        if (supply == null) {
+            supply = addPerson(market, Ranks.SPACE_COMMANDER, Ranks.POST_SUPPLY_OFFICER)
+        }
+        if (market.hasIndustry(Industries.MILITARYBASE) || market.hasIndustry(Industries.HIGHCOMMAND)) {
+            var basecommand = market.peopleCopy.firstOrNull { it.postId == Ranks.POST_BASE_COMMANDER }
+            if (basecommand == null) {
+                basecommand = addPerson(market, Ranks.GROUND_GENERAL, Ranks.POST_BASE_COMMANDER)
+            }
+        }
+
+        var hasStation = false
+        hasStation = market.industries.any { it.spec.hasTag(Industries.TAG_STATION) }
+        if (hasStation) {
+            var stationcommand = market.peopleCopy.firstOrNull { it.postId == Ranks.POST_STATION_COMMANDER }
+            if (stationcommand == null) {
+                stationcommand = addPerson(market, Ranks.SPACE_CAPTAIN, Ranks.POST_STATION_COMMANDER)
+            }
+        }
 
     }
 

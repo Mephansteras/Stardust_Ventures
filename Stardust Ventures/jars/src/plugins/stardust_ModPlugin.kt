@@ -5,6 +5,7 @@ import com.fs.starfarer.api.Global
 import com.fs.starfarer.api.campaign.econ.MarketAPI
 import com.fs.starfarer.api.impl.campaign.ids.Factions
 import data.scripts.world.systems.stardust_Gen
+import data.scripts.world.stardust_WorldUtils
 import exerelin.campaign.SectorManager
 import lunalib.lunaSettings.LunaSettings.getBoolean
 import lunalib.lunaSettings.LunaSettings.getInt
@@ -16,8 +17,13 @@ class stardust_ModPlugin : BaseModPlugin() {
     //private static String SHOP_BLACKLIST_FILE = "stardust_market_blacklist.csv";
     // Stuff from the configs, values here are the defaults if needed for some reason
     var STARDUST_SUBMARKETS = 3
-    private var GEN_SHOPS = true
-    private var GEN_FACTION = true
+    private var GEN_SHOPS = false
+    private var GEN_FACTION = false
+
+    // Unique keys for things we want to track if spawned or not this save
+    private val SDV_DEBRIS_EXPF_SPAWNED: String = "stardust_ExplorationFleetDebris"
+    private val SDV_DEBRIS_MONOCO_SPAWNED: String = "stardust_MonocoFleetDebris"
+
     override fun onGameLoad(newGame: Boolean) {
         val sector = Global.getSector()
         if (!sector.hasScript(stardust_FleetStatManager::class.java)) {
@@ -52,24 +58,35 @@ class stardust_ModPlugin : BaseModPlugin() {
                 stardust_Gen().generateAfterTime()
             }
         }
+
+        // Generate debris fields, if we haven't already
+        if (!stardust_WorldUtils.hasObjectBeenSpawned(SDV_DEBRIS_EXPF_SPAWNED)) {
+            val success = stardust_Gen().generateDebrisIndy(sector)
+            if (success) { stardust_WorldUtils.markObjectSpawned(SDV_DEBRIS_EXPF_SPAWNED) }
+        }
+        if (!stardust_WorldUtils.hasObjectBeenSpawned(SDV_DEBRIS_MONOCO_SPAWNED)) {
+            val success = stardust_Gen().generateDebrisMonoco(sector)
+            if (success) { stardust_WorldUtils.markObjectSpawned(SDV_DEBRIS_MONOCO_SPAWNED) }
+        }
+
     }
 
     @Throws(JSONException::class, IOException::class)
     fun loadSettings() {
         // Use Lunalib config if that is installed, otherwise use the settings file
         if (HAVE_LUNALIB) {
-            GEN_SHOPS = java.lang.Boolean.TRUE == getBoolean("stardustventures", "stardust_generate_shops")
+            GEN_SHOPS = getBoolean("stardustventures", "stardust_generate_shops")!!
             STARDUST_SUBMARKETS = try {
                 getInt("stardustventures", "stardust_num_shops")!!
             } catch (npe: NullPointerException) {
                 3
             }
-            GEN_FACTION = java.lang.Boolean.TRUE == getBoolean("stardustventures", "stardust_generate_faction")
+            GEN_FACTION = getBoolean("stardustventures", "stardust_generate_faction")!!
         } else {
             val setting = Global.getSettings().loadJSON(SETTINGS_FILE)
             STARDUST_SUBMARKETS = setting.getInt("numShops")
-            GEN_SHOPS = setting.getBoolean("enableShops")
-            GEN_FACTION = setting.getBoolean("enableFaction")
+            GEN_SHOPS = setting.optBoolean("enableShops", false)
+            GEN_FACTION = setting.optBoolean("enableFaction", false)
         }
     }
 
@@ -77,6 +94,15 @@ class stardust_ModPlugin : BaseModPlugin() {
     //  Also, add code to spawn the faction mid-game if enabled
     override fun onNewGame() {
         super.onNewGame()
+
+        // Get our settings, from LunaLib or the config files
+        try {
+            loadSettings()
+        } catch (e: JSONException) {
+            log.error(e)
+        } catch (e: IOException) {
+            log.error(e)
+        }
 
         // The code below requires that Nexerelin is added as a library (not a dependency, it's only needed to compile the mod).
         val isNexerelinEnabled = Global.getSettings().modManager.isModEnabled("nexerelin")

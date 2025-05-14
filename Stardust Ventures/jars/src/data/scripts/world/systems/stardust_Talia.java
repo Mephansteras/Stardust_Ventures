@@ -2,6 +2,7 @@ package data.scripts.world.systems;
 
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
@@ -10,6 +11,7 @@ import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.impl.campaign.terrain.MagneticFieldTerrainPlugin.MagneticFieldParams;
+import com.fs.starfarer.api.campaign.econ.EconomyAPI;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -21,6 +23,11 @@ public class stardust_Talia implements SectorGeneratorPlugin { //A SectorGenerat
         StarSystemAPI system = sector.createStarSystem("Talia"); //create a new variable called system. this is assigned an instance of the new star system added to the Sector at the same time
         system.getLocation().set(9000, 8000); //sets location of system in hyperspace. map size is in the order of 100000x100000, and 0, 0 is the center of the map, this will set the location to the east and slightly south of the center
         system.setBackgroundTextureFilename("graphics/backgrounds/background1.jpg"); //sets the background image for when in the system. this is a filepath to an image in the core game files
+        system.addTag(Tags.THEME_CORE_POPULATED);
+        // This is what gives the player star chart info on the system
+        system.setEnteredByPlayer(true);
+
+        EconomyAPI globalEconomy = Global.getSector().getEconomy();
 
         //set up star
         PlanetAPI star = system.initStar( //stars and planets are technically the same category of object, so stars use PlanetAPI
@@ -123,6 +130,8 @@ public class stardust_Talia implements SectorGeneratorPlugin { //A SectorGenerat
         venture_industries_market.addSubmarket("stardust_market");
         // Give Venture Industries a corrupted nanoforge
         venture_industries_market.getIndustry(Industries.ORBITALWORKS).setSpecialItem(new SpecialItemData(Items.CORRUPTED_NANOFORGE, null));
+        venture_industries_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
+        globalEconomy.addMarket(venture_industries_market, true);
 
         // Now for HQ
         PlanetAPI stardust_hall = system.addPlanet("stardust_stardust_hall", pentamerone, "Stardust Hall", "water", 45, 90, 1000, 40);
@@ -163,7 +172,8 @@ public class stardust_Talia implements SectorGeneratorPlugin { //A SectorGenerat
                         Submarkets.SUBMARKET_OPEN)),
                 0.15f
         );
-
+        stardust_hall_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
+        globalEconomy.addMarket(stardust_hall_market, true);
 
         // This is our indy planet, since SDV and idies are friends
         PlanetAPI brabant = system.addPlanet("stardust_brabant", star, "Brabant", "rocky_metallic", 30, 65, innerOrbitDistance + 3750, 500);
@@ -195,6 +205,8 @@ public class stardust_Talia implements SectorGeneratorPlugin { //A SectorGenerat
                         Submarkets.SUBMARKET_OPEN)),
                 0.15f
         );
+        brabant_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
+        globalEconomy.addMarket(brabant_market, true);
 
         // The indies get to have the nav buoy
         SectorEntityToken talia_buoy = system.addCustomEntity(null, null, "nav_buoy_makeshift", Factions.INDEPENDENT);
@@ -238,6 +250,9 @@ public class stardust_Talia implements SectorGeneratorPlugin { //A SectorGenerat
         float radius = system.getMaxRadiusInHyperspace();
         editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f);
         editor.clearArc(system.getLocation().x, system.getLocation().y, 0, radius + minRadius, 0, 360f, 0.25f);
+
+        // Everything here should have been well explored long before the player came along
+        Misc.setAllPlanetsSurveyed(system, true);
     }
 
 }

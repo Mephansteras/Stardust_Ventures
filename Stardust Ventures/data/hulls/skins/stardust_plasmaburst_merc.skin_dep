@@ -1,0 +1,27 @@
+{
+	"baseHullId":"stardust_plasmaburst",
+	"skinHullId":"stardust_plasmaburst_merc_dep",
+	"hullName":"Plasma Burst (Elite)",
+	"coversColor":[255,255,255,255],
+	"descriptionId":"stardust_plasmaburst",
+	"descriptionPrefix":"A custom version of the Plasma Burst Superfighter built to the specifications of an elite mercenary company. This ship has been geared towards core system combat rather than escort of exploration fleets.",
+	"baseValueMult":2.00,
+    "fpMod":1,
+	"spriteName":"graphics/ships/skins/stardust_plasma_burst_merc.png",
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[stardust_StardustCore], 		# hullmod ids
+	"removeBuiltInWeapons":[
+    "WS0001", 
+    "WS0001"], 		# weapon slot ids
+	"builtInMods":["adaptiveshields"],
+	"builtInWeapons":{
+        "WS0001": "swarmer_fighter",
+        "WS0002": "swarmer_fighter"
+    },
+    "engineSlotChanges":{
+        "0":{
+			"style": "MIDLINE",
+            "styleId": "",
+		}
+    }
+}

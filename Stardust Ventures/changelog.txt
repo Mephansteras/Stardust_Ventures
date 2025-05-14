@@ -152,3 +152,11 @@ v0.9.0 = FACTION UPDATE - Save Breaking!!
 		 Fel PDS line now has ammo charges
 		 Reworked the Diana's Dart/Arrow/Spear. They now use proper guided projectiles instead of missiles, always do HE damage base, but have an on-hit that does kinetic against shields.
 		 Ion Skimmer now has Shielded cargo holds
+v0.9.1 = HOTFIX
+		 Fixed a crash from the description of the Celestial Guide Harmonic Enhancer hullmod
+v0.9.2 = HOTFIX
+		 Fixed an issue that forced the faction to always spawn, even if configured to be off		 
+v0.9.3 = World Gen update
+		 Bunch of updates to the faction spawning system to make it more reliable and consistant when added mid-save instead of starting with the faction enabled
+		 The Export ships are now listed as Midline style instead of Stardust Ventures
+		 Added a few debris fields to the sector for some additional exploration loot
