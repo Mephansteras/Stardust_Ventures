@@ -249,7 +249,7 @@ class stardust_InitialColonies {
 
         // If stardust hall does exist we need to make sure it has position holders
         // This comes up if the system is added post-newgame
-        fillPosts(market)
+        if (market != null) { fillPosts(market) }
 
         // If stardust hall doesn't exist, might be random core worlds. Then we'll need to send them to the biggest
         if (market == null) { market = getLargestColony()}

@@ -160,3 +160,7 @@ v0.9.3 = World Gen update
 		 Bunch of updates to the faction spawning system to make it more reliable and consistant when added mid-save instead of starting with the faction enabled
 		 The Export ships are now listed as Midline style instead of Stardust Ventures
 		 Added a few debris fields to the sector for some additional exploration loot
+v0.9.4 = Crash Fix
+		Fixed a crash with nex random sector and adjusted sector
+		Added SDV Ship name list
+		Fixed Cloudburst missile description
