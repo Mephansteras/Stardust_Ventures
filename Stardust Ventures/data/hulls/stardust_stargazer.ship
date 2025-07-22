@@ -15,8 +15,14 @@
     "surveying_equipment",
     "stardust_StardustCore",
     "civgrade",
-    "stardust_EnvironmentalShielding"
+    "stardust_EnvironmentalShielding",
+	"stardust_NarrowBandScanners"
   ],
+  "builtInWeapons": {
+    "WS0005": "stargazer_core",
+    "WS0006": "stargazer_sensor_dish",
+    "WS0007": "stargazer_sensor_dish"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -53,6 +59,33 @@
       "arc": 180,
       "angle": 180,
       "locations": [-77, -1]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [-46.5, -0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 35,
+      "angle": 37,
+      "locations": [16, 26.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 35,
+      "angle": -37,
+      "locations": [16, -26.5]
     }
   ],
   "engineSlots": [

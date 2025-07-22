@@ -14,12 +14,9 @@ import com.fs.starfarer.api.characters.MutableCharacterStatsAPI;
 import com.fs.starfarer.api.characters.PersonAPI;
 
 import com.fs.starfarer.campaign.CharacterStats;
-import data.hullmods.stardust_StardustCore;
-import data.hullmods.stardust_WarpHarmonicResonator;
-import data.hullmods.stardust_HarmonicStabilizers;
-import data.hullmods.stardust_HarmonicEnhancers;
-import data.hullmods.stardust_AdvanceSurveyDrones;
+import data.hullmods.*;
 import data.scripts.everyframe.stardust_PartialSurvey;
+import data.scripts.everyframe.stardust_RuinsSurvey;
 
 public class stardust_FleetStatManager implements EveryFrameScript
 {
@@ -33,6 +30,7 @@ public class stardust_FleetStatManager implements EveryFrameScript
 
 
     private stardust_PartialSurvey surveyor = new stardust_PartialSurvey();
+    private stardust_RuinsSurvey ruin_marker = new stardust_RuinsSurvey();
 
     public boolean runWhilePaused()
     {
@@ -62,15 +60,27 @@ public class stardust_FleetStatManager implements EveryFrameScript
         CampaignFleetAPI playerFleet = Global.getSector().getPlayerFleet();
         calcAgilityBonus(playerFleet);
         applyHarmonics(playerFleet);
+
+
         if (surveyor == null) { surveyor = new stardust_PartialSurvey(); }
-        surveyor.advance(amount);
+        if (ruin_marker == null) { ruin_marker = new stardust_RuinsSurvey(); }
 
         // really no need to check every frame
         timer.advance(amount);
         if (timer.intervalElapsed())
         {
             float surveyProbeDist = getFleetSurveyProbes();
+            float narrowBandDist = getFleetNarrowBand();
             if (surveyProbeDist > 0) {  surveyor.setSurveyDistance(surveyProbeDist); }
+            if (narrowBandDist > 0) {  ruin_marker.setSurveyDistance(narrowBandDist); }
+            // Only do these if not in hyperspace
+            if (!playerFleet.isInHyperspace()) {
+                if (surveyProbeDist > 0) { surveyor.advance(amount); }
+                if (narrowBandDist > 0) { ruin_marker.advance(amount); }
+            }
+            if (playerFleet.isInHyperspaceTransition()) {
+                if (narrowBandDist > 0) { ruin_marker.clear_list(); }
+            }
             for (CampaignFleetAPI fleet : Misc.getVisibleFleets(playerFleet, true))
             {
                     calcAgilityBonus(fleet);
@@ -265,6 +275,25 @@ public class stardust_FleetStatManager implements EveryFrameScript
         }
 
         if (tempDist > stardust_AdvanceSurveyDrones.BASEMAX) { tempDist = stardust_AdvanceSurveyDrones.BASEMAX; }
+
+        return tempDist;
+    }
+
+    private static float getFleetNarrowBand()
+    {
+        CampaignFleetAPI playerFleet = Global.getSector().getPlayerFleet();
+
+        float tempDist = 0f;
+
+        for (FleetMemberAPI member : playerFleet.getFleetData().getMembersListCopy()) {
+            if (member.getVariant().hasHullMod("stardust_NarrowBandScanners"))
+            {
+                if (tempDist == 0) { tempDist = stardust_NarrowBandScanners.BASEDISTANCE; }
+                tempDist += stardust_NarrowBandScanners.BASEADDITION;
+            }
+        }
+
+        if (tempDist > stardust_NarrowBandScanners.BASEMAX) { tempDist = stardust_NarrowBandScanners.BASEMAX; }
 
         return tempDist;
     }

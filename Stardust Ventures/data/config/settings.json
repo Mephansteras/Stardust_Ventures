@@ -16,6 +16,10 @@
 		"preload": {
 		  "1":"graphics/icons/stardust_ventures_icon.png",
 		},
+		
+		"icons": {
+			"stardust_NarrowBandScanners":"graphics/hullmods/stardust_NarrowBandScanners.png",
+		},
 	},
 
 	"designTypeColors":{

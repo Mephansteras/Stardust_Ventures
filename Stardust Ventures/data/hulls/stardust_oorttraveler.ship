@@ -15,6 +15,9 @@
     "stardust_StardustCore",
     "civgrade"
   ],
+  "builtInWeapons": {
+    "WS0006": "oort_traveler_core"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -60,6 +63,15 @@
       "arc": 5,
       "angle": 0,
       "locations": [143.5, 0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 245,
+      "angle": 0,
+      "locations": [-20, -0]
     }
   ],
   "engineSlots": [

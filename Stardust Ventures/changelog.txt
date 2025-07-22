@@ -164,3 +164,8 @@ v0.9.4 = Crash Fix
 		Fixed a crash with nex random sector and adjusted sector
 		Added SDV Ship name list
 		Fixed Cloudburst missile description
+v0.9.5 = Stargazer Resprite and Hullmod addition to mark planets with ruins as important
+		Diana's weapons now have mining capabilities in Nex
+		Fixed some minor descriptions
+		Updated some variants
+		Oort Travelers get some minor sprite updates and dimmable cores
